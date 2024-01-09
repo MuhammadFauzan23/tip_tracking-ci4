@@ -1,0 +1,1527 @@
+ERROR - 2023-01-17 00:01:59 --> mysqli_sql_exception: Unknown column 'tbltrn_do1' in 'field list' in C:\xampp\htdocs\tracking\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\tracking\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tbltrn_...', 0)
+#1 C:\xampp\htdocs\tracking\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbltrn_...')
+#2 C:\xampp\htdocs\tracking\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbltrn_...')
+#3 C:\xampp\htdocs\tracking\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tbltrn_...', Array, false)
+#4 C:\xampp\htdocs\tracking\app\Models\TipModel.php(117): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tracking\app\Controllers\Tip.php(94): App\Models\TipModel->get_do_by_tip(NULL)
+#6 C:\xampp\htdocs\tracking\system\CodeIgniter.php(904): App\Controllers\Tip->get_do_by_tip()
+#7 C:\xampp\htdocs\tracking\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+#8 C:\xampp\htdocs\tracking\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tracking\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\tracking\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-01-17 00:01:59 --> Unknown column 'tbltrn_do1' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tbltrn_do1`
+FROM `tbltrn_do1`
+JOIN `tblmas_detail_tip_tracking` ON `tblmas_detail_tip_tracking`.`doID` = `tbltrn_do1`.`dono`
+JOIN `tblmas_tip_tracking` ON `tblmas_tip_tracking`.`id` = `tblmas_detail_tip_tracking`.`tipID`
+WHERE `tblmas_tip_tracking`.`id` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbltrn_do1`
+FROM `tbltrn_do1`
+JOIN `tblmas_detail_tip_tracking` ON `tblmas_detail_tip_tracking`.`doID` = `tbltrn_do1`.`dono`
+JOIN `tblmas_tip_tracking` ON `tblmas_tip_tracking`.`id` = `tblmas_detail_tip_tracking`.`tipID`
+WHERE `tblmas_tip_tracking`.`id` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbltrn_do1`
+FROM `tbltrn_do1`
+JOIN `tblmas_detail_tip_tracking` ON `tblmas_detail_tip_tracking`.`doID` = `tbltrn_do1`.`dono`
+JOIN `tblmas_tip_tracking` ON `tblmas_tip_tracking`.`id` = `tblmas_detail_tip_tracking`.`tipID`
+WHERE `tblmas_tip_tracking`.`id` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tbltrn_do1`
+FROM `tbltrn_do1`
+JOIN `tblmas_detail_tip_tracking` ON `tblmas_detail_tip_tracking`.`doID` = `tbltrn_do1`.`dono`
+JOIN `tblmas_tip_tracking` ON `tblmas_tip_tracking`.`id` = `tblmas_detail_tip_tracking`.`tipID`
+WHERE `tblmas_tip_tracking`.`id` IS NULL', [], false)
+ 5 APPPATH\Models\TipModel.php(117): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Tip.php(94): App\Models\TipModel->get_do_by_tip(null)
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->get_do_by_tip()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-01-17 00:02:00 --> mysqli_sql_exception: Unknown column 'tbltrn_do1' in 'field list' in C:\xampp\htdocs\tracking\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\tracking\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tbltrn_...', 0)
+#1 C:\xampp\htdocs\tracking\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbltrn_...')
+#2 C:\xampp\htdocs\tracking\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbltrn_...')
+#3 C:\xampp\htdocs\tracking\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tbltrn_...', Array, false)
+#4 C:\xampp\htdocs\tracking\app\Models\TipModel.php(117): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tracking\app\Controllers\Tip.php(94): App\Models\TipModel->get_do_by_tip(NULL)
+#6 C:\xampp\htdocs\tracking\system\CodeIgniter.php(904): App\Controllers\Tip->get_do_by_tip()
+#7 C:\xampp\htdocs\tracking\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+#8 C:\xampp\htdocs\tracking\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tracking\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\tracking\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-01-17 00:02:00 --> Unknown column 'tbltrn_do1' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tbltrn_do1`
+FROM `tbltrn_do1`
+JOIN `tblmas_detail_tip_tracking` ON `tblmas_detail_tip_tracking`.`doID` = `tbltrn_do1`.`dono`
+JOIN `tblmas_tip_tracking` ON `tblmas_tip_tracking`.`id` = `tblmas_detail_tip_tracking`.`tipID`
+WHERE `tblmas_tip_tracking`.`id` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbltrn_do1`
+FROM `tbltrn_do1`
+JOIN `tblmas_detail_tip_tracking` ON `tblmas_detail_tip_tracking`.`doID` = `tbltrn_do1`.`dono`
+JOIN `tblmas_tip_tracking` ON `tblmas_tip_tracking`.`id` = `tblmas_detail_tip_tracking`.`tipID`
+WHERE `tblmas_tip_tracking`.`id` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbltrn_do1`
+FROM `tbltrn_do1`
+JOIN `tblmas_detail_tip_tracking` ON `tblmas_detail_tip_tracking`.`doID` = `tbltrn_do1`.`dono`
+JOIN `tblmas_tip_tracking` ON `tblmas_tip_tracking`.`id` = `tblmas_detail_tip_tracking`.`tipID`
+WHERE `tblmas_tip_tracking`.`id` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tbltrn_do1`
+FROM `tbltrn_do1`
+JOIN `tblmas_detail_tip_tracking` ON `tblmas_detail_tip_tracking`.`doID` = `tbltrn_do1`.`dono`
+JOIN `tblmas_tip_tracking` ON `tblmas_tip_tracking`.`id` = `tblmas_detail_tip_tracking`.`tipID`
+WHERE `tblmas_tip_tracking`.`id` IS NULL', [], false)
+ 5 APPPATH\Models\TipModel.php(117): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Tip.php(94): App\Models\TipModel->get_do_by_tip(null)
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->get_do_by_tip()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-01-17 00:02:14 --> mysqli_sql_exception: Unknown column 'tbltrn_do1' in 'field list' in C:\xampp\htdocs\tracking\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\tracking\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tbltrn_...', 0)
+#1 C:\xampp\htdocs\tracking\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbltrn_...')
+#2 C:\xampp\htdocs\tracking\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbltrn_...')
+#3 C:\xampp\htdocs\tracking\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tbltrn_...', Array, false)
+#4 C:\xampp\htdocs\tracking\app\Models\TipModel.php(117): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tracking\app\Controllers\Tip.php(94): App\Models\TipModel->get_do_by_tip('41')
+#6 C:\xampp\htdocs\tracking\system\CodeIgniter.php(904): App\Controllers\Tip->get_do_by_tip()
+#7 C:\xampp\htdocs\tracking\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+#8 C:\xampp\htdocs\tracking\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tracking\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\tracking\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-01-17 00:02:14 --> Unknown column 'tbltrn_do1' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tbltrn_do1`
+FROM `tbltrn_do1`
+JOIN `tblmas_detail_tip_tracking` ON `tblmas_detail_tip_tracking`.`doID` = `tbltrn_do1`.`dono`
+JOIN `tblmas_tip_tracking` ON `tblmas_tip_tracking`.`id` = `tblmas_detail_tip_tracking`.`tipID`
+WHERE `tblmas_tip_tracking`.`id` = \'41\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbltrn_do1`
+FROM `tbltrn_do1`
+JOIN `tblmas_detail_tip_tracking` ON `tblmas_detail_tip_tracking`.`doID` = `tbltrn_do1`.`dono`
+JOIN `tblmas_tip_tracking` ON `tblmas_tip_tracking`.`id` = `tblmas_detail_tip_tracking`.`tipID`
+WHERE `tblmas_tip_tracking`.`id` = \'41\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbltrn_do1`
+FROM `tbltrn_do1`
+JOIN `tblmas_detail_tip_tracking` ON `tblmas_detail_tip_tracking`.`doID` = `tbltrn_do1`.`dono`
+JOIN `tblmas_tip_tracking` ON `tblmas_tip_tracking`.`id` = `tblmas_detail_tip_tracking`.`tipID`
+WHERE `tblmas_tip_tracking`.`id` = \'41\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tbltrn_do1`
+FROM `tbltrn_do1`
+JOIN `tblmas_detail_tip_tracking` ON `tblmas_detail_tip_tracking`.`doID` = `tbltrn_do1`.`dono`
+JOIN `tblmas_tip_tracking` ON `tblmas_tip_tracking`.`id` = `tblmas_detail_tip_tracking`.`tipID`
+WHERE `tblmas_tip_tracking`.`id` = :tblmas_tip_tracking.id:', [...], false)
+ 5 APPPATH\Models\TipModel.php(117): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Tip.php(94): App\Models\TipModel->get_do_by_tip('41')
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->get_do_by_tip()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-01-17 00:02:50 --> mysqli_sql_exception: Unknown column 'tbltrn_do1' in 'field list' in C:\xampp\htdocs\tracking\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\tracking\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tbltrn_...', 0)
+#1 C:\xampp\htdocs\tracking\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbltrn_...')
+#2 C:\xampp\htdocs\tracking\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbltrn_...')
+#3 C:\xampp\htdocs\tracking\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tbltrn_...', Array, false)
+#4 C:\xampp\htdocs\tracking\app\Models\TipModel.php(117): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tracking\app\Controllers\Tip.php(94): App\Models\TipModel->get_do_by_tip('41')
+#6 C:\xampp\htdocs\tracking\system\CodeIgniter.php(904): App\Controllers\Tip->get_do_by_tip()
+#7 C:\xampp\htdocs\tracking\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+#8 C:\xampp\htdocs\tracking\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tracking\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\tracking\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-01-17 00:02:50 --> Unknown column 'tbltrn_do1' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tbltrn_do1`
+FROM `tbltrn_do1`
+JOIN `tblmas_detail_tip_tracking` ON `tblmas_detail_tip_tracking`.`doID` = `tbltrn_do1`.`dono`
+JOIN `tblmas_tip_tracking` ON `tblmas_tip_tracking`.`id` = `tblmas_detail_tip_tracking`.`tipID`
+WHERE `tblmas_tip_tracking`.`id` = \'41\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbltrn_do1`
+FROM `tbltrn_do1`
+JOIN `tblmas_detail_tip_tracking` ON `tblmas_detail_tip_tracking`.`doID` = `tbltrn_do1`.`dono`
+JOIN `tblmas_tip_tracking` ON `tblmas_tip_tracking`.`id` = `tblmas_detail_tip_tracking`.`tipID`
+WHERE `tblmas_tip_tracking`.`id` = \'41\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbltrn_do1`
+FROM `tbltrn_do1`
+JOIN `tblmas_detail_tip_tracking` ON `tblmas_detail_tip_tracking`.`doID` = `tbltrn_do1`.`dono`
+JOIN `tblmas_tip_tracking` ON `tblmas_tip_tracking`.`id` = `tblmas_detail_tip_tracking`.`tipID`
+WHERE `tblmas_tip_tracking`.`id` = \'41\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tbltrn_do1`
+FROM `tbltrn_do1`
+JOIN `tblmas_detail_tip_tracking` ON `tblmas_detail_tip_tracking`.`doID` = `tbltrn_do1`.`dono`
+JOIN `tblmas_tip_tracking` ON `tblmas_tip_tracking`.`id` = `tblmas_detail_tip_tracking`.`tipID`
+WHERE `tblmas_tip_tracking`.`id` = :tblmas_tip_tracking.id:', [...], false)
+ 5 APPPATH\Models\TipModel.php(117): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Tip.php(94): App\Models\TipModel->get_do_by_tip('41')
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->get_do_by_tip()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-01-17 00:05:08 --> mysqli_sql_exception: Unknown column 'tbltrn_do1' in 'field list' in C:\xampp\htdocs\tracking\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\tracking\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tbltrn_...', 0)
+#1 C:\xampp\htdocs\tracking\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbltrn_...')
+#2 C:\xampp\htdocs\tracking\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbltrn_...')
+#3 C:\xampp\htdocs\tracking\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tbltrn_...', Array, false)
+#4 C:\xampp\htdocs\tracking\app\Models\TipModel.php(117): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tracking\app\Controllers\Tip.php(94): App\Models\TipModel->get_do_by_tip('41')
+#6 C:\xampp\htdocs\tracking\system\CodeIgniter.php(904): App\Controllers\Tip->get_do_by_tip()
+#7 C:\xampp\htdocs\tracking\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+#8 C:\xampp\htdocs\tracking\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tracking\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\tracking\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-01-17 00:05:08 --> Unknown column 'tbltrn_do1' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tbltrn_do1`
+FROM `tbltrn_do1`
+JOIN `tblmas_detail_tip_tracking` ON `tblmas_detail_tip_tracking`.`doID` = `tbltrn_do1`.`dono`
+JOIN `tblmas_tip_tracking` ON `tblmas_tip_tracking`.`id` = `tblmas_detail_tip_tracking`.`tipID`
+WHERE `tblmas_tip_tracking`.`id` = \'41\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tbltrn_do1`
+FROM `tbltrn_do1`
+JOIN `tblmas_detail_tip_tracking` ON `tblmas_detail_tip_tracking`.`doID` = `tbltrn_do1`.`dono`
+JOIN `tblmas_tip_tracking` ON `tblmas_tip_tracking`.`id` = `tblmas_detail_tip_tracking`.`tipID`
+WHERE `tblmas_tip_tracking`.`id` = \'41\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tbltrn_do1`
+FROM `tbltrn_do1`
+JOIN `tblmas_detail_tip_tracking` ON `tblmas_detail_tip_tracking`.`doID` = `tbltrn_do1`.`dono`
+JOIN `tblmas_tip_tracking` ON `tblmas_tip_tracking`.`id` = `tblmas_detail_tip_tracking`.`tipID`
+WHERE `tblmas_tip_tracking`.`id` = \'41\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tbltrn_do1`
+FROM `tbltrn_do1`
+JOIN `tblmas_detail_tip_tracking` ON `tblmas_detail_tip_tracking`.`doID` = `tbltrn_do1`.`dono`
+JOIN `tblmas_tip_tracking` ON `tblmas_tip_tracking`.`id` = `tblmas_detail_tip_tracking`.`tipID`
+WHERE `tblmas_tip_tracking`.`id` = :tblmas_tip_tracking.id:', [...], false)
+ 5 APPPATH\Models\TipModel.php(117): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Tip.php(94): App\Models\TipModel->get_do_by_tip('41')
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->get_do_by_tip()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 00:05:46 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::result()
+in APPPATH\Controllers\Tip.php on line 94.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->get_do_by_tip()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 01:02:09 --> Invalid argument supplied for foreach()
+in APPPATH\Models\TipModel.php on line 69.
+ 1 APPPATH\Models\TipModel.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH\\Models\\TipModel.php', 69, [...])
+ 2 APPPATH\Controllers\Tip.php(66): App\Models\TipModel->Addtip('17-01-2023 01:57:00', '17-01-2023 01:00:00', '7000', 'Chandra Sinaga', 'BP 9757 DF', '2', null, null)
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 01:03:03 --> Invalid argument supplied for foreach()
+in APPPATH\Models\TipModel.php on line 69.
+ 1 APPPATH\Models\TipModel.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH\\Models\\TipModel.php', 69, [...])
+ 2 APPPATH\Controllers\Tip.php(66): App\Models\TipModel->Addtip('17-01-2023 01:57:00', '17-01-2023 01:00:00', '7000', 'Chandra Sinaga', 'BP 9757 DF', '2', null, null)
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 01:03:05 --> Invalid argument supplied for foreach()
+in APPPATH\Models\TipModel.php on line 69.
+ 1 APPPATH\Models\TipModel.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH\\Models\\TipModel.php', 69, [...])
+ 2 APPPATH\Controllers\Tip.php(66): App\Models\TipModel->Addtip('17-01-2023 01:57:00', '17-01-2023 01:00:00', '7000', 'Chandra Sinaga', 'BP 9757 DF', '2', null, null)
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 01:03:27 --> Invalid argument supplied for foreach()
+in APPPATH\Models\TipModel.php on line 69.
+ 1 APPPATH\Models\TipModel.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH\\Models\\TipModel.php', 69, [...])
+ 2 APPPATH\Controllers\Tip.php(66): App\Models\TipModel->Addtip('17-01-2023 01:57:00', '17-01-2023 01:00:00', '7000', 'Chandra Sinaga', 'BP 9757 DF', '2', null, null)
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 01:17:59 --> Undefined offset: 210484
+in APPPATH\Models\TipModel.php on line 72.
+ 1 APPPATH\Models\TipModel.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 210484', 'APPPATH\\Models\\TipModel.php', 72, [...])
+ 2 APPPATH\Controllers\Tip.php(66): App\Models\TipModel->Addtip('17-01-2023 02:17:00', '17-01-2023 02:17:00', '1800', 'Chandra Sinaga', 'BP 9757 DF', '2', null, [...])
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 01:18:53 --> Invalid argument supplied for foreach()
+in APPPATH\Models\TipModel.php on line 69.
+ 1 APPPATH\Models\TipModel.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH\\Models\\TipModel.php', 69, [...])
+ 2 APPPATH\Controllers\Tip.php(66): App\Models\TipModel->Addtip('17-01-2023 02:17:00', '17-01-2023 02:17:00', '1800', 'Chandra Sinaga', 'BP 9757 DF', '2', null, null)
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 01:19:47 --> Undefined offset: 210484
+in APPPATH\Models\TipModel.php on line 72.
+ 1 APPPATH\Models\TipModel.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 210484', 'APPPATH\\Models\\TipModel.php', 72, [...])
+ 2 APPPATH\Controllers\Tip.php(66): App\Models\TipModel->Addtip('17-01-2023 02:17:00', '17-01-2023 02:17:00', '1800', 'Chandra Sinaga', 'BP 9757 DF', '2', null, [...])
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 01:19:49 --> Undefined offset: 210484
+in APPPATH\Models\TipModel.php on line 72.
+ 1 APPPATH\Models\TipModel.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 210484', 'APPPATH\\Models\\TipModel.php', 72, [...])
+ 2 APPPATH\Controllers\Tip.php(66): App\Models\TipModel->Addtip('17-01-2023 02:17:00', '17-01-2023 02:17:00', '1800', 'Chandra Sinaga', 'BP 9757 DF', '2', null, [...])
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-01-17 01:28:38 --> mysqli_sql_exception: Unknown column 'tbltrn_do1.dono' in 'field list' in C:\xampp\htdocs\tracking\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\tracking\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT tblmas_t...', 0)
+#1 C:\xampp\htdocs\tracking\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tblmas_t...')
+#2 C:\xampp\htdocs\tracking\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tblmas_t...')
+#3 C:\xampp\htdocs\tracking\app\Models\TipModel.php(14): CodeIgniter\Database\BaseConnection->query('SELECT tblmas_t...')
+#4 C:\xampp\htdocs\tracking\app\Controllers\Tip.php(24): App\Models\TipModel->getdataView()
+#5 C:\xampp\htdocs\tracking\system\CodeIgniter.php(904): App\Controllers\Tip->viewListTip()
+#6 C:\xampp\htdocs\tracking\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+#7 C:\xampp\htdocs\tracking\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tracking\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\tracking\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-01-17 01:28:38 --> Unknown column 'tbltrn_do1.dono' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT tblmas_tip_tracking.*, COUNT(tbltrn_do1.dono) AS total_item, tblmas_customer.customername AS customer FROM tblmas_detail_tip_tracking 
+        JOIN tblmas_tip_tracking ON tblmas_tip_tracking.id = tblmas_detail_tip_tracking.tipID
+              JOIN tblmas_customer ON tblmas_customer.idcustomer = tbltrn_do1.idcustomer ORDER BY tblmas_tip_tracking.id ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tblmas_tip_tracking.*, COUNT(tbltrn_do1.dono) AS total_item, tblmas_customer.customername AS customer FROM tblmas_detail_tip_tracking 
+        JOIN tblmas_tip_tracking ON tblmas_tip_tracking.id = tblmas_detail_tip_tracking.tipID
+              JOIN tblmas_customer ON tblmas_customer.idcustomer = tbltrn_do1.idcustomer ORDER BY tblmas_tip_tracking.id ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tblmas_tip_tracking.*, COUNT(tbltrn_do1.dono) AS total_item, tblmas_customer.customername AS customer FROM tblmas_detail_tip_tracking 
+        JOIN tblmas_tip_tracking ON tblmas_tip_tracking.id = tblmas_detail_tip_tracking.tipID
+              JOIN tblmas_customer ON tblmas_customer.idcustomer = tbltrn_do1.idcustomer ORDER BY tblmas_tip_tracking.id ASC')
+ 4 APPPATH\Models\TipModel.php(14): CodeIgniter\Database\BaseConnection->query('SELECT tblmas_tip_tracking.*, COUNT(tbltrn_do1.dono) AS total_item, tblmas_customer.customername AS customer FROM tblmas_detail_tip_tracking 
+        JOIN tblmas_tip_tracking ON tblmas_tip_tracking.id = tblmas_detail_tip_tracking.tipID
+              JOIN tblmas_customer ON tblmas_customer.idcustomer = tbltrn_do1.idcustomer ORDER BY tblmas_tip_tracking.id ASC')
+ 5 APPPATH\Controllers\Tip.php(24): App\Models\TipModel->getdataView()
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->viewListTip()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 01:48:01 --> Undefined index: total_item
+in APPPATH\Views\Tip_tracking\list_tip.php on line 62.
+ 1 APPPATH\Views\Tip_tracking\list_tip.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: total_item', 'APPPATH\\Views\\Tip_tracking\\list_tip.php', 62, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Tip_tracking\\list_tip.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Tip_tracking/list_tip', [], true)
+ 5 APPPATH\Controllers\Tip.php(27): view('Tip_tracking/list_tip', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->viewListTip()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 01:49:16 --> Undefined index: doID
+in APPPATH\Controllers\Tip.php on line 96.
+ 1 APPPATH\Controllers\Tip.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: doID', 'APPPATH\\Controllers\\Tip.php', 96, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->get_do_by_tip()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 01:49:23 --> Undefined index: doID
+in APPPATH\Controllers\Tip.php on line 96.
+ 1 APPPATH\Controllers\Tip.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: doID', 'APPPATH\\Controllers\\Tip.php', 96, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->get_do_by_tip()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 01:49:25 --> Undefined index: doID
+in APPPATH\Controllers\Tip.php on line 96.
+ 1 APPPATH\Controllers\Tip.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: doID', 'APPPATH\\Controllers\\Tip.php', 96, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->get_do_by_tip()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 01:49:28 --> Undefined index: doID
+in APPPATH\Controllers\Tip.php on line 96.
+ 1 APPPATH\Controllers\Tip.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: doID', 'APPPATH\\Controllers\\Tip.php', 96, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->get_do_by_tip()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 01:49:31 --> Undefined index: doID
+in APPPATH\Controllers\Tip.php on line 96.
+ 1 APPPATH\Controllers\Tip.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: doID', 'APPPATH\\Controllers\\Tip.php', 96, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->get_do_by_tip()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 01:49:33 --> Undefined index: doID
+in APPPATH\Controllers\Tip.php on line 96.
+ 1 APPPATH\Controllers\Tip.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: doID', 'APPPATH\\Controllers\\Tip.php', 96, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->get_do_by_tip()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 01:53:30 --> Undefined index: doID
+in APPPATH\Controllers\Tip.php on line 96.
+ 1 APPPATH\Controllers\Tip.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: doID', 'APPPATH\\Controllers\\Tip.php', 96, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->get_do_by_tip()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 01:53:45 --> Undefined index: doID
+in APPPATH\Controllers\Tip.php on line 96.
+ 1 APPPATH\Controllers\Tip.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: doID', 'APPPATH\\Controllers\\Tip.php', 96, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->get_do_by_tip()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 01:54:06 --> Undefined index: doID
+in APPPATH\Controllers\Tip.php on line 96.
+ 1 APPPATH\Controllers\Tip.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: doID', 'APPPATH\\Controllers\\Tip.php', 96, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->get_do_by_tip()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 01:54:17 --> Undefined variable: value
+in APPPATH\Controllers\Tip.php on line 98.
+ 1 APPPATH\Controllers\Tip.php(98): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: value', 'APPPATH\\Controllers\\Tip.php', 98, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->get_do_by_tip()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 01:55:01 --> Undefined index: doID
+in APPPATH\Controllers\Tip.php on line 96.
+ 1 APPPATH\Controllers\Tip.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: doID', 'APPPATH\\Controllers\\Tip.php', 96, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->get_do_by_tip()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 01:56:13 --> Trying to get property 'doID' of non-object
+in APPPATH\Controllers\Tip.php on line 96.
+ 1 APPPATH\Controllers\Tip.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'doID\' of non-object', 'APPPATH\\Controllers\\Tip.php', 96, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->get_do_by_tip()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 01:56:41 --> Call to a member function result() on array
+in APPPATH\Controllers\Tip.php on line 94.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->get_do_by_tip()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 01:56:43 --> Call to a member function result() on array
+in APPPATH\Controllers\Tip.php on line 94.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->get_do_by_tip()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 02:25:30 --> Call to a member function getResult() on array
+in APPPATH\Controllers\Tip.php on line 94.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->get_do_by_tip()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 02:26:10 --> Call to a member function getResultArray() on array
+in APPPATH\Controllers\Tip.php on line 94.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->get_do_by_tip()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 02:26:35 --> Trying to get property 'doID' of non-object
+in APPPATH\Controllers\Tip.php on line 96.
+ 1 APPPATH\Controllers\Tip.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'doID\' of non-object', 'APPPATH\\Controllers\\Tip.php', 96, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->get_do_by_tip()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 02:26:52 --> Undefined property: stdClass::$doID
+in APPPATH\Controllers\Tip.php on line 96.
+ 1 APPPATH\Controllers\Tip.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$doID', 'APPPATH\\Controllers\\Tip.php', 96, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->get_do_by_tip()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 02:27:19 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Tip.php on line 96.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->get_do_by_tip()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 02:30:15 --> Cannot use object of type mysqli as array
+in APPPATH\Controllers\Tip.php on line 96.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->get_do_by_tip()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-01-17 02:32:00 --> mysqli_sql_exception: Unknown column 'customerName' in 'field list' in C:\xampp\htdocs\tracking\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\tracking\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `tblmas_...', 0)
+#1 C:\xampp\htdocs\tracking\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tblmas_...')
+#2 C:\xampp\htdocs\tracking\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tblmas_...')
+#3 C:\xampp\htdocs\tracking\system\Database\BaseBuilder.php(2078): CodeIgniter\Database\BaseConnection->query('UPDATE `tblmas_...', Array, false)
+#4 C:\xampp\htdocs\tracking\app\Models\TipModel.php(97): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampp\htdocs\tracking\app\Controllers\Tip.php(83): App\Models\TipModel->Edittip(Array)
+#6 C:\xampp\htdocs\tracking\system\CodeIgniter.php(904): App\Controllers\Tip->editListTip()
+#7 C:\xampp\htdocs\tracking\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+#8 C:\xampp\htdocs\tracking\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tracking\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\tracking\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-01-17 02:32:00 --> Unknown column 'customerName' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `tblmas_tip_tracking` SET `id` = \'41\', `customerName` = NULL, `value_tip` = \'3000\', `dono` = NULL, `driver` = \'Doni\', `lorry` = \'BP 9757 DF\', `trip` = \'2\', `remarks` = \'Bawa Bin\'
+WHERE `id` = \'41\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tblmas_tip_tracking` SET `id` = \'41\', `customerName` = NULL, `value_tip` = \'3000\', `dono` = NULL, `driver` = \'Doni\', `lorry` = \'BP 9757 DF\', `trip` = \'2\', `remarks` = \'Bawa Bin\'
+WHERE `id` = \'41\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tblmas_tip_tracking` SET `id` = \'41\', `customerName` = NULL, `value_tip` = \'3000\', `dono` = NULL, `driver` = \'Doni\', `lorry` = \'BP 9757 DF\', `trip` = \'2\', `remarks` = \'Bawa Bin\'
+WHERE `id` = \'41\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2078): CodeIgniter\Database\BaseConnection->query('UPDATE `tblmas_tip_tracking` SET `id` = :id.1:, `customerName` = :customerName:, `value_tip` = :value_tip:, `dono` = :dono:, `driver` = :driver:, `lorry` = :lorry:, `trip` = :trip:, `remarks` = :remarks:
+WHERE `id` = :id:', [...], false)
+ 5 APPPATH\Models\TipModel.php(97): CodeIgniter\Database\BaseBuilder->update([...])
+ 6 APPPATH\Controllers\Tip.php(83): App\Models\TipModel->Edittip([...])
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->editListTip()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 02:33:03 --> Undefined property: mysqli::$doID
+in APPPATH\Controllers\Tip.php on line 96.
+ 1 APPPATH\Controllers\Tip.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: mysqli::$doID', 'APPPATH\\Controllers\\Tip.php', 96, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->get_do_by_tip()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 02:33:24 --> Undefined property: mysqli::$doID
+in APPPATH\Controllers\Tip.php on line 96.
+ 1 APPPATH\Controllers\Tip.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: mysqli::$doID', 'APPPATH\\Controllers\\Tip.php', 96, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->get_do_by_tip()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 02:40:52 --> Undefined property: mysqli::$doID
+in APPPATH\Controllers\Tip.php on line 96.
+ 1 APPPATH\Controllers\Tip.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: mysqli::$doID', 'APPPATH\\Controllers\\Tip.php', 96, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->get_do_by_tip()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 02:42:09 --> Undefined property: mysqli::$doID
+in APPPATH\Controllers\Tip.php on line 96.
+ 1 APPPATH\Controllers\Tip.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: mysqli::$doID', 'APPPATH\\Controllers\\Tip.php', 96, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->get_do_by_tip()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 02:45:08 --> Cannot use object of type mysqli as array
+in APPPATH\Controllers\Tip.php on line 97.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->get_do_by_tip()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 02:45:33 --> Undefined property: mysqli::$doID
+in APPPATH\Controllers\Tip.php on line 96.
+ 1 APPPATH\Controllers\Tip.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: mysqli::$doID', 'APPPATH\\Controllers\\Tip.php', 96, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->get_do_by_tip()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-01-17 02:46:13 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 4 in C:\xampp\htdocs\tracking\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\tracking\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT tbltrn_d...', 0)
+#1 C:\xampp\htdocs\tracking\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tbltrn_d...')
+#2 C:\xampp\htdocs\tracking\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tbltrn_d...')
+#3 C:\xampp\htdocs\tracking\app\Models\TipModel.php(111): CodeIgniter\Database\BaseConnection->query('SELECT tbltrn_d...')
+#4 C:\xampp\htdocs\tracking\app\Controllers\Tip.php(94): App\Models\TipModel->get_do_by_tip(NULL)
+#5 C:\xampp\htdocs\tracking\system\CodeIgniter.php(904): App\Controllers\Tip->get_do_by_tip()
+#6 C:\xampp\htdocs\tracking\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+#7 C:\xampp\htdocs\tracking\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tracking\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\tracking\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-01-17 02:46:13 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 4
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT tbltrn_do1.*, tblmas_tip_tracking.* FROM tbltrn_do1 
+                    JOIN tblmas_detail_tip_tracking ON tblmas_detail_tip_tracking.doID = tbltrn_do1.dono 
+                        JOIN tblmas_tip_tracking ON tblmas_tip_tracking.id = tblmas_detail_tip_tracking.tipID
+                            WHERE tblmas_tip_tracking.id = ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tbltrn_do1.*, tblmas_tip_tracking.* FROM tbltrn_do1 
+                    JOIN tblmas_detail_tip_tracking ON tblmas_detail_tip_tracking.doID = tbltrn_do1.dono 
+                        JOIN tblmas_tip_tracking ON tblmas_tip_tracking.id = tblmas_detail_tip_tracking.tipID
+                            WHERE tblmas_tip_tracking.id = ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tbltrn_do1.*, tblmas_tip_tracking.* FROM tbltrn_do1 
+                    JOIN tblmas_detail_tip_tracking ON tblmas_detail_tip_tracking.doID = tbltrn_do1.dono 
+                        JOIN tblmas_tip_tracking ON tblmas_tip_tracking.id = tblmas_detail_tip_tracking.tipID
+                            WHERE tblmas_tip_tracking.id = ')
+ 4 APPPATH\Models\TipModel.php(111): CodeIgniter\Database\BaseConnection->query('SELECT tbltrn_do1.*, tblmas_tip_tracking.* FROM tbltrn_do1 
+                    JOIN tblmas_detail_tip_tracking ON tblmas_detail_tip_tracking.doID = tbltrn_do1.dono 
+                        JOIN tblmas_tip_tracking ON tblmas_tip_tracking.id = tblmas_detail_tip_tracking.tipID
+                            WHERE tblmas_tip_tracking.id = ')
+ 5 APPPATH\Controllers\Tip.php(94): App\Models\TipModel->get_do_by_tip(null)
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->get_do_by_tip()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 02:46:35 --> Undefined property: mysqli::$doID
+in APPPATH\Controllers\Tip.php on line 96.
+ 1 APPPATH\Controllers\Tip.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: mysqli::$doID', 'APPPATH\\Controllers\\Tip.php', 96, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->get_do_by_tip()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 02:47:03 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::get()
+in APPPATH\Controllers\Tip.php on line 94.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->get_do_by_tip()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 02:50:00 --> Undefined property: stdClass::$doID
+in APPPATH\Controllers\Tip.php on line 96.
+ 1 APPPATH\Controllers\Tip.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$doID', 'APPPATH\\Controllers\\Tip.php', 96, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->get_do_by_tip()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 02:59:15 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Tip.php on line 96.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->get_do_by_tip()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 03:36:02 --> Undefined variable: value
+in APPPATH\Controllers\Tip.php on line 98.
+ 1 APPPATH\Controllers\Tip.php(98): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: value', 'APPPATH\\Controllers\\Tip.php', 98, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->get_do_by_tip()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-01-17 03:36:06 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DISTINCT tbltrn_do1.dono) AS donoo, tblmas_customer.customername AS customer ...' at line 1 in C:\xampp\htdocs\tracking\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\tracking\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT tblmas_t...', 0)
+#1 C:\xampp\htdocs\tracking\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tblmas_t...')
+#2 C:\xampp\htdocs\tracking\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tblmas_t...')
+#3 C:\xampp\htdocs\tracking\app\Models\TipModel.php(16): CodeIgniter\Database\BaseConnection->query('SELECT tblmas_t...')
+#4 C:\xampp\htdocs\tracking\app\Controllers\Tip.php(24): App\Models\TipModel->getdataView()
+#5 C:\xampp\htdocs\tracking\system\CodeIgniter.php(904): App\Controllers\Tip->viewListTip()
+#6 C:\xampp\htdocs\tracking\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+#7 C:\xampp\htdocs\tracking\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tracking\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\tracking\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-01-17 03:36:06 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DISTINCT tbltrn_do1.dono) AS donoo, tblmas_customer.customername AS customer ...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT tblmas_tip_tracking.*, COUNT(dono) AS total_do, GROUP_CONCAT (DISTINCT tbltrn_do1.dono) AS donoo, tblmas_customer.customername AS customer FROM tblmas_tip_tracking
+                    JOIN tblmas_detail_tip_tracking ON tblmas_tip_tracking.id = tblmas_detail_tip_tracking.tipID
+                        JOIN tbltrn_do1 ON tbltrn_do1.dono = tblmas_detail_tip_tracking.doID
+                            JOIN tblmas_customer ON tblmas_customer.idcustomer = tbltrn_do1.idcustomer
+                                GROUP BY tblmas_tip_tracking.id ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tblmas_tip_tracking.*, COUNT(dono) AS total_do, GROUP_CONCAT (DISTINCT tbltrn_do1.dono) AS donoo, tblmas_customer.customername AS customer FROM tblmas_tip_tracking
+                    JOIN tblmas_detail_tip_tracking ON tblmas_tip_tracking.id = tblmas_detail_tip_tracking.tipID
+                        JOIN tbltrn_do1 ON tbltrn_do1.dono = tblmas_detail_tip_tracking.doID
+                            JOIN tblmas_customer ON tblmas_customer.idcustomer = tbltrn_do1.idcustomer
+                                GROUP BY tblmas_tip_tracking.id ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tblmas_tip_tracking.*, COUNT(dono) AS total_do, GROUP_CONCAT (DISTINCT tbltrn_do1.dono) AS donoo, tblmas_customer.customername AS customer FROM tblmas_tip_tracking
+                    JOIN tblmas_detail_tip_tracking ON tblmas_tip_tracking.id = tblmas_detail_tip_tracking.tipID
+                        JOIN tbltrn_do1 ON tbltrn_do1.dono = tblmas_detail_tip_tracking.doID
+                            JOIN tblmas_customer ON tblmas_customer.idcustomer = tbltrn_do1.idcustomer
+                                GROUP BY tblmas_tip_tracking.id ASC')
+ 4 APPPATH\Models\TipModel.php(16): CodeIgniter\Database\BaseConnection->query('SELECT tblmas_tip_tracking.*, COUNT(dono) AS total_do, GROUP_CONCAT (DISTINCT tbltrn_do1.dono) AS donoo, tblmas_customer.customername AS customer FROM tblmas_tip_tracking
+                    JOIN tblmas_detail_tip_tracking ON tblmas_tip_tracking.id = tblmas_detail_tip_tracking.tipID
+                        JOIN tbltrn_do1 ON tbltrn_do1.dono = tblmas_detail_tip_tracking.doID
+                            JOIN tblmas_customer ON tblmas_customer.idcustomer = tbltrn_do1.idcustomer
+                                GROUP BY tblmas_tip_tracking.id ASC')
+ 5 APPPATH\Controllers\Tip.php(24): App\Models\TipModel->getdataView()
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->viewListTip()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-01-17 03:36:45 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DISTINCT tblmas_detail_tip_tracking.doID) AS donoo, tblmas_customer.customern...' at line 1 in C:\xampp\htdocs\tracking\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\tracking\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT tblmas_t...', 0)
+#1 C:\xampp\htdocs\tracking\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tblmas_t...')
+#2 C:\xampp\htdocs\tracking\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tblmas_t...')
+#3 C:\xampp\htdocs\tracking\app\Models\TipModel.php(16): CodeIgniter\Database\BaseConnection->query('SELECT tblmas_t...')
+#4 C:\xampp\htdocs\tracking\app\Controllers\Tip.php(24): App\Models\TipModel->getdataView()
+#5 C:\xampp\htdocs\tracking\system\CodeIgniter.php(904): App\Controllers\Tip->viewListTip()
+#6 C:\xampp\htdocs\tracking\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+#7 C:\xampp\htdocs\tracking\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tracking\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\tracking\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-01-17 03:36:45 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DISTINCT tblmas_detail_tip_tracking.doID) AS donoo, tblmas_customer.customern...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT tblmas_tip_tracking.*, COUNT(dono) AS total_do, GROUP_CONCAT (DISTINCT tblmas_detail_tip_tracking.doID) AS donoo, tblmas_customer.customername AS customer FROM tblmas_tip_tracking
+                    JOIN tblmas_detail_tip_tracking ON tblmas_tip_tracking.id = tblmas_detail_tip_tracking.tipID
+                        JOIN tbltrn_do1 ON tbltrn_do1.dono = tblmas_detail_tip_tracking.doID
+                            JOIN tblmas_customer ON tblmas_customer.idcustomer = tbltrn_do1.idcustomer
+                                GROUP BY tblmas_tip_tracking.id ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tblmas_tip_tracking.*, COUNT(dono) AS total_do, GROUP_CONCAT (DISTINCT tblmas_detail_tip_tracking.doID) AS donoo, tblmas_customer.customername AS customer FROM tblmas_tip_tracking
+                    JOIN tblmas_detail_tip_tracking ON tblmas_tip_tracking.id = tblmas_detail_tip_tracking.tipID
+                        JOIN tbltrn_do1 ON tbltrn_do1.dono = tblmas_detail_tip_tracking.doID
+                            JOIN tblmas_customer ON tblmas_customer.idcustomer = tbltrn_do1.idcustomer
+                                GROUP BY tblmas_tip_tracking.id ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tblmas_tip_tracking.*, COUNT(dono) AS total_do, GROUP_CONCAT (DISTINCT tblmas_detail_tip_tracking.doID) AS donoo, tblmas_customer.customername AS customer FROM tblmas_tip_tracking
+                    JOIN tblmas_detail_tip_tracking ON tblmas_tip_tracking.id = tblmas_detail_tip_tracking.tipID
+                        JOIN tbltrn_do1 ON tbltrn_do1.dono = tblmas_detail_tip_tracking.doID
+                            JOIN tblmas_customer ON tblmas_customer.idcustomer = tbltrn_do1.idcustomer
+                                GROUP BY tblmas_tip_tracking.id ASC')
+ 4 APPPATH\Models\TipModel.php(16): CodeIgniter\Database\BaseConnection->query('SELECT tblmas_tip_tracking.*, COUNT(dono) AS total_do, GROUP_CONCAT (DISTINCT tblmas_detail_tip_tracking.doID) AS donoo, tblmas_customer.customername AS customer FROM tblmas_tip_tracking
+                    JOIN tblmas_detail_tip_tracking ON tblmas_tip_tracking.id = tblmas_detail_tip_tracking.tipID
+                        JOIN tbltrn_do1 ON tbltrn_do1.dono = tblmas_detail_tip_tracking.doID
+                            JOIN tblmas_customer ON tblmas_customer.idcustomer = tbltrn_do1.idcustomer
+                                GROUP BY tblmas_tip_tracking.id ASC')
+ 5 APPPATH\Controllers\Tip.php(24): App\Models\TipModel->getdataView()
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->viewListTip()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-01-17 03:36:46 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DISTINCT tblmas_detail_tip_tracking.doID) AS donoo, tblmas_customer.customern...' at line 1 in C:\xampp\htdocs\tracking\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\tracking\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT tblmas_t...', 0)
+#1 C:\xampp\htdocs\tracking\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tblmas_t...')
+#2 C:\xampp\htdocs\tracking\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tblmas_t...')
+#3 C:\xampp\htdocs\tracking\app\Models\TipModel.php(16): CodeIgniter\Database\BaseConnection->query('SELECT tblmas_t...')
+#4 C:\xampp\htdocs\tracking\app\Controllers\Tip.php(24): App\Models\TipModel->getdataView()
+#5 C:\xampp\htdocs\tracking\system\CodeIgniter.php(904): App\Controllers\Tip->viewListTip()
+#6 C:\xampp\htdocs\tracking\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+#7 C:\xampp\htdocs\tracking\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tracking\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\tracking\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-01-17 03:36:46 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DISTINCT tblmas_detail_tip_tracking.doID) AS donoo, tblmas_customer.customern...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT tblmas_tip_tracking.*, COUNT(dono) AS total_do, GROUP_CONCAT (DISTINCT tblmas_detail_tip_tracking.doID) AS donoo, tblmas_customer.customername AS customer FROM tblmas_tip_tracking
+                    JOIN tblmas_detail_tip_tracking ON tblmas_tip_tracking.id = tblmas_detail_tip_tracking.tipID
+                        JOIN tbltrn_do1 ON tbltrn_do1.dono = tblmas_detail_tip_tracking.doID
+                            JOIN tblmas_customer ON tblmas_customer.idcustomer = tbltrn_do1.idcustomer
+                                GROUP BY tblmas_tip_tracking.id ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tblmas_tip_tracking.*, COUNT(dono) AS total_do, GROUP_CONCAT (DISTINCT tblmas_detail_tip_tracking.doID) AS donoo, tblmas_customer.customername AS customer FROM tblmas_tip_tracking
+                    JOIN tblmas_detail_tip_tracking ON tblmas_tip_tracking.id = tblmas_detail_tip_tracking.tipID
+                        JOIN tbltrn_do1 ON tbltrn_do1.dono = tblmas_detail_tip_tracking.doID
+                            JOIN tblmas_customer ON tblmas_customer.idcustomer = tbltrn_do1.idcustomer
+                                GROUP BY tblmas_tip_tracking.id ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tblmas_tip_tracking.*, COUNT(dono) AS total_do, GROUP_CONCAT (DISTINCT tblmas_detail_tip_tracking.doID) AS donoo, tblmas_customer.customername AS customer FROM tblmas_tip_tracking
+                    JOIN tblmas_detail_tip_tracking ON tblmas_tip_tracking.id = tblmas_detail_tip_tracking.tipID
+                        JOIN tbltrn_do1 ON tbltrn_do1.dono = tblmas_detail_tip_tracking.doID
+                            JOIN tblmas_customer ON tblmas_customer.idcustomer = tbltrn_do1.idcustomer
+                                GROUP BY tblmas_tip_tracking.id ASC')
+ 4 APPPATH\Models\TipModel.php(16): CodeIgniter\Database\BaseConnection->query('SELECT tblmas_tip_tracking.*, COUNT(dono) AS total_do, GROUP_CONCAT (DISTINCT tblmas_detail_tip_tracking.doID) AS donoo, tblmas_customer.customername AS customer FROM tblmas_tip_tracking
+                    JOIN tblmas_detail_tip_tracking ON tblmas_tip_tracking.id = tblmas_detail_tip_tracking.tipID
+                        JOIN tbltrn_do1 ON tbltrn_do1.dono = tblmas_detail_tip_tracking.doID
+                            JOIN tblmas_customer ON tblmas_customer.idcustomer = tbltrn_do1.idcustomer
+                                GROUP BY tblmas_tip_tracking.id ASC')
+ 5 APPPATH\Controllers\Tip.php(24): App\Models\TipModel->getdataView()
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->viewListTip()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-01-17 03:36:56 --> mysqli_sql_exception: FUNCTION etowa.GROUP_CONCAT does not exist. Check the 'Function Name Parsing and Resolution' section in the Reference Manual in C:\xampp\htdocs\tracking\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\tracking\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT tblmas_t...', 0)
+#1 C:\xampp\htdocs\tracking\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tblmas_t...')
+#2 C:\xampp\htdocs\tracking\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tblmas_t...')
+#3 C:\xampp\htdocs\tracking\app\Models\TipModel.php(16): CodeIgniter\Database\BaseConnection->query('SELECT tblmas_t...')
+#4 C:\xampp\htdocs\tracking\app\Controllers\Tip.php(24): App\Models\TipModel->getdataView()
+#5 C:\xampp\htdocs\tracking\system\CodeIgniter.php(904): App\Controllers\Tip->viewListTip()
+#6 C:\xampp\htdocs\tracking\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+#7 C:\xampp\htdocs\tracking\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tracking\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\tracking\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-01-17 03:36:56 --> FUNCTION etowa.GROUP_CONCAT does not exist. Check the 'Function Name Parsing and Resolution' section in the Reference Manual
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT tblmas_tip_tracking.*, COUNT(dono) AS total_do, GROUP_CONCAT (tblmas_detail_tip_tracking.doID) AS donoo, tblmas_customer.customername AS customer FROM tblmas_tip_tracking
+                    JOIN tblmas_detail_tip_tracking ON tblmas_tip_tracking.id = tblmas_detail_tip_tracking.tipID
+                        JOIN tbltrn_do1 ON tbltrn_do1.dono = tblmas_detail_tip_tracking.doID
+                            JOIN tblmas_customer ON tblmas_customer.idcustomer = tbltrn_do1.idcustomer
+                                GROUP BY tblmas_tip_tracking.id ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tblmas_tip_tracking.*, COUNT(dono) AS total_do, GROUP_CONCAT (tblmas_detail_tip_tracking.doID) AS donoo, tblmas_customer.customername AS customer FROM tblmas_tip_tracking
+                    JOIN tblmas_detail_tip_tracking ON tblmas_tip_tracking.id = tblmas_detail_tip_tracking.tipID
+                        JOIN tbltrn_do1 ON tbltrn_do1.dono = tblmas_detail_tip_tracking.doID
+                            JOIN tblmas_customer ON tblmas_customer.idcustomer = tbltrn_do1.idcustomer
+                                GROUP BY tblmas_tip_tracking.id ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tblmas_tip_tracking.*, COUNT(dono) AS total_do, GROUP_CONCAT (tblmas_detail_tip_tracking.doID) AS donoo, tblmas_customer.customername AS customer FROM tblmas_tip_tracking
+                    JOIN tblmas_detail_tip_tracking ON tblmas_tip_tracking.id = tblmas_detail_tip_tracking.tipID
+                        JOIN tbltrn_do1 ON tbltrn_do1.dono = tblmas_detail_tip_tracking.doID
+                            JOIN tblmas_customer ON tblmas_customer.idcustomer = tbltrn_do1.idcustomer
+                                GROUP BY tblmas_tip_tracking.id ASC')
+ 4 APPPATH\Models\TipModel.php(16): CodeIgniter\Database\BaseConnection->query('SELECT tblmas_tip_tracking.*, COUNT(dono) AS total_do, GROUP_CONCAT (tblmas_detail_tip_tracking.doID) AS donoo, tblmas_customer.customername AS customer FROM tblmas_tip_tracking
+                    JOIN tblmas_detail_tip_tracking ON tblmas_tip_tracking.id = tblmas_detail_tip_tracking.tipID
+                        JOIN tbltrn_do1 ON tbltrn_do1.dono = tblmas_detail_tip_tracking.doID
+                            JOIN tblmas_customer ON tblmas_customer.idcustomer = tbltrn_do1.idcustomer
+                                GROUP BY tblmas_tip_tracking.id ASC')
+ 5 APPPATH\Controllers\Tip.php(24): App\Models\TipModel->getdataView()
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->viewListTip()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 03:37:30 --> Undefined index: donoo
+in APPPATH\Views\Tip_tracking\list_tip.php on line 62.
+ 1 APPPATH\Views\Tip_tracking\list_tip.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: donoo', 'APPPATH\\Views\\Tip_tracking\\list_tip.php', 62, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Tip_tracking\\list_tip.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Tip_tracking/list_tip', [], true)
+ 5 APPPATH\Controllers\Tip.php(27): view('Tip_tracking/list_tip', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->viewListTip()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 03:51:18 --> Undefined index: total_do
+in APPPATH\Views\Tip_tracking\list_tip.php on line 62.
+ 1 APPPATH\Views\Tip_tracking\list_tip.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: total_do', 'APPPATH\\Views\\Tip_tracking\\list_tip.php', 62, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Tip_tracking\\list_tip.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Tip_tracking/list_tip', [], true)
+ 5 APPPATH\Controllers\Tip.php(27): view('Tip_tracking/list_tip', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->viewListTip()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 19:11:14 --> Undefined index: total_do
+in APPPATH\Views\Tip_tracking\list_tip.php on line 64.
+ 1 APPPATH\Views\Tip_tracking\list_tip.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: total_do', 'APPPATH\\Views\\Tip_tracking\\list_tip.php', 64, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Tip_tracking\\list_tip.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Tip_tracking/list_tip', [], true)
+ 5 APPPATH\Controllers\Tip.php(27): view('Tip_tracking/list_tip', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->viewListTip()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 19:19:39 --> Undefined property: stdClass::$value_tip
+in APPPATH\Controllers\Tip.php on line 97.
+ 1 APPPATH\Controllers\Tip.php(97): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$value_tip', 'APPPATH\\Controllers\\Tip.php', 97, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->get_do_by_tip()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 19:19:44 --> Undefined property: stdClass::$value_tip
+in APPPATH\Controllers\Tip.php on line 97.
+ 1 APPPATH\Controllers\Tip.php(97): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$value_tip', 'APPPATH\\Controllers\\Tip.php', 97, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->get_do_by_tip()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 19:19:47 --> Undefined property: stdClass::$value_tip
+in APPPATH\Controllers\Tip.php on line 97.
+ 1 APPPATH\Controllers\Tip.php(97): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$value_tip', 'APPPATH\\Controllers\\Tip.php', 97, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->get_do_by_tip()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 19:19:48 --> Undefined property: stdClass::$value_tip
+in APPPATH\Controllers\Tip.php on line 97.
+ 1 APPPATH\Controllers\Tip.php(97): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$value_tip', 'APPPATH\\Controllers\\Tip.php', 97, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->get_do_by_tip()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 19:22:13 --> Undefined property: stdClass::$value_tip
+in APPPATH\Controllers\Tip.php on line 97.
+ 1 APPPATH\Controllers\Tip.php(97): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$value_tip', 'APPPATH\\Controllers\\Tip.php', 97, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->get_do_by_tip()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 19:22:15 --> Undefined property: stdClass::$value_tip
+in APPPATH\Controllers\Tip.php on line 97.
+ 1 APPPATH\Controllers\Tip.php(97): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$value_tip', 'APPPATH\\Controllers\\Tip.php', 97, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->get_do_by_tip()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 19:22:17 --> Undefined property: stdClass::$value_tip
+in APPPATH\Controllers\Tip.php on line 97.
+ 1 APPPATH\Controllers\Tip.php(97): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$value_tip', 'APPPATH\\Controllers\\Tip.php', 97, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->get_do_by_tip()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 19:22:36 --> Undefined variable: value
+in APPPATH\Controllers\Tip.php on line 99.
+ 1 APPPATH\Controllers\Tip.php(99): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: value', 'APPPATH\\Controllers\\Tip.php', 99, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->get_do_by_tip()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 19:22:56 --> Undefined property: stdClass::$value_tip
+in APPPATH\Controllers\Tip.php on line 97.
+ 1 APPPATH\Controllers\Tip.php(97): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$value_tip', 'APPPATH\\Controllers\\Tip.php', 97, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->get_do_by_tip()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 19:24:35 --> Undefined property: stdClass::$value_tip
+in APPPATH\Controllers\Tip.php on line 97.
+ 1 APPPATH\Controllers\Tip.php(97): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$value_tip', 'APPPATH\\Controllers\\Tip.php', 97, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->get_do_by_tip()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 19:26:38 --> Undefined property: stdClass::$value_tip
+in APPPATH\Controllers\Tip.php on line 97.
+ 1 APPPATH\Controllers\Tip.php(97): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$value_tip', 'APPPATH\\Controllers\\Tip.php', 97, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->get_do_by_tip()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 19:26:41 --> Undefined variable: value
+in APPPATH\Controllers\Tip.php on line 99.
+ 1 APPPATH\Controllers\Tip.php(99): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: value', 'APPPATH\\Controllers\\Tip.php', 99, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->get_do_by_tip()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 19:43:30 --> Undefined property: stdClass::$value_tip
+in APPPATH\Controllers\Tip.php on line 97.
+ 1 APPPATH\Controllers\Tip.php(97): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$value_tip', 'APPPATH\\Controllers\\Tip.php', 97, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->get_do_by_tip()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 19:44:21 --> Undefined property: stdClass::$value_tip
+in APPPATH\Controllers\Tip.php on line 97.
+ 1 APPPATH\Controllers\Tip.php(97): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$value_tip', 'APPPATH\\Controllers\\Tip.php', 97, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->get_do_by_tip()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 19:45:04 --> Undefined property: stdClass::$value
+in APPPATH\Controllers\Tip.php on line 99.
+ 1 APPPATH\Controllers\Tip.php(99): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$value', 'APPPATH\\Controllers\\Tip.php', 99, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->get_do_by_tip()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 19:57:19 --> Invalid argument supplied for foreach()
+in APPPATH\Models\TipModel.php on line 72.
+ 1 APPPATH\Models\TipModel.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH\\Models\\TipModel.php', 72, [...])
+ 2 APPPATH\Controllers\Tip.php(66): App\Models\TipModel->Addtip('18-01-2023 07:00:00', '18-01-2023 12:00:00', '4800', 'Dafrizal', 'BP 9757 DF', '4', null, null)
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 19:57:58 --> Invalid argument supplied for foreach()
+in APPPATH\Models\TipModel.php on line 72.
+ 1 APPPATH\Models\TipModel.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH\\Models\\TipModel.php', 72, [...])
+ 2 APPPATH\Controllers\Tip.php(66): App\Models\TipModel->Addtip('18-01-2023 07:00:00', '18-01-2023 12:00:00', '4800', 'Dafrizal', 'BP 9757 DF', '4', null, null)
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 20:05:08 --> Uninitialized string offset: 4
+in APPPATH\Models\TipModel.php on line 76.
+ 1 APPPATH\Models\TipModel.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Uninitialized string offset: 4', 'APPPATH\\Models\\TipModel.php', 76, [...])
+ 2 APPPATH\Controllers\Tip.php(66): App\Models\TipModel->Addtip('18-01-2023 09:00:00', '18-01-2023 12:00:00', '7000', 'Herian', 'BP 9253 DD', '4', 'bawa BIN ful', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 20:09:46 --> Uninitialized string offset: 4
+in APPPATH\Models\TipModel.php on line 76.
+ 1 APPPATH\Models\TipModel.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Uninitialized string offset: 4', 'APPPATH\\Models\\TipModel.php', 76, [...])
+ 2 APPPATH\Controllers\Tip.php(66): App\Models\TipModel->Addtip('18-01-2023 09:00:00', '18-01-2023 12:00:00', '7000', 'Herian', 'BP 9253 DD', '4', 'bawa BIN ful', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 20:09:47 --> Uninitialized string offset: 4
+in APPPATH\Models\TipModel.php on line 76.
+ 1 APPPATH\Models\TipModel.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Uninitialized string offset: 4', 'APPPATH\\Models\\TipModel.php', 76, [...])
+ 2 APPPATH\Controllers\Tip.php(66): App\Models\TipModel->Addtip('18-01-2023 09:00:00', '18-01-2023 12:00:00', '7000', 'Herian', 'BP 9253 DD', '4', 'bawa BIN ful', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 20:12:54 --> Uninitialized string offset: 1
+in APPPATH\Models\TipModel.php on line 76.
+ 1 APPPATH\Models\TipModel.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Uninitialized string offset: 1', 'APPPATH\\Models\\TipModel.php', 76, [...])
+ 2 APPPATH\Controllers\Tip.php(66): App\Models\TipModel->Addtip('18-01-2023 09:12:00', '18-01-2023 12:12:00', '4', '1', '1', '1', 'Bawa BIN', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 20:13:35 --> Uninitialized string offset: 1
+in APPPATH\Models\TipModel.php on line 76.
+ 1 APPPATH\Models\TipModel.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Uninitialized string offset: 1', 'APPPATH\\Models\\TipModel.php', 76, [...])
+ 2 APPPATH\Controllers\Tip.php(66): App\Models\TipModel->Addtip('18-01-2023 09:12:00', '18-01-2023 12:12:00', '4', '1', '1', '1', 'Bawa BIN', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 20:16:08 --> Uninitialized string offset: 1
+in APPPATH\Models\TipModel.php on line 76.
+ 1 APPPATH\Models\TipModel.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Uninitialized string offset: 1', 'APPPATH\\Models\\TipModel.php', 76, [...])
+ 2 APPPATH\Controllers\Tip.php(66): App\Models\TipModel->Addtip('18-01-2023 09:12:00', '18-01-2023 12:12:00', '4', '1', '1', '1', 'Bawa BIN', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 20:16:09 --> Uninitialized string offset: 1
+in APPPATH\Models\TipModel.php on line 76.
+ 1 APPPATH\Models\TipModel.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Uninitialized string offset: 1', 'APPPATH\\Models\\TipModel.php', 76, [...])
+ 2 APPPATH\Controllers\Tip.php(66): App\Models\TipModel->Addtip('18-01-2023 09:12:00', '18-01-2023 12:12:00', '4', '1', '1', '1', 'Bawa BIN', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 20:16:10 --> Uninitialized string offset: 1
+in APPPATH\Models\TipModel.php on line 76.
+ 1 APPPATH\Models\TipModel.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Uninitialized string offset: 1', 'APPPATH\\Models\\TipModel.php', 76, [...])
+ 2 APPPATH\Controllers\Tip.php(66): App\Models\TipModel->Addtip('18-01-2023 09:12:00', '18-01-2023 12:12:00', '4', '1', '1', '1', 'Bawa BIN', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 20:33:33 --> Uninitialized string offset: 1
+in APPPATH\Models\TipModel.php on line 75.
+ 1 APPPATH\Models\TipModel.php(75): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Uninitialized string offset: 1', 'APPPATH\\Models\\TipModel.php', 75, [...])
+ 2 APPPATH\Controllers\Tip.php(66): App\Models\TipModel->Addtip('18-01-2023 09:12:00', '18-01-2023 12:12:00', '4', '1', '1', '1', 'Bawa BIN', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 20:34:13 --> Uninitialized string offset: 1
+in APPPATH\Models\TipModel.php on line 75.
+ 1 APPPATH\Models\TipModel.php(75): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Uninitialized string offset: 1', 'APPPATH\\Models\\TipModel.php', 75, [...])
+ 2 APPPATH\Controllers\Tip.php(66): App\Models\TipModel->Addtip('18-01-2023 09:12:00', '18-01-2023 12:12:00', '4', '1', '1', '1', 'Bawa BIN', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 20:34:15 --> Uninitialized string offset: 1
+in APPPATH\Models\TipModel.php on line 75.
+ 1 APPPATH\Models\TipModel.php(75): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Uninitialized string offset: 1', 'APPPATH\\Models\\TipModel.php', 75, [...])
+ 2 APPPATH\Controllers\Tip.php(66): App\Models\TipModel->Addtip('18-01-2023 09:12:00', '18-01-2023 12:12:00', '4', '1', '1', '1', 'Bawa BIN', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 20:36:54 --> Uninitialized string offset: 1
+in APPPATH\Models\TipModel.php on line 75.
+ 1 APPPATH\Models\TipModel.php(75): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Uninitialized string offset: 1', 'APPPATH\\Models\\TipModel.php', 75, [...])
+ 2 APPPATH\Controllers\Tip.php(66): App\Models\TipModel->Addtip('18-01-2023 09:12:00', '18-01-2023 12:12:00', '4', '1', '1', '1', 'Bawa BIN', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 20:36:56 --> Uninitialized string offset: 1
+in APPPATH\Models\TipModel.php on line 75.
+ 1 APPPATH\Models\TipModel.php(75): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Uninitialized string offset: 1', 'APPPATH\\Models\\TipModel.php', 75, [...])
+ 2 APPPATH\Controllers\Tip.php(66): App\Models\TipModel->Addtip('18-01-2023 09:12:00', '18-01-2023 12:12:00', '4', '1', '1', '1', 'Bawa BIN', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 20:41:25 --> Undefined offset: 1
+in APPPATH\Models\TipModel.php on line 75.
+ 1 APPPATH\Models\TipModel.php(75): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 1', 'APPPATH\\Models\\TipModel.php', 75, [...])
+ 2 APPPATH\Controllers\Tip.php(66): App\Models\TipModel->Addtip('18-01-2023 09:41:00', '18-01-2023 09:41:00', [...], [...], [...], '1', '123456', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 20:41:48 --> Array to string conversion
+in SYSTEMPATH\Database\BaseBuilder.php on line 1842.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'SYSTEMPATH\\Database\\BaseBuilder.php', 1842, [...])
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1842): implode(',', [...])
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1770): CodeIgniter\Database\BaseBuilder->setInsertBatch([...], 'ROOTPATH\\public', true)
+ 4 APPPATH\Models\TipModel.php(81): CodeIgniter\Database\BaseBuilder->insertBatch([...])
+ 5 APPPATH\Controllers\Tip.php(66): App\Models\TipModel->Addtip('18-01-2023 09:41:00', '18-01-2023 09:41:00', [...], [...], [...], '1', '123456', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 20:42:22 --> Invalid argument supplied for foreach()
+in APPPATH\Models\TipModel.php on line 71.
+ 1 APPPATH\Models\TipModel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH\\Models\\TipModel.php', 71, [...])
+ 2 APPPATH\Controllers\Tip.php(66): App\Models\TipModel->Addtip('31-12-1969 06:00:00', '31-12-1969 06:00:00', null, null, null, null, null, null)
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 20:44:00 --> Invalid argument supplied for foreach()
+in APPPATH\Models\TipModel.php on line 71.
+ 1 APPPATH\Models\TipModel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH\\Models\\TipModel.php', 71, [...])
+ 2 APPPATH\Controllers\Tip.php(66): App\Models\TipModel->Addtip('31-12-1969 06:00:00', '31-12-1969 06:00:00', null, null, null, null, null, null)
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 20:44:01 --> Invalid argument supplied for foreach()
+in APPPATH\Models\TipModel.php on line 71.
+ 1 APPPATH\Models\TipModel.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH\\Models\\TipModel.php', 71, [...])
+ 2 APPPATH\Controllers\Tip.php(66): App\Models\TipModel->Addtip('31-12-1969 06:00:00', '31-12-1969 06:00:00', null, null, null, null, null, null)
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 20:44:23 --> Undefined offset: 1
+in APPPATH\Models\TipModel.php on line 75.
+ 1 APPPATH\Models\TipModel.php(75): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 1', 'APPPATH\\Models\\TipModel.php', 75, [...])
+ 2 APPPATH\Controllers\Tip.php(66): App\Models\TipModel->Addtip('18-01-2023 09:41:00', '18-01-2023 09:41:00', [...], [...], [...], '1', '123456', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 20:44:43 --> Array to string conversion
+in SYSTEMPATH\Database\BaseBuilder.php on line 1800.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'SYSTEMPATH\\Database\\BaseBuilder.php', 1800, [...])
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1800): implode(', ', [...])
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1773): CodeIgniter\Database\BaseBuilder->_insertBatch('`tblmas_detail_tip_tracking`', [], [...])
+ 4 APPPATH\Models\TipModel.php(96): CodeIgniter\Database\BaseBuilder->insertBatch([...])
+ 5 APPPATH\Controllers\Tip.php(66): App\Models\TipModel->Addtip('18-01-2023 09:41:00', '18-01-2023 09:41:00', [...], [...], [...], '1', '123456', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 20:50:45 --> Undefined variable: value
+in APPPATH\Controllers\Tip.php on line 98.
+ 1 APPPATH\Controllers\Tip.php(98): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: value', 'APPPATH\\Controllers\\Tip.php', 98, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->get_do_by_tip()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 20:59:10 --> Undefined variable: result1
+in APPPATH\Models\TipModel.php on line 101.
+ 1 APPPATH\Models\TipModel.php(101): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: result1', 'APPPATH\\Models\\TipModel.php', 101, [...])
+ 2 APPPATH\Controllers\Tip.php(66): App\Models\TipModel->Addtip('18-01-2023 09:58:00', '18-01-2023 09:58:00', [...], [...], [...], '1', 'ROOTPATH\\public', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 21:05:52 --> Array to string conversion
+in SYSTEMPATH\Database\BaseBuilder.php on line 1800.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'SYSTEMPATH\\Database\\BaseBuilder.php', 1800, [...])
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1800): implode(', ', [...])
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1773): CodeIgniter\Database\BaseBuilder->_insertBatch('`tblmas_detail_tip_tracking`', [], [...])
+ 4 APPPATH\Models\TipModel.php(99): CodeIgniter\Database\BaseBuilder->insertBatch([...])
+ 5 APPPATH\Controllers\Tip.php(66): App\Models\TipModel->Addtip('18-01-2023 10:05:00', '18-01-2023 10:05:00', [...], [...], [...], '1', 'ROOTPATH\\public', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 21:16:16 --> Trying to access array offset on value of type bool
+in APPPATH\Models\TipModel.php on line 67.
+ 1 APPPATH\Models\TipModel.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type bool', 'APPPATH\\Models\\TipModel.php', 67, [...])
+ 2 APPPATH\Controllers\Tip.php(66): App\Models\TipModel->Addtip('18-01-2023 10:16:00', '18-01-2023 10:16:00', [...], [...], [...], '2', 'ROOTPATH\\public', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 21:16:34 --> Trying to access array offset on value of type bool
+in APPPATH\Models\TipModel.php on line 67.
+ 1 APPPATH\Models\TipModel.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type bool', 'APPPATH\\Models\\TipModel.php', 67, [...])
+ 2 APPPATH\Controllers\Tip.php(66): App\Models\TipModel->Addtip('18-01-2023 10:16:00', '18-01-2023 10:16:00', [...], [...], [...], '2', 'ROOTPATH\\public', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 21:40:18 --> Undefined property: stdClass::$value_tip
+in APPPATH\Controllers\Tip.php on line 97.
+ 1 APPPATH\Controllers\Tip.php(97): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$value_tip', 'APPPATH\\Controllers\\Tip.php', 97, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->get_do_by_tip()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 21:40:20 --> Undefined property: stdClass::$value_tip
+in APPPATH\Controllers\Tip.php on line 97.
+ 1 APPPATH\Controllers\Tip.php(97): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$value_tip', 'APPPATH\\Controllers\\Tip.php', 97, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->get_do_by_tip()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 21:40:38 --> Undefined property: stdClass::$value_tip
+in APPPATH\Controllers\Tip.php on line 97.
+ 1 APPPATH\Controllers\Tip.php(97): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$value_tip', 'APPPATH\\Controllers\\Tip.php', 97, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->get_do_by_tip()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 21:41:27 --> Undefined property: stdClass::$name_driver
+in APPPATH\Controllers\Tip.php on line 97.
+ 1 APPPATH\Controllers\Tip.php(97): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$name_driver', 'APPPATH\\Controllers\\Tip.php', 97, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->get_do_by_tip()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 21:45:33 --> Undefined property: stdClass::$value_tip
+in APPPATH\Controllers\Tip.php on line 97.
+ 1 APPPATH\Controllers\Tip.php(97): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$value_tip', 'APPPATH\\Controllers\\Tip.php', 97, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->get_do_by_tip()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 21:45:48 --> Undefined variable: value
+in APPPATH\Controllers\Tip.php on line 99.
+ 1 APPPATH\Controllers\Tip.php(99): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: value', 'APPPATH\\Controllers\\Tip.php', 99, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->get_do_by_tip()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 21:46:03 --> Undefined variable: value
+in APPPATH\Controllers\Tip.php on line 99.
+ 1 APPPATH\Controllers\Tip.php(99): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: value', 'APPPATH\\Controllers\\Tip.php', 99, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->get_do_by_tip()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 21:46:14 --> Undefined property: stdClass::$value_tip
+in APPPATH\Controllers\Tip.php on line 97.
+ 1 APPPATH\Controllers\Tip.php(97): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$value_tip', 'APPPATH\\Controllers\\Tip.php', 97, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->get_do_by_tip()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 21:46:44 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Tip.php on line 97.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->get_do_by_tip()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 21:48:04 --> Undefined property: stdClass::$value_tip
+in APPPATH\Controllers\Tip.php on line 97.
+ 1 APPPATH\Controllers\Tip.php(97): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$value_tip', 'APPPATH\\Controllers\\Tip.php', 97, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->get_do_by_tip()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 21:54:39 --> Undefined property: stdClass::$value_tip
+in APPPATH\Controllers\Tip.php on line 97.
+ 1 APPPATH\Controllers\Tip.php(97): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$value_tip', 'APPPATH\\Controllers\\Tip.php', 97, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->get_do_by_tip()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 21:54:45 --> Undefined variable: value
+in APPPATH\Controllers\Tip.php on line 99.
+ 1 APPPATH\Controllers\Tip.php(99): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: value', 'APPPATH\\Controllers\\Tip.php', 99, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->get_do_by_tip()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 21:55:26 --> Undefined variable: value
+in APPPATH\Controllers\Tip.php on line 99.
+ 1 APPPATH\Controllers\Tip.php(99): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: value', 'APPPATH\\Controllers\\Tip.php', 99, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->get_do_by_tip()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 21:55:27 --> Undefined variable: value
+in APPPATH\Controllers\Tip.php on line 99.
+ 1 APPPATH\Controllers\Tip.php(99): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: value', 'APPPATH\\Controllers\\Tip.php', 99, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->get_do_by_tip()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 21:56:57 --> Undefined variable: value
+in APPPATH\Controllers\Tip.php on line 99.
+ 1 APPPATH\Controllers\Tip.php(99): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: value', 'APPPATH\\Controllers\\Tip.php', 99, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->get_do_by_tip()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 21:56:59 --> Undefined variable: value
+in APPPATH\Controllers\Tip.php on line 99.
+ 1 APPPATH\Controllers\Tip.php(99): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: value', 'APPPATH\\Controllers\\Tip.php', 99, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->get_do_by_tip()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 21:56:59 --> Undefined variable: value
+in APPPATH\Controllers\Tip.php on line 99.
+ 1 APPPATH\Controllers\Tip.php(99): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: value', 'APPPATH\\Controllers\\Tip.php', 99, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->get_do_by_tip()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 21:58:53 --> Undefined variable: value
+in APPPATH\Controllers\Tip.php on line 99.
+ 1 APPPATH\Controllers\Tip.php(99): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: value', 'APPPATH\\Controllers\\Tip.php', 99, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->get_do_by_tip()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 21:58:54 --> Undefined variable: value
+in APPPATH\Controllers\Tip.php on line 99.
+ 1 APPPATH\Controllers\Tip.php(99): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: value', 'APPPATH\\Controllers\\Tip.php', 99, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->get_do_by_tip()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 21:59:09 --> Undefined variable: value
+in APPPATH\Controllers\Tip.php on line 99.
+ 1 APPPATH\Controllers\Tip.php(99): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: value', 'APPPATH\\Controllers\\Tip.php', 99, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->get_do_by_tip()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 21:59:09 --> Undefined variable: value
+in APPPATH\Controllers\Tip.php on line 99.
+ 1 APPPATH\Controllers\Tip.php(99): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: value', 'APPPATH\\Controllers\\Tip.php', 99, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->get_do_by_tip()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 21:59:15 --> Undefined variable: value
+in APPPATH\Controllers\Tip.php on line 98.
+ 1 APPPATH\Controllers\Tip.php(98): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: value', 'APPPATH\\Controllers\\Tip.php', 98, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->get_do_by_tip()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 21:59:16 --> Undefined variable: value
+in APPPATH\Controllers\Tip.php on line 98.
+ 1 APPPATH\Controllers\Tip.php(98): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: value', 'APPPATH\\Controllers\\Tip.php', 98, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->get_do_by_tip()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 21:59:17 --> Undefined variable: value
+in APPPATH\Controllers\Tip.php on line 98.
+ 1 APPPATH\Controllers\Tip.php(98): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: value', 'APPPATH\\Controllers\\Tip.php', 98, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->get_do_by_tip()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 21:59:57 --> Undefined variable: value
+in APPPATH\Controllers\Tip.php on line 98.
+ 1 APPPATH\Controllers\Tip.php(98): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: value', 'APPPATH\\Controllers\\Tip.php', 98, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->get_do_by_tip()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 22:00:10 --> Undefined variable: value
+in APPPATH\Controllers\Tip.php on line 98.
+ 1 APPPATH\Controllers\Tip.php(98): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: value', 'APPPATH\\Controllers\\Tip.php', 98, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->get_do_by_tip()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 22:00:22 --> Undefined variable: value
+in APPPATH\Controllers\Tip.php on line 98.
+ 1 APPPATH\Controllers\Tip.php(98): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: value', 'APPPATH\\Controllers\\Tip.php', 98, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->get_do_by_tip()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 22:00:23 --> Undefined variable: value
+in APPPATH\Controllers\Tip.php on line 98.
+ 1 APPPATH\Controllers\Tip.php(98): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: value', 'APPPATH\\Controllers\\Tip.php', 98, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->get_do_by_tip()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 22:00:23 --> Undefined variable: value
+in APPPATH\Controllers\Tip.php on line 98.
+ 1 APPPATH\Controllers\Tip.php(98): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: value', 'APPPATH\\Controllers\\Tip.php', 98, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->get_do_by_tip()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 22:00:24 --> Undefined variable: value
+in APPPATH\Controllers\Tip.php on line 98.
+ 1 APPPATH\Controllers\Tip.php(98): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: value', 'APPPATH\\Controllers\\Tip.php', 98, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->get_do_by_tip()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 22:00:24 --> Undefined variable: value
+in APPPATH\Controllers\Tip.php on line 98.
+ 1 APPPATH\Controllers\Tip.php(98): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: value', 'APPPATH\\Controllers\\Tip.php', 98, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->get_do_by_tip()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 22:00:24 --> Undefined variable: value
+in APPPATH\Controllers\Tip.php on line 98.
+ 1 APPPATH\Controllers\Tip.php(98): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: value', 'APPPATH\\Controllers\\Tip.php', 98, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->get_do_by_tip()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 22:00:32 --> Undefined property: stdClass::$value_tip
+in APPPATH\Controllers\Tip.php on line 101.
+ 1 APPPATH\Controllers\Tip.php(101): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$value_tip', 'APPPATH\\Controllers\\Tip.php', 101, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->get_do_by_tip()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 22:30:35 --> syntax error, unexpected ','
+in APPPATH\Models\TipModel.php on line 115.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\TipModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\TipModel')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\TipModel')
+ 4 APPPATH\Controllers\Tip.php(13): spl_autoload_call('App\\Models\\TipModel')
+ 5 SYSTEMPATH\CodeIgniter.php(866): App\Controllers\Tip->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(448): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 22:32:16 --> Undefined index: dono
+in APPPATH\Views\Tip_tracking\list_tip.php on line 64.
+ 1 APPPATH\Views\Tip_tracking\list_tip.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: dono', 'APPPATH\\Views\\Tip_tracking\\list_tip.php', 64, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Tip_tracking\\list_tip.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Tip_tracking/list_tip', [], true)
+ 5 APPPATH\Controllers\Tip.php(27): view('Tip_tracking/list_tip', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->viewListTip()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 22:47:51 --> Undefined property: stdClass::$value_tip
+in APPPATH\Controllers\Tip.php on line 97.
+ 1 APPPATH\Controllers\Tip.php(97): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$value_tip', 'APPPATH\\Controllers\\Tip.php', 97, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->get_do_by_tip()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 22:48:03 --> Undefined variable: value
+in APPPATH\Controllers\Tip.php on line 99.
+ 1 APPPATH\Controllers\Tip.php(99): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: value', 'APPPATH\\Controllers\\Tip.php', 99, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->get_do_by_tip()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-17 22:50:31 --> Undefined variable: value
+in APPPATH\Controllers\Tip.php on line 98.
+ 1 APPPATH\Controllers\Tip.php(98): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: value', 'APPPATH\\Controllers\\Tip.php', 98, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->get_do_by_tip()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

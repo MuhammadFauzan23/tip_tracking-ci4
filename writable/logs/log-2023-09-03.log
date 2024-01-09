@@ -1,0 +1,131 @@
+CRITICAL - 2023-09-03 06:34:05 --> Invalid file: master/list_master_menu.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('master/list_master_menu.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('master/list_master_menu', [], true)
+ 3 APPPATH\Controllers\Master.php(123): view('master/list_master_menu', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Master->menu_submenu()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-09-03 06:35:33 --> Invalid file: layout/sidebar_backup.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/sidebar_backup.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/sidebar_backup', [], true)
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('master/list_master_menu', [], true)
+ 4 APPPATH\Controllers\Master.php(123): view('master/list_master_menu', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Master->menu_submenu()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-09-03 18:36:10 --> Invalid file: layout/sidebar.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/sidebar.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/sidebar', [], true)
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('layout/dashboard', [], true)
+ 4 APPPATH\Controllers\Tip.php(29): view('layout/dashboard', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->dashboard()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-09-03 06:36:55 --> Invalid file: layout/sidebar_backup.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/sidebar_backup.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/sidebar_backup', [], true)
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('master/list_master_role', [], true)
+ 4 APPPATH\Controllers\Master.php(210): view('master/list_master_role', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Master->PositionUser()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-09-03 07:25:57 --> Call to undefined function cek_akses()
+in APPPATH\Views\master\list_master_role_menu.php on line 38.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Master/list_master_role_menu', [], true)
+ 4 APPPATH\Controllers\Master.php(224): view('Master/list_master_role_menu', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Master->roleUser()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-09-03 21:22:54 --> Undefined index: driver_name
+in APPPATH\Views\Tip_tracking\print_report_list_tip.php on line 123.
+ 1 APPPATH\Views\Tip_tracking\print_report_list_tip.php(123): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: driver_name', 'APPPATH\\Views\\Tip_tracking\\print_report_list_tip.php', 123, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Tip_tracking\\print_report_list_tip.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Tip_tracking/print_report_list_tip', [], true)
+ 5 APPPATH\Controllers\Tip.php(259): view('Tip_tracking/print_report_list_tip', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->printreportperbulan()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-09-03 21:26:20 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND year(tgl)= GROUP BY tgl' at line 11 in C:\xampp\htdocs\Project_fauzan\tracking\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\Project_fauzan\tracking\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT tgl,\r\n  ...', 0)
+#1 C:\xampp\htdocs\Project_fauzan\tracking\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tgl,\r\n  ...')
+#2 C:\xampp\htdocs\Project_fauzan\tracking\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tgl,\r\n  ...')
+#3 C:\xampp\htdocs\Project_fauzan\tracking\app\Models\TipModel.php(160): CodeIgniter\Database\BaseConnection->query('SELECT tgl,\r\n  ...')
+#4 C:\xampp\htdocs\Project_fauzan\tracking\app\Controllers\Tip.php(209): App\Models\TipModel->getreportbyMonth(NULL, NULL)
+#5 C:\xampp\htdocs\Project_fauzan\tracking\system\CodeIgniter.php(904): App\Controllers\Tip->reportperBulan()
+#6 C:\xampp\htdocs\Project_fauzan\tracking\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+#7 C:\xampp\htdocs\Project_fauzan\tracking\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Project_fauzan\tracking\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Project_fauzan\tracking\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-09-03 21:26:20 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND year(tgl)= GROUP BY tgl' at line 11
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT tgl,
+        COUNT(IF(driver=\'Chandra sinaga\', trip, NULL)) trip_chandra,
+        COUNT(IF(driver=\'Doni\', trip, NULL)) trip_doni,
+        COUNT(IF(driver=\'Dafrizal\', trip, NULL)) trip_dafrizal,
+        COUNT(IF(driver=\'Herian\', trip, NULL)) trip_herian,
+        SUM(IF(driver=\'Chandra sinaga\', value_tip, 0)) value_chandra,
+        SUM(IF(driver=\'Doni\', value_tip, 0)) value_doni,
+        SUM(IF(driver=\'Dafrizal\', value_tip, 0)) value_dafrizal,
+        SUM(IF(driver=\'Herian\', value_tip, 0)) value_herian
+            FROM tblmas_tip_tracking
+                WHERE month(tgl)= AND year(tgl)= GROUP BY tgl', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tgl,
+        COUNT(IF(driver=\'Chandra sinaga\', trip, NULL)) trip_chandra,
+        COUNT(IF(driver=\'Doni\', trip, NULL)) trip_doni,
+        COUNT(IF(driver=\'Dafrizal\', trip, NULL)) trip_dafrizal,
+        COUNT(IF(driver=\'Herian\', trip, NULL)) trip_herian,
+        SUM(IF(driver=\'Chandra sinaga\', value_tip, 0)) value_chandra,
+        SUM(IF(driver=\'Doni\', value_tip, 0)) value_doni,
+        SUM(IF(driver=\'Dafrizal\', value_tip, 0)) value_dafrizal,
+        SUM(IF(driver=\'Herian\', value_tip, 0)) value_herian
+            FROM tblmas_tip_tracking
+                WHERE month(tgl)= AND year(tgl)= GROUP BY tgl')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tgl,
+        COUNT(IF(driver=\'Chandra sinaga\', trip, NULL)) trip_chandra,
+        COUNT(IF(driver=\'Doni\', trip, NULL)) trip_doni,
+        COUNT(IF(driver=\'Dafrizal\', trip, NULL)) trip_dafrizal,
+        COUNT(IF(driver=\'Herian\', trip, NULL)) trip_herian,
+        SUM(IF(driver=\'Chandra sinaga\', value_tip, 0)) value_chandra,
+        SUM(IF(driver=\'Doni\', value_tip, 0)) value_doni,
+        SUM(IF(driver=\'Dafrizal\', value_tip, 0)) value_dafrizal,
+        SUM(IF(driver=\'Herian\', value_tip, 0)) value_herian
+            FROM tblmas_tip_tracking
+                WHERE month(tgl)= AND year(tgl)= GROUP BY tgl')
+ 4 APPPATH\Models\TipModel.php(160): CodeIgniter\Database\BaseConnection->query('SELECT tgl,
+        COUNT(IF(driver=\'Chandra sinaga\', trip, NULL)) trip_chandra,
+        COUNT(IF(driver=\'Doni\', trip, NULL)) trip_doni,
+        COUNT(IF(driver=\'Dafrizal\', trip, NULL)) trip_dafrizal,
+        COUNT(IF(driver=\'Herian\', trip, NULL)) trip_herian,
+        SUM(IF(driver=\'Chandra sinaga\', value_tip, 0)) value_chandra,
+        SUM(IF(driver=\'Doni\', value_tip, 0)) value_doni,
+        SUM(IF(driver=\'Dafrizal\', value_tip, 0)) value_dafrizal,
+        SUM(IF(driver=\'Herian\', value_tip, 0)) value_herian
+            FROM tblmas_tip_tracking
+                WHERE month(tgl)= AND year(tgl)= GROUP BY tgl')
+ 5 APPPATH\Controllers\Tip.php(209): App\Models\TipModel->getreportbyMonth(null, null)
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->reportperBulan()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

@@ -1,0 +1,330 @@
+CRITICAL - 2023-02-28 01:33:00 --> Undefined offset: 210470
+in APPPATH\Models\TipModel.php on line 88.
+ 1 APPPATH\Models\TipModel.php(88): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 210470', 'APPPATH\\Models\\TipModel.php', 88, [...])
+ 2 APPPATH\Controllers\Tip.php(139): App\Models\TipModel->Addtip([...], [...], [...], [...], [...], [...], [...], [...])
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-28 01:34:33 --> Uninitialized string offset: 210470
+in APPPATH\Models\TipModel.php on line 88.
+ 1 APPPATH\Models\TipModel.php(88): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Uninitialized string offset: 210470', 'APPPATH\\Models\\TipModel.php', 88, [...])
+ 2 APPPATH\Controllers\Tip.php(139): App\Models\TipModel->Addtip([...], [...], [...], [...], [...], [...], [...], [...])
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-28 01:57:26 --> count(): Parameter must be an array or an object that implements Countable
+in APPPATH\Models\TipModel.php on line 84.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parameter must be an array or an object that implements Countable', 'APPPATH\\Models\\TipModel.php', 84, [...])
+ 2 APPPATH\Models\TipModel.php(84): count('210501')
+ 3 APPPATH\Controllers\Tip.php(139): App\Models\TipModel->Addtip([...], [...], [...], [...], [...], [...], [...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-28 01:57:42 --> count(): Parameter must be an array or an object that implements Countable
+in APPPATH\Models\TipModel.php on line 84.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parameter must be an array or an object that implements Countable', 'APPPATH\\Models\\TipModel.php', 84, [...])
+ 2 APPPATH\Models\TipModel.php(84): count('210501')
+ 3 APPPATH\Controllers\Tip.php(139): App\Models\TipModel->Addtip([...], [...], [...], [...], [...], [...], [...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-28 01:57:44 --> count(): Parameter must be an array or an object that implements Countable
+in APPPATH\Models\TipModel.php on line 84.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parameter must be an array or an object that implements Countable', 'APPPATH\\Models\\TipModel.php', 84, [...])
+ 2 APPPATH\Models\TipModel.php(84): count('210501')
+ 3 APPPATH\Controllers\Tip.php(139): App\Models\TipModel->Addtip([...], [...], [...], [...], [...], [...], [...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-28 01:58:47 --> count(): Parameter must be an array or an object that implements Countable
+in APPPATH\Models\TipModel.php on line 84.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parameter must be an array or an object that implements Countable', 'APPPATH\\Models\\TipModel.php', 84, [...])
+ 2 APPPATH\Models\TipModel.php(84): count('210501')
+ 3 APPPATH\Controllers\Tip.php(139): App\Models\TipModel->Addtip([...], [...], [...], [...], [...], [...], [...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-28 01:59:45 --> Illegal string offset 'dono'
+in APPPATH\Models\TipModel.php on line 84.
+ 1 APPPATH\Models\TipModel.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'dono\'', 'APPPATH\\Models\\TipModel.php', 84, [...])
+ 2 APPPATH\Controllers\Tip.php(139): App\Models\TipModel->Addtip([...], [...], [...], [...], [...], [...], [...], [...])
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-28 02:00:03 --> Illegal string offset 'dono'
+in APPPATH\Models\TipModel.php on line 84.
+ 1 APPPATH\Models\TipModel.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'dono\'', 'APPPATH\\Models\\TipModel.php', 84, [...])
+ 2 APPPATH\Controllers\Tip.php(139): App\Models\TipModel->Addtip([...], [...], [...], [...], [...], [...], [...], [...])
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-28 02:00:13 --> Illegal string offset 'dono'
+in APPPATH\Models\TipModel.php on line 84.
+ 1 APPPATH\Models\TipModel.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'dono\'', 'APPPATH\\Models\\TipModel.php', 84, [...])
+ 2 APPPATH\Controllers\Tip.php(139): App\Models\TipModel->Addtip([...], [...], [...], [...], [...], [...], [...], [...])
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-28 02:01:56 --> count(): Parameter must be an array or an object that implements Countable
+in APPPATH\Models\TipModel.php on line 84.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parameter must be an array or an object that implements Countable', 'APPPATH\\Models\\TipModel.php', 84, [...])
+ 2 APPPATH\Models\TipModel.php(84): count('210501')
+ 3 APPPATH\Controllers\Tip.php(139): App\Models\TipModel->Addtip([...], [...], [...], [...], [...], [...], [...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-28 02:02:11 --> count(): Parameter must be an array or an object that implements Countable
+in APPPATH\Models\TipModel.php on line 84.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parameter must be an array or an object that implements Countable', 'APPPATH\\Models\\TipModel.php', 84, [...])
+ 2 APPPATH\Models\TipModel.php(84): count('210501')
+ 3 APPPATH\Controllers\Tip.php(139): App\Models\TipModel->Addtip([...], [...], [...], [...], [...], [...], [...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-28 02:03:59 --> Illegal string offset 'dono'
+in APPPATH\Models\TipModel.php on line 84.
+ 1 APPPATH\Models\TipModel.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'dono\'', 'APPPATH\\Models\\TipModel.php', 84, [...])
+ 2 APPPATH\Controllers\Tip.php(139): App\Models\TipModel->Addtip([...], [...], [...], [...], [...], [...], [...], [...])
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-28 02:04:15 --> Illegal string offset 'dono'
+in APPPATH\Models\TipModel.php on line 84.
+ 1 APPPATH\Models\TipModel.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'dono\'', 'APPPATH\\Models\\TipModel.php', 84, [...])
+ 2 APPPATH\Controllers\Tip.php(139): App\Models\TipModel->Addtip([...], [...], [...], [...], [...], [...], [...], [...])
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-28 02:04:26 --> Illegal string offset 'doID'
+in APPPATH\Models\TipModel.php on line 84.
+ 1 APPPATH\Models\TipModel.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'doID\'', 'APPPATH\\Models\\TipModel.php', 84, [...])
+ 2 APPPATH\Controllers\Tip.php(139): App\Models\TipModel->Addtip([...], [...], [...], [...], [...], [...], [...], [...])
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-28 02:04:40 --> Undefined offset: 210501
+in APPPATH\Models\TipModel.php on line 84.
+ 1 APPPATH\Models\TipModel.php(84): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 210501', 'APPPATH\\Models\\TipModel.php', 84, [...])
+ 2 APPPATH\Controllers\Tip.php(139): App\Models\TipModel->Addtip([...], [...], [...], [...], [...], [...], [...], [...])
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-28 02:07:19 --> count(): Parameter must be an array or an object that implements Countable
+in APPPATH\Models\TipModel.php on line 84.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parameter must be an array or an object that implements Countable', 'APPPATH\\Models\\TipModel.php', 84, [...])
+ 2 APPPATH\Models\TipModel.php(84): count('210501')
+ 3 APPPATH\Controllers\Tip.php(139): App\Models\TipModel->Addtip([...], [...], [...], [...], [...], [...], [...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-28 02:10:10 --> Trying to access array offset on value of type int
+in APPPATH\Models\TipModel.php on line 89.
+ 1 APPPATH\Models\TipModel.php(89): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type int', 'APPPATH\\Models\\TipModel.php', 89, [...])
+ 2 APPPATH\Controllers\Tip.php(139): App\Models\TipModel->Addtip([...], [...], [...], [...], [...], [...], [...], [...])
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-28 02:12:13 --> Trying to access array offset on value of type int
+in APPPATH\Models\TipModel.php on line 86.
+ 1 APPPATH\Models\TipModel.php(86): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type int', 'APPPATH\\Models\\TipModel.php', 86, [...])
+ 2 APPPATH\Controllers\Tip.php(139): App\Models\TipModel->Addtip([...], [...], [...], [...], [...], [...], [...], [...])
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-28 02:12:42 --> Undefined offset: 210501
+in APPPATH\Models\TipModel.php on line 84.
+ 1 APPPATH\Models\TipModel.php(84): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 210501', 'APPPATH\\Models\\TipModel.php', 84, [...])
+ 2 APPPATH\Controllers\Tip.php(139): App\Models\TipModel->Addtip([...], [...], [...], [...], [...], [...], [...], [...])
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-28 02:13:03 --> Undefined offset: 210501
+in APPPATH\Models\TipModel.php on line 84.
+ 1 APPPATH\Models\TipModel.php(84): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 210501', 'APPPATH\\Models\\TipModel.php', 84, [...])
+ 2 APPPATH\Controllers\Tip.php(139): App\Models\TipModel->Addtip([...], [...], [...], [...], [...], [...], [...], [...])
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-28 02:13:11 --> Undefined offset: 210501
+in APPPATH\Models\TipModel.php on line 84.
+ 1 APPPATH\Models\TipModel.php(84): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 210501', 'APPPATH\\Models\\TipModel.php', 84, [...])
+ 2 APPPATH\Controllers\Tip.php(139): App\Models\TipModel->Addtip([...], [...], [...], [...], [...], [...], [...], [...])
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-28 02:13:33 --> count(): Parameter must be an array or an object that implements Countable
+in APPPATH\Models\TipModel.php on line 84.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parameter must be an array or an object that implements Countable', 'APPPATH\\Models\\TipModel.php', 84, [...])
+ 2 APPPATH\Models\TipModel.php(84): count('210501')
+ 3 APPPATH\Controllers\Tip.php(139): App\Models\TipModel->Addtip([...], [...], [...], [...], [...], [...], [...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-28 02:16:25 --> Trying to access array offset on value of type int
+in APPPATH\Models\TipModel.php on line 86.
+ 1 APPPATH\Models\TipModel.php(86): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type int', 'APPPATH\\Models\\TipModel.php', 86, [...])
+ 2 APPPATH\Controllers\Tip.php(139): App\Models\TipModel->Addtip([...], [...], [...], [...], [...], [...], [...], [...])
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-28 02:16:44 --> Trying to access array offset on value of type int
+in APPPATH\Models\TipModel.php on line 86.
+ 1 APPPATH\Models\TipModel.php(86): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type int', 'APPPATH\\Models\\TipModel.php', 86, [...])
+ 2 APPPATH\Controllers\Tip.php(139): App\Models\TipModel->Addtip([...], [...], [...], [...], [...], [...], [...], [...])
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-28 02:17:49 --> Trying to access array offset on value of type int
+in APPPATH\Models\TipModel.php on line 88.
+ 1 APPPATH\Models\TipModel.php(88): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type int', 'APPPATH\\Models\\TipModel.php', 88, [...])
+ 2 APPPATH\Controllers\Tip.php(139): App\Models\TipModel->Addtip([...], [...], [...], [...], [...], [...], [...], [...])
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-28 02:19:36 --> count(): Parameter must be an array or an object that implements Countable
+in APPPATH\Models\TipModel.php on line 84.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parameter must be an array or an object that implements Countable', 'APPPATH\\Models\\TipModel.php', 84, [...])
+ 2 APPPATH\Models\TipModel.php(84): count('210501')
+ 3 APPPATH\Controllers\Tip.php(139): App\Models\TipModel->Addtip([...], [...], [...], [...], [...], [...], [...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-28 02:20:45 --> Illegal string offset 'Dono_tambah'
+in APPPATH\Models\TipModel.php on line 84.
+ 1 APPPATH\Models\TipModel.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'Dono_tambah\'', 'APPPATH\\Models\\TipModel.php', 84, [...])
+ 2 APPPATH\Controllers\Tip.php(139): App\Models\TipModel->Addtip([...], [...], [...], [...], [...], [...], [...], [...])
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-28 02:22:25 --> count(): Parameter must be an array or an object that implements Countable
+in APPPATH\Models\TipModel.php on line 84.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parameter must be an array or an object that implements Countable', 'APPPATH\\Models\\TipModel.php', 84, [...])
+ 2 APPPATH\Models\TipModel.php(84): count('210501')
+ 3 APPPATH\Controllers\Tip.php(139): App\Models\TipModel->Addtip([...], [...], [...], [...], [...], [...], [...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-28 02:23:20 --> count(): Parameter must be an array or an object that implements Countable
+in APPPATH\Models\TipModel.php on line 84.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parameter must be an array or an object that implements Countable', 'APPPATH\\Models\\TipModel.php', 84, [...])
+ 2 APPPATH\Models\TipModel.php(84): count('210501')
+ 3 APPPATH\Controllers\Tip.php(139): App\Models\TipModel->Addtip([...], [...], [...], [...], [...], [...], [...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-28 02:23:36 --> count(): Parameter must be an array or an object that implements Countable
+in APPPATH\Models\TipModel.php on line 84.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parameter must be an array or an object that implements Countable', 'APPPATH\\Models\\TipModel.php', 84, [...])
+ 2 APPPATH\Models\TipModel.php(84): count('210501')
+ 3 APPPATH\Controllers\Tip.php(139): App\Models\TipModel->Addtip([...], [...], [...], [...], [...], [...], [...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-28 02:43:10 --> Trying to access array offset on value of type int
+in APPPATH\Models\TipModel.php on line 87.
+ 1 APPPATH\Models\TipModel.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type int', 'APPPATH\\Models\\TipModel.php', 87, [...])
+ 2 APPPATH\Controllers\Tip.php(139): App\Models\TipModel->Addtip([...], [...], [...], [...], [...], [...], [...], [...])
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-28 02:43:37 --> Trying to access array offset on value of type int
+in APPPATH\Models\TipModel.php on line 87.
+ 1 APPPATH\Models\TipModel.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type int', 'APPPATH\\Models\\TipModel.php', 87, [...])
+ 2 APPPATH\Controllers\Tip.php(139): App\Models\TipModel->Addtip([...], [...], [...], [...], [...], [...], [...], [...])
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-28 02:43:57 --> Undefined offset: 4
+in APPPATH\Models\TipModel.php on line 88.
+ 1 APPPATH\Models\TipModel.php(88): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 4', 'APPPATH\\Models\\TipModel.php', 88, [...])
+ 2 APPPATH\Controllers\Tip.php(139): App\Models\TipModel->Addtip([...], [...], [...], [...], [...], [...], [...], [...])
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-28 02:44:12 --> Array to string conversion
+in SYSTEMPATH\Database\BaseBuilder.php on line 1842.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'SYSTEMPATH\\Database\\BaseBuilder.php', 1842, [...])
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1842): implode(',', [...])
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1770): CodeIgniter\Database\BaseBuilder->setInsertBatch([...], 'ROOTPATH\\public', true)
+ 4 APPPATH\Models\TipModel.php(94): CodeIgniter\Database\BaseBuilder->insertBatch([...])
+ 5 APPPATH\Controllers\Tip.php(139): App\Models\TipModel->Addtip([...], [...], [...], [...], [...], [...], [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-28 02:44:43 --> Illegal offset type
+in APPPATH\Models\TipModel.php on line 88.
+ 1 APPPATH\Models\TipModel.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal offset type', 'APPPATH\\Models\\TipModel.php', 88, [...])
+ 2 APPPATH\Controllers\Tip.php(139): App\Models\TipModel->Addtip([...], [...], [...], [...], [...], [...], [...], [...])
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

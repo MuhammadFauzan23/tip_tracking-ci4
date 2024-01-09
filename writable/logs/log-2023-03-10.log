@@ -1,0 +1,41 @@
+CRITICAL - 2023-03-10 00:45:45 --> Undefined variable: tgl
+in APPPATH\Views\Tip_tracking\report_list_tip.php on line 21.
+ 1 APPPATH\Views\Tip_tracking\report_list_tip.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: tgl', 'APPPATH\\Views\\Tip_tracking\\report_list_tip.php', 21, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Tip_tracking\\report_list_tip.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Tip_tracking/report_list_tip', [], true)
+ 5 APPPATH\Controllers\Tip.php(266): view('Tip_tracking/report_list_tip', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->printPDF()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-10 02:01:27 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 264257536 bytes)
+in APPPATH\Views\Tip_tracking\report_list_tip.php on line 29.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-03-10 03:29:51 --> cal_days_in_month() expects parameter 3 to be int, string given
+in APPPATH\Views\Tip_tracking\report_list_tip.php on line 26.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'cal_days_in_month() expects parameter 3 to be int, string given', 'APPPATH\\Views\\Tip_tracking\\report_list_tip.php', 26, [...])
+ 2 APPPATH\Views\Tip_tracking\report_list_tip.php(26): cal_days_in_month(0, '03', 'December')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Tip_tracking\\report_list_tip.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Tip_tracking/report_list_tip', [], true)
+ 6 APPPATH\Controllers\Tip.php(266): view('Tip_tracking/report_list_tip', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->printPDF()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-10 03:30:13 --> cal_days_in_month() expects parameter 3 to be int, string given
+in APPPATH\Views\Tip_tracking\report_list_tip.php on line 27.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'cal_days_in_month() expects parameter 3 to be int, string given', 'APPPATH\\Views\\Tip_tracking\\report_list_tip.php', 27, [...])
+ 2 APPPATH\Views\Tip_tracking\report_list_tip.php(27): cal_days_in_month(0, '03', 'December')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Tip_tracking\\report_list_tip.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Tip_tracking/report_list_tip', [], true)
+ 6 APPPATH\Controllers\Tip.php(266): view('Tip_tracking/report_list_tip', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->printPDF()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

@@ -1,0 +1,100 @@
+CRITICAL - 2023-03-08 00:04:27 --> syntax error, unexpected '}'
+in APPPATH\Views\Tip_tracking\report_list_tip.php on line 94.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Tip_tracking/report_list_tip', [], true)
+ 3 APPPATH\Controllers\Tip.php(263): view('Tip_tracking/report_list_tip', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->printPDF()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-08 00:51:27 --> Undefined index: list
+in APPPATH\Views\Tip_tracking\report_list_tip.php on line 80.
+ 1 APPPATH\Views\Tip_tracking\report_list_tip.php(80): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: list', 'APPPATH\\Views\\Tip_tracking\\report_list_tip.php', 80, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Tip_tracking\\report_list_tip.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Tip_tracking/report_list_tip', [], true)
+ 5 APPPATH\Controllers\Tip.php(263): view('Tip_tracking/report_list_tip', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->printPDF()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-08 00:51:28 --> Undefined index: list
+in APPPATH\Views\Tip_tracking\report_list_tip.php on line 80.
+ 1 APPPATH\Views\Tip_tracking\report_list_tip.php(80): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: list', 'APPPATH\\Views\\Tip_tracking\\report_list_tip.php', 80, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Tip_tracking\\report_list_tip.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Tip_tracking/report_list_tip', [], true)
+ 5 APPPATH\Controllers\Tip.php(263): view('Tip_tracking/report_list_tip', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->printPDF()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-03-08 19:28:33 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it.
+ in C:\xampp\htdocs\tracking\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\tracking\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'etowa', 3306, '', 0)
+#1 C:\xampp\htdocs\tracking\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\tracking\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\tracking\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\tracking\app\Models\AuthModel.php(17): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tracking\app\Controllers\Auth.php(46): App\Models\AuthModel->login('fauzan', '39adb8d1fba0940...')
+#6 C:\xampp\htdocs\tracking\system\CodeIgniter.php(904): App\Controllers\Auth->login()
+#7 C:\xampp\htdocs\tracking\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 C:\xampp\htdocs\tracking\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tracking\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\tracking\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it.
+ in C:\xampp\htdocs\tracking\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\tracking\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\tracking\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\tracking\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\tracking\app\Models\AuthModel.php(17): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\tracking\app\Controllers\Auth.php(46): App\Models\AuthModel->login('fauzan', '39adb8d1fba0940...')
+#5 C:\xampp\htdocs\tracking\system\CodeIgniter.php(904): App\Controllers\Auth->login()
+#6 C:\xampp\htdocs\tracking\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 C:\xampp\htdocs\tracking\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tracking\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\tracking\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-03-08 19:28:33 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tblweb_users`
+WHERE `username` = :username:
+AND `password` = :password:', [...], false)
+ 3 APPPATH\Models\AuthModel.php(17): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Auth.php(46): App\Models\AuthModel->login('fauzan', '39adb8d1fba094029b87edf3f794b2e8dca196de')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Auth->login()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-08 19:58:08 --> syntax error, unexpected '?>'
+in APPPATH\Views\Tip_tracking\report_list_tip.php on line 108.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Tip_tracking/report_list_tip', [], true)
+ 3 APPPATH\Controllers\Tip.php(263): view('Tip_tracking/report_list_tip', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->printPDF()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-08 21:33:00 --> syntax error, unexpected 'endforeach' (T_ENDFOREACH)
+in APPPATH\Views\Tip_tracking\report_list_tip.php on line 128.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Tip_tracking/report_list_tip', [], true)
+ 3 APPPATH\Controllers\Tip.php(263): view('Tip_tracking/report_list_tip', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->printPDF()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

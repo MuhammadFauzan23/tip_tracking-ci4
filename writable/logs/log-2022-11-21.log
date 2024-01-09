@@ -1,0 +1,699 @@
+ERROR - 2022-11-21 03:33:06 --> mysqli_sql_exception: Table 'etowa_esay_ppcinv.tblmas_cutomer' doesn't exist in C:\xampp\htdocs\tracking\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\tracking\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\tracking\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\tracking\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\tracking\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\tracking\app\Models\TipModel.php(11): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tracking\app\Controllers\Tip.php(19): App\Models\TipModel->getCustomer()
+#6 C:\xampp\htdocs\tracking\system\CodeIgniter.php(904): App\Controllers\Tip->viewListTip()
+#7 C:\xampp\htdocs\tracking\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+#8 C:\xampp\htdocs\tracking\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tracking\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-11-21 03:33:06 --> Table 'etowa_esay_ppcinv.tblmas_cutomer' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tblmas_cutomer`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tblmas_cutomer`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tblmas_cutomer`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tblmas_cutomer`', [], false)
+ 5 APPPATH\Models\TipModel.php(11): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Tip.php(19): App\Models\TipModel->getCustomer()
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->viewListTip()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 03:33:17 --> Invalid argument supplied for foreach()
+in APPPATH\Views\Tip_tracking\list_tip.php on line 89.
+ 1 APPPATH\Views\Tip_tracking\list_tip.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH\\Views\\Tip_tracking\\list_tip.php', 89, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Tip_tracking\\list_tip.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Tip_tracking/list_tip', [], true)
+ 5 APPPATH\Controllers\Tip.php(21): view('Tip_tracking/list_tip', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->viewListTip()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 03:59:02 --> Undefined property: App\Controllers\Tip::$form
+in APPPATH\Controllers\Tip.php on line 45.
+ 1 APPPATH\Controllers\Tip.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Tip::$form', 'APPPATH\\Controllers\\Tip.php', 45, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->AmbilData()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 03:59:55 --> Undefined property: App\Controllers\Tip::$form
+in APPPATH\Controllers\Tip.php on line 45.
+ 1 APPPATH\Controllers\Tip.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Tip::$form', 'APPPATH\\Controllers\\Tip.php', 45, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->AmbilData()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 03:59:56 --> Undefined property: App\Controllers\Tip::$form
+in APPPATH\Controllers\Tip.php on line 45.
+ 1 APPPATH\Controllers\Tip.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Tip::$form', 'APPPATH\\Controllers\\Tip.php', 45, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->AmbilData()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 04:00:00 --> Undefined property: App\Controllers\Tip::$form
+in APPPATH\Controllers\Tip.php on line 45.
+ 1 APPPATH\Controllers\Tip.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Tip::$form', 'APPPATH\\Controllers\\Tip.php', 45, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->AmbilData()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 04:14:30 --> Undefined property: App\Controllers\Tip::$form
+in APPPATH\Controllers\Tip.php on line 45.
+ 1 APPPATH\Controllers\Tip.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Tip::$form', 'APPPATH\\Controllers\\Tip.php', 45, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->AmbilData()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 04:14:32 --> Undefined property: App\Controllers\Tip::$form
+in APPPATH\Controllers\Tip.php on line 45.
+ 1 APPPATH\Controllers\Tip.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Tip::$form', 'APPPATH\\Controllers\\Tip.php', 45, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->AmbilData()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-21 19:19:52 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it.
+ in C:\xampp\htdocs\tracking\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\tracking\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'etowa_esay_ppci...', 3306, '', 0)
+#1 C:\xampp\htdocs\tracking\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\tracking\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\tracking\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\tracking\app\Models\AuthModel.php(17): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tracking\app\Controllers\Auth.php(46): App\Models\AuthModel->login('fauzan', '7110eda4d09e062...')
+#6 C:\xampp\htdocs\tracking\system\CodeIgniter.php(904): App\Controllers\Auth->login()
+#7 C:\xampp\htdocs\tracking\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 C:\xampp\htdocs\tracking\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tracking\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\tracking\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it.
+ in C:\xampp\htdocs\tracking\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\tracking\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\tracking\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\tracking\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\tracking\app\Models\AuthModel.php(17): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\tracking\app\Controllers\Auth.php(46): App\Models\AuthModel->login('fauzan', '7110eda4d09e062...')
+#5 C:\xampp\htdocs\tracking\system\CodeIgniter.php(904): App\Controllers\Auth->login()
+#6 C:\xampp\htdocs\tracking\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 C:\xampp\htdocs\tracking\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tracking\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\tracking\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-11-21 19:19:52 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tblweb_users`
+WHERE `username` = :username:
+AND `password` = :password:', [...], false)
+ 3 APPPATH\Models\AuthModel.php(17): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Auth.php(46): App\Models\AuthModel->login('fauzan', '7110eda4d09e062aa5e4a390b0a572ac0d2c0220')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Auth->login()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-21 19:31:15 --> Undefined property: App\Controllers\Tip::$form
+in APPPATH\Controllers\Tip.php on line 44.
+ 1 APPPATH\Controllers\Tip.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Tip::$form', 'APPPATH\\Controllers\\Tip.php', 44, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->AmbilData()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-21 19:31:21 --> Undefined property: App\Controllers\Tip::$form
+in APPPATH\Controllers\Tip.php on line 44.
+ 1 APPPATH\Controllers\Tip.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Tip::$form', 'APPPATH\\Controllers\\Tip.php', 44, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->AmbilData()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-21 19:31:39 --> Undefined property: App\Controllers\Tip::$form
+in APPPATH\Controllers\Tip.php on line 44.
+ 1 APPPATH\Controllers\Tip.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Tip::$form', 'APPPATH\\Controllers\\Tip.php', 44, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->AmbilData()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-21 19:31:43 --> Undefined property: App\Controllers\Tip::$form
+in APPPATH\Controllers\Tip.php on line 44.
+ 1 APPPATH\Controllers\Tip.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Tip::$form', 'APPPATH\\Controllers\\Tip.php', 44, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->AmbilData()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-21 19:31:55 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Tip.php on line 46.
+ 1 APPPATH\Controllers\Tip.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Tip.php', 46, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->AmbilData()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-21 19:31:56 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Tip.php on line 46.
+ 1 APPPATH\Controllers\Tip.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Tip.php', 46, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->AmbilData()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-21 20:04:09 --> Undefined index: name_customer
+in APPPATH\Views\Tip_tracking\list_tip.php on line 142.
+ 1 APPPATH\Views\Tip_tracking\list_tip.php(142): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: name_customer', 'APPPATH\\Views\\Tip_tracking\\list_tip.php', 142, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Tip_tracking\\list_tip.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Tip_tracking/list_tip', [], true)
+ 5 APPPATH\Controllers\Tip.php(23): view('Tip_tracking/list_tip', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->viewListTip()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-21 20:26:12 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Tip.php on line 50.
+ 1 APPPATH\Controllers\Tip.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Tip.php', 50, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->AmbilData()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-21 20:30:23 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Tip.php on line 49.
+ 1 APPPATH\Controllers\Tip.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Tip.php', 49, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->AmbilData()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-21 20:32:36 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Tip.php on line 49.
+ 1 APPPATH\Controllers\Tip.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Tip.php', 49, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->AmbilData()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-21 20:32:41 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Tip.php on line 49.
+ 1 APPPATH\Controllers\Tip.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Tip.php', 49, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->AmbilData()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-21 20:35:03 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Tip.php on line 50.
+ 1 APPPATH\Controllers\Tip.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Tip.php', 50, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->AmbilData()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-21 20:35:36 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Tip.php on line 50.
+ 1 APPPATH\Controllers\Tip.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Tip.php', 50, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->AmbilData()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-21 20:39:09 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Tip.php on line 50.
+ 1 APPPATH\Controllers\Tip.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Tip.php', 50, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->AmbilData()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-21 20:39:14 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Tip.php on line 50.
+ 1 APPPATH\Controllers\Tip.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Tip.php', 50, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->AmbilData()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-21 20:42:51 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Tip.php on line 50.
+ 1 APPPATH\Controllers\Tip.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Tip.php', 50, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->AmbilData()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-21 20:43:03 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Tip.php on line 50.
+ 1 APPPATH\Controllers\Tip.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Tip.php', 50, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->AmbilData()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-21 20:43:09 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Tip.php on line 50.
+ 1 APPPATH\Controllers\Tip.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Tip.php', 50, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->AmbilData()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-21 20:44:04 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Tip.php on line 50.
+ 1 APPPATH\Controllers\Tip.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Tip.php', 50, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->AmbilData()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-21 20:44:08 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Tip.php on line 50.
+ 1 APPPATH\Controllers\Tip.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Tip.php', 50, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->AmbilData()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-21 20:45:04 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Tip.php on line 50.
+ 1 APPPATH\Controllers\Tip.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Tip.php', 50, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->AmbilData()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-21 20:45:40 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Tip.php on line 50.
+ 1 APPPATH\Controllers\Tip.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Tip.php', 50, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->AmbilData()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-21 20:45:59 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Tip.php on line 50.
+ 1 APPPATH\Controllers\Tip.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Tip.php', 50, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->AmbilData()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-21 20:50:14 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Tip.php on line 50.
+ 1 APPPATH\Controllers\Tip.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Tip.php', 50, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->AmbilData()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-21 20:50:17 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Tip.php on line 50.
+ 1 APPPATH\Controllers\Tip.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Tip.php', 50, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->AmbilData()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-11-21 20:53:16 --> mysqli_sql_exception: Column 'idcustomer' in where clause is ambiguous in C:\xampp\htdocs\tracking\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\tracking\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\tracking\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\tracking\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\tracking\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\tracking\app\Models\TipModel.php(22): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tracking\app\Controllers\Tip.php(48): App\Models\TipModel->getAmbilData('0001')
+#6 C:\xampp\htdocs\tracking\system\CodeIgniter.php(904): App\Controllers\Tip->ajaxCustomer()
+#7 C:\xampp\htdocs\tracking\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+#8 C:\xampp\htdocs\tracking\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tracking\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\tracking\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-11-21 20:53:16 --> Column 'idcustomer' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tblmas_customer`
+JOIN `tbltrn_do1` ON `tblmas_customer`.`idcustomer` = `tbltrn_do1`.`idcustomer`
+WHERE `idcustomer` = \'0001\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tblmas_customer`
+JOIN `tbltrn_do1` ON `tblmas_customer`.`idcustomer` = `tbltrn_do1`.`idcustomer`
+WHERE `idcustomer` = \'0001\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tblmas_customer`
+JOIN `tbltrn_do1` ON `tblmas_customer`.`idcustomer` = `tbltrn_do1`.`idcustomer`
+WHERE `idcustomer` = \'0001\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tblmas_customer`
+JOIN `tbltrn_do1` ON `tblmas_customer`.`idcustomer` = `tbltrn_do1`.`idcustomer`
+WHERE `idcustomer` = :idcustomer:', [...], false)
+ 5 APPPATH\Models\TipModel.php(22): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Tip.php(48): App\Models\TipModel->getAmbilData('0001')
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->ajaxCustomer()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-11-21 20:53:25 --> mysqli_sql_exception: Column 'idcustomer' in where clause is ambiguous in C:\xampp\htdocs\tracking\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\tracking\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\tracking\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\tracking\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\tracking\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\tracking\app\Models\TipModel.php(22): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tracking\app\Controllers\Tip.php(48): App\Models\TipModel->getAmbilData(NULL)
+#6 C:\xampp\htdocs\tracking\system\CodeIgniter.php(904): App\Controllers\Tip->ajaxCustomer()
+#7 C:\xampp\htdocs\tracking\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+#8 C:\xampp\htdocs\tracking\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tracking\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\tracking\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-11-21 20:53:25 --> Column 'idcustomer' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tblmas_customer`
+JOIN `tbltrn_do1` ON `tblmas_customer`.`idcustomer` = `tbltrn_do1`.`idcustomer`
+WHERE `idcustomer` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tblmas_customer`
+JOIN `tbltrn_do1` ON `tblmas_customer`.`idcustomer` = `tbltrn_do1`.`idcustomer`
+WHERE `idcustomer` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tblmas_customer`
+JOIN `tbltrn_do1` ON `tblmas_customer`.`idcustomer` = `tbltrn_do1`.`idcustomer`
+WHERE `idcustomer` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tblmas_customer`
+JOIN `tbltrn_do1` ON `tblmas_customer`.`idcustomer` = `tbltrn_do1`.`idcustomer`
+WHERE `idcustomer` IS NULL', [], false)
+ 5 APPPATH\Models\TipModel.php(22): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Tip.php(48): App\Models\TipModel->getAmbilData(null)
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->ajaxCustomer()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-21 20:53:49 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Tip.php on line 50.
+ 1 APPPATH\Controllers\Tip.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Tip.php', 50, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->ajaxCustomer()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-21 20:53:53 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Tip.php on line 50.
+ 1 APPPATH\Controllers\Tip.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Tip.php', 50, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->ajaxCustomer()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-21 20:56:45 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Tip.php on line 50.
+ 1 APPPATH\Controllers\Tip.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Tip.php', 50, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->ajaxCustomer()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-21 21:00:33 --> Undefined property: App\Controllers\Tip::$form
+in APPPATH\Controllers\Tip.php on line 59.
+ 1 APPPATH\Controllers\Tip.php(59): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Tip::$form', 'APPPATH\\Controllers\\Tip.php', 59, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->ajaxdoNo()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-21 21:00:35 --> Undefined property: App\Controllers\Tip::$form
+in APPPATH\Controllers\Tip.php on line 59.
+ 1 APPPATH\Controllers\Tip.php(59): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Tip::$form', 'APPPATH\\Controllers\\Tip.php', 59, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->ajaxdoNo()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-21 21:01:22 --> Undefined property: App\Controllers\Tip::$form
+in APPPATH\Controllers\Tip.php on line 59.
+ 1 APPPATH\Controllers\Tip.php(59): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Tip::$form', 'APPPATH\\Controllers\\Tip.php', 59, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->ajaxdoNo()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-21 21:01:37 --> Undefined property: App\Controllers\Tip::$form
+in APPPATH\Controllers\Tip.php on line 59.
+ 1 APPPATH\Controllers\Tip.php(59): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Tip::$form', 'APPPATH\\Controllers\\Tip.php', 59, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->ajaxdoNo()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-21 21:02:01 --> Undefined property: App\Controllers\Tip::$form
+in APPPATH\Controllers\Tip.php on line 59.
+ 1 APPPATH\Controllers\Tip.php(59): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Tip::$form', 'APPPATH\\Controllers\\Tip.php', 59, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->ajaxdoNo()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-21 21:02:13 --> Undefined property: App\Controllers\Tip::$form
+in APPPATH\Controllers\Tip.php on line 59.
+ 1 APPPATH\Controllers\Tip.php(59): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Tip::$form', 'APPPATH\\Controllers\\Tip.php', 59, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->ajaxdoNo()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-21 21:02:21 --> Invalid argument supplied for foreach()
+in APPPATH\Controllers\Tip.php on line 63.
+ 1 APPPATH\Controllers\Tip.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH\\Controllers\\Tip.php', 63, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->ajaxdoNo()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-21 21:02:35 --> Invalid argument supplied for foreach()
+in APPPATH\Controllers\Tip.php on line 63.
+ 1 APPPATH\Controllers\Tip.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH\\Controllers\\Tip.php', 63, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->ajaxdoNo()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-21 21:02:37 --> Invalid argument supplied for foreach()
+in APPPATH\Controllers\Tip.php on line 63.
+ 1 APPPATH\Controllers\Tip.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH\\Controllers\\Tip.php', 63, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->ajaxdoNo()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-21 21:05:47 --> Invalid argument supplied for foreach()
+in APPPATH\Controllers\Tip.php on line 64.
+ 1 APPPATH\Controllers\Tip.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH\\Controllers\\Tip.php', 64, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->ajaxdoNo()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-21 21:07:49 --> Undefined index: customername
+in APPPATH\Controllers\Tip.php on line 50.
+ 1 APPPATH\Controllers\Tip.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: customername', 'APPPATH\\Controllers\\Tip.php', 50, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->ajaxCustomer()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-21 21:08:14 --> Undefined index: customername
+in APPPATH\Controllers\Tip.php on line 50.
+ 1 APPPATH\Controllers\Tip.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: customername', 'APPPATH\\Controllers\\Tip.php', 50, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->ajaxCustomer()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-21 21:55:14 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 872.
+ 1 SYSTEMPATH\Model.php(586): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(763): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Tip.php(42): CodeIgniter\Model->__call('addData', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-11-21 21:55:57 --> mysqli_sql_exception: Unknown column 'value' in 'field list' in C:\xampp\htdocs\tracking\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\tracking\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\tracking\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\tracking\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\tracking\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\tracking\app\Models\TipModel.php(16): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\tracking\app\Controllers\Tip.php(42): App\Models\TipModel->Addtip(Array)
+#6 C:\xampp\htdocs\tracking\system\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+#7 C:\xampp\htdocs\tracking\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+#8 C:\xampp\htdocs\tracking\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tracking\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\tracking\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-11-21 21:55:57 --> Unknown column 'value' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tblmas_tip_tracking` (`time`, `idCustomer`, `customerName`, `value`, `dono`, `driver`, `lorry`, `trip`, `remarks`) VALUES (\'2022-11-22T10:55\', \'A02\', \'AMTEK PRECISION, PT\', \'1800\', \'210493\', \'Chandra Sinaga\', \'BP 9757 DF\', NULL, \'\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tblmas_tip_tracking` (`time`, `idCustomer`, `customerName`, `value`, `dono`, `driver`, `lorry`, `trip`, `remarks`) VALUES (\'2022-11-22T10:55\', \'A02\', \'AMTEK PRECISION, PT\', \'1800\', \'210493\', \'Chandra Sinaga\', \'BP 9757 DF\', NULL, \'\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tblmas_tip_tracking` (`time`, `idCustomer`, `customerName`, `value`, `dono`, `driver`, `lorry`, `trip`, `remarks`) VALUES (\'2022-11-22T10:55\', \'A02\', \'AMTEK PRECISION, PT\', \'1800\', \'210493\', \'Chandra Sinaga\', \'BP 9757 DF\', NULL, \'\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tblmas_tip_tracking` (`time`, `idCustomer`, `customerName`, `value`, `dono`, `driver`, `lorry`, `trip`, `remarks`) VALUES (:time:, :idCustomer:, :customerName:, :value:, :dono:, :driver:, :lorry:, :trip:, :remarks:)', [...], false)
+ 5 APPPATH\Models\TipModel.php(16): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Tip.php(42): App\Models\TipModel->Addtip([...])
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-21 22:07:13 --> Undefined index: 
+in APPPATH\Views\Tip_tracking\list_tip.php on line 42.
+ 1 APPPATH\Views\Tip_tracking\list_tip.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: ', 'APPPATH\\Views\\Tip_tracking\\list_tip.php', 42, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Tip_tracking\\list_tip.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Tip_tracking/list_tip', [], true)
+ 5 APPPATH\Controllers\Tip.php(27): view('Tip_tracking/list_tip', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->viewListTip()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-21 22:18:55 --> Undefined variable: list
+in APPPATH\Views\Tip_tracking\list_tip.php on line 40.
+ 1 APPPATH\Views\Tip_tracking\list_tip.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: list', 'APPPATH\\Views\\Tip_tracking\\list_tip.php', 40, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Tip_tracking\\list_tip.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Tip_tracking/list_tip', [], true)
+ 5 APPPATH\Controllers\Tip.php(27): view('Tip_tracking/list_tip', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->viewListTip()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-21 22:19:43 --> Undefined variable: total_value
+in APPPATH\Views\Tip_tracking\list_tip.php on line 41.
+ 1 APPPATH\Views\Tip_tracking\list_tip.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: total_value', 'APPPATH\\Views\\Tip_tracking\\list_tip.php', 41, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Tip_tracking\\list_tip.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Tip_tracking/list_tip', [], true)
+ 5 APPPATH\Controllers\Tip.php(27): view('Tip_tracking/list_tip', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->viewListTip()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-21 22:21:25 --> Undefined variable: total_value
+in APPPATH\Views\Tip_tracking\list_tip.php on line 41.
+ 1 APPPATH\Views\Tip_tracking\list_tip.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: total_value', 'APPPATH\\Views\\Tip_tracking\\list_tip.php', 41, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Tip_tracking\\list_tip.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Tip_tracking/list_tip', [], true)
+ 5 APPPATH\Controllers\Tip.php(27): view('Tip_tracking/list_tip', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->viewListTip()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-21 22:22:02 --> A non well formed numeric value encountered
+in APPPATH\Views\Tip_tracking\list_tip.php on line 42.
+ 1 APPPATH\Views\Tip_tracking\list_tip.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'A non well formed numeric value encountered', 'APPPATH\\Views\\Tip_tracking\\list_tip.php', 42, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Tip_tracking\\list_tip.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Tip_tracking/list_tip', [], true)
+ 5 APPPATH\Controllers\Tip.php(27): view('Tip_tracking/list_tip', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->viewListTip()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-21 22:24:00 --> A non well formed numeric value encountered
+in APPPATH\Views\Tip_tracking\list_tip.php on line 60.
+ 1 APPPATH\Views\Tip_tracking\list_tip.php(60): CodeIgniter\Debug\Exceptions->errorHandler(8, 'A non well formed numeric value encountered', 'APPPATH\\Views\\Tip_tracking\\list_tip.php', 60, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Tip_tracking\\list_tip.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Tip_tracking/list_tip', [], true)
+ 5 APPPATH\Controllers\Tip.php(27): view('Tip_tracking/list_tip', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->viewListTip()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-21 22:37:09 --> Undefined index: 
+in APPPATH\Views\Tip_tracking\list_tip.php on line 260.
+ 1 APPPATH\Views\Tip_tracking\list_tip.php(260): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: ', 'APPPATH\\Views\\Tip_tracking\\list_tip.php', 260, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Tip_tracking\\list_tip.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Tip_tracking/list_tip', [], true)
+ 5 APPPATH\Controllers\Tip.php(27): view('Tip_tracking/list_tip', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->viewListTip()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-21 22:40:13 --> Undefined index: 
+in APPPATH\Views\Tip_tracking\list_tip.php on line 324.
+ 1 APPPATH\Views\Tip_tracking\list_tip.php(324): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: ', 'APPPATH\\Views\\Tip_tracking\\list_tip.php', 324, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Tip_tracking\\list_tip.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Tip_tracking/list_tip', [], true)
+ 5 APPPATH\Controllers\Tip.php(27): view('Tip_tracking/list_tip', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->viewListTip()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-21 22:42:43 --> Undefined variable: data_edit_list
+in APPPATH\Views\Tip_tracking\list_tip.php on line 222.
+ 1 APPPATH\Views\Tip_tracking\list_tip.php(222): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data_edit_list', 'APPPATH\\Views\\Tip_tracking\\list_tip.php', 222, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Tip_tracking\\list_tip.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Tip_tracking/list_tip', [], true)
+ 5 APPPATH\Controllers\Tip.php(27): view('Tip_tracking/list_tip', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->viewListTip()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-21 22:42:55 --> Undefined variable: data_edit_list
+in APPPATH\Views\Tip_tracking\list_tip.php on line 212.
+ 1 APPPATH\Views\Tip_tracking\list_tip.php(212): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data_edit_list', 'APPPATH\\Views\\Tip_tracking\\list_tip.php', 212, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Tip_tracking\\list_tip.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Tip_tracking/list_tip', [], true)
+ 5 APPPATH\Controllers\Tip.php(27): view('Tip_tracking/list_tip', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->viewListTip()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-21 22:58:56 --> Undefined index: nama_driver
+in APPPATH\Views\Tip_tracking\list_tip.php on line 303.
+ 1 APPPATH\Views\Tip_tracking\list_tip.php(303): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: nama_driver', 'APPPATH\\Views\\Tip_tracking\\list_tip.php', 303, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Tip_tracking\\list_tip.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Tip_tracking/list_tip', [], true)
+ 5 APPPATH\Controllers\Tip.php(27): view('Tip_tracking/list_tip', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->viewListTip()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

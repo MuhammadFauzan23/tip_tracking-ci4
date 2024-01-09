@@ -1,0 +1,667 @@
+CRITICAL - 2023-01-23 00:07:23 --> count(): Parameter must be an array or an object that implements Countable
+in APPPATH\Models\TipModel.php on line 25.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parameter must be an array or an object that implements Countable', 'APPPATH\\Models\\TipModel.php', 25, [...])
+ 2 APPPATH\Models\TipModel.php(25): count('2023-01-24T10:01')
+ 3 APPPATH\Controllers\Tip.php(41): App\Models\TipModel->Addtip('2023-01-24T10:01', '2023-01-24T12:00', '7000', 'Chandra', 'BP', '7', 'Bawa BIN', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-23 00:27:37 --> count(): Parameter must be an array or an object that implements Countable
+in APPPATH\Models\TipModel.php on line 26.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parameter must be an array or an object that implements Countable', 'APPPATH\\Models\\TipModel.php', 26, [...])
+ 2 APPPATH\Models\TipModel.php(26): count('2023-01-23T13:00')
+ 3 APPPATH\Controllers\Tip.php(41): App\Models\TipModel->Addtip('2023-01-23T13:00', '2023-01-23T14:00', '1800', 'Herian', 'BP 9757 DF', [...], [...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-23 00:28:06 --> count(): Parameter must be an array or an object that implements Countable
+in APPPATH\Models\TipModel.php on line 26.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parameter must be an array or an object that implements Countable', 'APPPATH\\Models\\TipModel.php', 26, [...])
+ 2 APPPATH\Models\TipModel.php(26): count('2023-01-23T13:00')
+ 3 APPPATH\Controllers\Tip.php(41): App\Models\TipModel->Addtip('2023-01-23T13:00', '2023-01-23T14:00', '1800', 'Herian', 'BP 9757 DF', [...], [...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-23 00:28:07 --> count(): Parameter must be an array or an object that implements Countable
+in APPPATH\Models\TipModel.php on line 26.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parameter must be an array or an object that implements Countable', 'APPPATH\\Models\\TipModel.php', 26, [...])
+ 2 APPPATH\Models\TipModel.php(26): count('2023-01-23T13:00')
+ 3 APPPATH\Controllers\Tip.php(41): App\Models\TipModel->Addtip('2023-01-23T13:00', '2023-01-23T14:00', '1800', 'Herian', 'BP 9757 DF', [...], [...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-23 00:28:08 --> count(): Parameter must be an array or an object that implements Countable
+in APPPATH\Models\TipModel.php on line 26.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parameter must be an array or an object that implements Countable', 'APPPATH\\Models\\TipModel.php', 26, [...])
+ 2 APPPATH\Models\TipModel.php(26): count('2023-01-23T13:00')
+ 3 APPPATH\Controllers\Tip.php(41): App\Models\TipModel->Addtip('2023-01-23T13:00', '2023-01-23T14:00', '1800', 'Herian', 'BP 9757 DF', [...], [...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-23 00:28:08 --> count(): Parameter must be an array or an object that implements Countable
+in APPPATH\Models\TipModel.php on line 26.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parameter must be an array or an object that implements Countable', 'APPPATH\\Models\\TipModel.php', 26, [...])
+ 2 APPPATH\Models\TipModel.php(26): count('2023-01-23T13:00')
+ 3 APPPATH\Controllers\Tip.php(41): App\Models\TipModel->Addtip('2023-01-23T13:00', '2023-01-23T14:00', '1800', 'Herian', 'BP 9757 DF', [...], [...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-23 00:28:08 --> count(): Parameter must be an array or an object that implements Countable
+in APPPATH\Models\TipModel.php on line 26.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parameter must be an array or an object that implements Countable', 'APPPATH\\Models\\TipModel.php', 26, [...])
+ 2 APPPATH\Models\TipModel.php(26): count('2023-01-23T13:00')
+ 3 APPPATH\Controllers\Tip.php(41): App\Models\TipModel->Addtip('2023-01-23T13:00', '2023-01-23T14:00', '1800', 'Herian', 'BP 9757 DF', [...], [...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-23 00:28:09 --> count(): Parameter must be an array or an object that implements Countable
+in APPPATH\Models\TipModel.php on line 26.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parameter must be an array or an object that implements Countable', 'APPPATH\\Models\\TipModel.php', 26, [...])
+ 2 APPPATH\Models\TipModel.php(26): count('2023-01-23T13:00')
+ 3 APPPATH\Controllers\Tip.php(41): App\Models\TipModel->Addtip('2023-01-23T13:00', '2023-01-23T14:00', '1800', 'Herian', 'BP 9757 DF', [...], [...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-23 00:29:40 --> count(): Parameter must be an array or an object that implements Countable
+in APPPATH\Models\TipModel.php on line 25.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parameter must be an array or an object that implements Countable', 'APPPATH\\Models\\TipModel.php', 25, [...])
+ 2 APPPATH\Models\TipModel.php(25): count('2023-01-23T13:00')
+ 3 APPPATH\Controllers\Tip.php(41): App\Models\TipModel->Addtip('2023-01-23T13:00', '2023-01-23T14:00', '1800', 'Herian', 'BP 9757 DF', [...], [...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-23 00:30:10 --> count(): Parameter must be an array or an object that implements Countable
+in APPPATH\Models\TipModel.php on line 26.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parameter must be an array or an object that implements Countable', 'APPPATH\\Models\\TipModel.php', 26, [...])
+ 2 APPPATH\Models\TipModel.php(26): count('2023-01-23T13:00')
+ 3 APPPATH\Controllers\Tip.php(41): App\Models\TipModel->Addtip('2023-01-23T13:00', '2023-01-23T14:00', '1800', 'Herian', 'BP 9757 DF', [...], [...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-23 00:30:12 --> count(): Parameter must be an array or an object that implements Countable
+in APPPATH\Models\TipModel.php on line 26.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parameter must be an array or an object that implements Countable', 'APPPATH\\Models\\TipModel.php', 26, [...])
+ 2 APPPATH\Models\TipModel.php(26): count('2023-01-23T13:00')
+ 3 APPPATH\Controllers\Tip.php(41): App\Models\TipModel->Addtip('2023-01-23T13:00', '2023-01-23T14:00', '1800', 'Herian', 'BP 9757 DF', [...], [...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-23 00:30:28 --> count(): Parameter must be an array or an object that implements Countable
+in APPPATH\Models\TipModel.php on line 26.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parameter must be an array or an object that implements Countable', 'APPPATH\\Models\\TipModel.php', 26, [...])
+ 2 APPPATH\Models\TipModel.php(26): count('Herian')
+ 3 APPPATH\Controllers\Tip.php(41): App\Models\TipModel->Addtip('2023-01-23T13:00', '2023-01-23T14:00', '1800', 'Herian', 'BP 9757 DF', [...], [...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-23 00:31:14 --> count(): Parameter must be an array or an object that implements Countable
+in APPPATH\Models\TipModel.php on line 27.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parameter must be an array or an object that implements Countable', 'APPPATH\\Models\\TipModel.php', 27, [...])
+ 2 APPPATH\Models\TipModel.php(27): count('2023-01-23T13:00')
+ 3 APPPATH\Controllers\Tip.php(41): App\Models\TipModel->Addtip('2023-01-23T13:00', '2023-01-23T14:00', '1800', 'Herian', 'BP 9757 DF', [...], [...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-23 00:34:08 --> count(): Parameter must be an array or an object that implements Countable
+in APPPATH\Models\TipModel.php on line 27.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parameter must be an array or an object that implements Countable', 'APPPATH\\Models\\TipModel.php', 27, [...])
+ 2 APPPATH\Models\TipModel.php(27): count('2023-01-23T13:00')
+ 3 APPPATH\Controllers\Tip.php(41): App\Models\TipModel->Addtip('2023-01-23T13:00', '2023-01-23T14:00', '1800', 'Herian', 'BP 9757 DF', [...], [...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-23 00:34:09 --> count(): Parameter must be an array or an object that implements Countable
+in APPPATH\Models\TipModel.php on line 27.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parameter must be an array or an object that implements Countable', 'APPPATH\\Models\\TipModel.php', 27, [...])
+ 2 APPPATH\Models\TipModel.php(27): count('2023-01-23T13:00')
+ 3 APPPATH\Controllers\Tip.php(41): App\Models\TipModel->Addtip('2023-01-23T13:00', '2023-01-23T14:00', '1800', 'Herian', 'BP 9757 DF', [...], [...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-23 00:34:10 --> count(): Parameter must be an array or an object that implements Countable
+in APPPATH\Models\TipModel.php on line 27.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parameter must be an array or an object that implements Countable', 'APPPATH\\Models\\TipModel.php', 27, [...])
+ 2 APPPATH\Models\TipModel.php(27): count('2023-01-23T13:00')
+ 3 APPPATH\Controllers\Tip.php(41): App\Models\TipModel->Addtip('2023-01-23T13:00', '2023-01-23T14:00', '1800', 'Herian', 'BP 9757 DF', [...], [...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-23 00:34:10 --> count(): Parameter must be an array or an object that implements Countable
+in APPPATH\Models\TipModel.php on line 27.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parameter must be an array or an object that implements Countable', 'APPPATH\\Models\\TipModel.php', 27, [...])
+ 2 APPPATH\Models\TipModel.php(27): count('2023-01-23T13:00')
+ 3 APPPATH\Controllers\Tip.php(41): App\Models\TipModel->Addtip('2023-01-23T13:00', '2023-01-23T14:00', '1800', 'Herian', 'BP 9757 DF', [...], [...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-23 00:34:10 --> count(): Parameter must be an array or an object that implements Countable
+in APPPATH\Models\TipModel.php on line 27.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parameter must be an array or an object that implements Countable', 'APPPATH\\Models\\TipModel.php', 27, [...])
+ 2 APPPATH\Models\TipModel.php(27): count('2023-01-23T13:00')
+ 3 APPPATH\Controllers\Tip.php(41): App\Models\TipModel->Addtip('2023-01-23T13:00', '2023-01-23T14:00', '1800', 'Herian', 'BP 9757 DF', [...], [...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-23 00:34:11 --> count(): Parameter must be an array or an object that implements Countable
+in APPPATH\Models\TipModel.php on line 27.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parameter must be an array or an object that implements Countable', 'APPPATH\\Models\\TipModel.php', 27, [...])
+ 2 APPPATH\Models\TipModel.php(27): count('2023-01-23T13:00')
+ 3 APPPATH\Controllers\Tip.php(41): App\Models\TipModel->Addtip('2023-01-23T13:00', '2023-01-23T14:00', '1800', 'Herian', 'BP 9757 DF', [...], [...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-23 00:34:11 --> count(): Parameter must be an array or an object that implements Countable
+in APPPATH\Models\TipModel.php on line 27.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parameter must be an array or an object that implements Countable', 'APPPATH\\Models\\TipModel.php', 27, [...])
+ 2 APPPATH\Models\TipModel.php(27): count('2023-01-23T13:00')
+ 3 APPPATH\Controllers\Tip.php(41): App\Models\TipModel->Addtip('2023-01-23T13:00', '2023-01-23T14:00', '1800', 'Herian', 'BP 9757 DF', [...], [...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-23 00:34:11 --> count(): Parameter must be an array or an object that implements Countable
+in APPPATH\Models\TipModel.php on line 27.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parameter must be an array or an object that implements Countable', 'APPPATH\\Models\\TipModel.php', 27, [...])
+ 2 APPPATH\Models\TipModel.php(27): count('2023-01-23T13:00')
+ 3 APPPATH\Controllers\Tip.php(41): App\Models\TipModel->Addtip('2023-01-23T13:00', '2023-01-23T14:00', '1800', 'Herian', 'BP 9757 DF', [...], [...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-23 00:34:11 --> count(): Parameter must be an array or an object that implements Countable
+in APPPATH\Models\TipModel.php on line 27.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parameter must be an array or an object that implements Countable', 'APPPATH\\Models\\TipModel.php', 27, [...])
+ 2 APPPATH\Models\TipModel.php(27): count('2023-01-23T13:00')
+ 3 APPPATH\Controllers\Tip.php(41): App\Models\TipModel->Addtip('2023-01-23T13:00', '2023-01-23T14:00', '1800', 'Herian', 'BP 9757 DF', [...], [...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-23 00:34:11 --> count(): Parameter must be an array or an object that implements Countable
+in APPPATH\Models\TipModel.php on line 27.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parameter must be an array or an object that implements Countable', 'APPPATH\\Models\\TipModel.php', 27, [...])
+ 2 APPPATH\Models\TipModel.php(27): count('2023-01-23T13:00')
+ 3 APPPATH\Controllers\Tip.php(41): App\Models\TipModel->Addtip('2023-01-23T13:00', '2023-01-23T14:00', '1800', 'Herian', 'BP 9757 DF', [...], [...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-23 00:34:12 --> count(): Parameter must be an array or an object that implements Countable
+in APPPATH\Models\TipModel.php on line 27.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parameter must be an array or an object that implements Countable', 'APPPATH\\Models\\TipModel.php', 27, [...])
+ 2 APPPATH\Models\TipModel.php(27): count('2023-01-23T13:00')
+ 3 APPPATH\Controllers\Tip.php(41): App\Models\TipModel->Addtip('2023-01-23T13:00', '2023-01-23T14:00', '1800', 'Herian', 'BP 9757 DF', [...], [...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-23 00:34:12 --> count(): Parameter must be an array or an object that implements Countable
+in APPPATH\Models\TipModel.php on line 27.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parameter must be an array or an object that implements Countable', 'APPPATH\\Models\\TipModel.php', 27, [...])
+ 2 APPPATH\Models\TipModel.php(27): count('2023-01-23T13:00')
+ 3 APPPATH\Controllers\Tip.php(41): App\Models\TipModel->Addtip('2023-01-23T13:00', '2023-01-23T14:00', '1800', 'Herian', 'BP 9757 DF', [...], [...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-23 00:43:11 --> count(): Parameter must be an array or an object that implements Countable
+in APPPATH\Models\TipModel.php on line 26.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parameter must be an array or an object that implements Countable', 'APPPATH\\Models\\TipModel.php', 26, [...])
+ 2 APPPATH\Models\TipModel.php(26): count('2023-01-23T13:00')
+ 3 APPPATH\Controllers\Tip.php(41): App\Models\TipModel->Addtip('2023-01-23T13:00', '2023-01-23T14:00', '1800', 'Herian', 'BP 9757 DF', [...], [...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-23 00:43:28 --> count(): Parameter must be an array or an object that implements Countable
+in APPPATH\Models\TipModel.php on line 27.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parameter must be an array or an object that implements Countable', 'APPPATH\\Models\\TipModel.php', 27, [...])
+ 2 APPPATH\Models\TipModel.php(27): count('2023-01-23T13:00')
+ 3 APPPATH\Controllers\Tip.php(41): App\Models\TipModel->Addtip('2023-01-23T13:00', '2023-01-23T14:00', '1800', 'Herian', 'BP 9757 DF', [...], [...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-23 00:43:29 --> count(): Parameter must be an array or an object that implements Countable
+in APPPATH\Models\TipModel.php on line 27.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parameter must be an array or an object that implements Countable', 'APPPATH\\Models\\TipModel.php', 27, [...])
+ 2 APPPATH\Models\TipModel.php(27): count('2023-01-23T13:00')
+ 3 APPPATH\Controllers\Tip.php(41): App\Models\TipModel->Addtip('2023-01-23T13:00', '2023-01-23T14:00', '1800', 'Herian', 'BP 9757 DF', [...], [...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-23 00:43:30 --> count(): Parameter must be an array or an object that implements Countable
+in APPPATH\Models\TipModel.php on line 27.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parameter must be an array or an object that implements Countable', 'APPPATH\\Models\\TipModel.php', 27, [...])
+ 2 APPPATH\Models\TipModel.php(27): count('2023-01-23T13:00')
+ 3 APPPATH\Controllers\Tip.php(41): App\Models\TipModel->Addtip('2023-01-23T13:00', '2023-01-23T14:00', '1800', 'Herian', 'BP 9757 DF', [...], [...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-23 00:43:30 --> count(): Parameter must be an array or an object that implements Countable
+in APPPATH\Models\TipModel.php on line 27.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parameter must be an array or an object that implements Countable', 'APPPATH\\Models\\TipModel.php', 27, [...])
+ 2 APPPATH\Models\TipModel.php(27): count('2023-01-23T13:00')
+ 3 APPPATH\Controllers\Tip.php(41): App\Models\TipModel->Addtip('2023-01-23T13:00', '2023-01-23T14:00', '1800', 'Herian', 'BP 9757 DF', [...], [...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-23 00:43:30 --> count(): Parameter must be an array or an object that implements Countable
+in APPPATH\Models\TipModel.php on line 27.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parameter must be an array or an object that implements Countable', 'APPPATH\\Models\\TipModel.php', 27, [...])
+ 2 APPPATH\Models\TipModel.php(27): count('2023-01-23T13:00')
+ 3 APPPATH\Controllers\Tip.php(41): App\Models\TipModel->Addtip('2023-01-23T13:00', '2023-01-23T14:00', '1800', 'Herian', 'BP 9757 DF', [...], [...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-23 00:43:30 --> count(): Parameter must be an array or an object that implements Countable
+in APPPATH\Models\TipModel.php on line 27.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parameter must be an array or an object that implements Countable', 'APPPATH\\Models\\TipModel.php', 27, [...])
+ 2 APPPATH\Models\TipModel.php(27): count('2023-01-23T13:00')
+ 3 APPPATH\Controllers\Tip.php(41): App\Models\TipModel->Addtip('2023-01-23T13:00', '2023-01-23T14:00', '1800', 'Herian', 'BP 9757 DF', [...], [...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-23 00:44:52 --> count(): Parameter must be an array or an object that implements Countable
+in APPPATH\Models\TipModel.php on line 26.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parameter must be an array or an object that implements Countable', 'APPPATH\\Models\\TipModel.php', 26, [...])
+ 2 APPPATH\Models\TipModel.php(26): count('2023-01-23T13:00')
+ 3 APPPATH\Controllers\Tip.php(41): App\Models\TipModel->Addtip('2023-01-23T13:00', '2023-01-23T14:00', '1800', 'Herian', 'BP 9757 DF', [...], [...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-23 00:49:38 --> Undefined variable: value
+in APPPATH\Controllers\Tip.php on line 118.
+ 1 APPPATH\Controllers\Tip.php(118): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: value', 'APPPATH\\Controllers\\Tip.php', 118, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->get_lorry_tip()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-23 00:50:14 --> Undefined variable: value
+in APPPATH\Controllers\Tip.php on line 118.
+ 1 APPPATH\Controllers\Tip.php(118): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: value', 'APPPATH\\Controllers\\Tip.php', 118, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->get_lorry_tip()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-23 00:56:23 --> Undefined variable: value
+in APPPATH\Controllers\Tip.php on line 118.
+ 1 APPPATH\Controllers\Tip.php(118): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: value', 'APPPATH\\Controllers\\Tip.php', 118, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->get_lorry_tip()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-23 00:56:35 --> Undefined variable: value
+in APPPATH\Controllers\Tip.php on line 118.
+ 1 APPPATH\Controllers\Tip.php(118): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: value', 'APPPATH\\Controllers\\Tip.php', 118, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->get_lorry_tip()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-23 00:58:38 --> Undefined variable: value
+in APPPATH\Controllers\Tip.php on line 118.
+ 1 APPPATH\Controllers\Tip.php(118): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: value', 'APPPATH\\Controllers\\Tip.php', 118, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->get_lorry_tip()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-23 01:00:20 --> Invalid argument supplied for foreach()
+in APPPATH\Models\TipModel.php on line 49.
+ 1 APPPATH\Models\TipModel.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH\\Models\\TipModel.php', 49, [...])
+ 2 APPPATH\Controllers\Tip.php(41): App\Models\TipModel->Addtip([...], [...], [...], [...], [...], [...], [...], null)
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-01-23 01:26:41 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '4' at line 1 in C:\xampp\htdocs\tracking\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\tracking\system\Database\MySQLi\Connection.php(292): mysqli->query('4', 0)
+#1 C:\xampp\htdocs\tracking\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('4')
+#2 C:\xampp\htdocs\tracking\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('4')
+#3 C:\xampp\htdocs\tracking\app\Models\TipModel.php(59): CodeIgniter\Database\BaseConnection->query('4')
+#4 C:\xampp\htdocs\tracking\app\Controllers\Tip.php(41): App\Models\TipModel->Addtip(Array, Array, Array, Array, Array, Array, Array, Array)
+#5 C:\xampp\htdocs\tracking\system\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+#6 C:\xampp\htdocs\tracking\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+#7 C:\xampp\htdocs\tracking\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tracking\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\tracking\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-01-23 01:26:41 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '4' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('4', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('4')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('4')
+ 4 APPPATH\Models\TipModel.php(59): CodeIgniter\Database\BaseConnection->query('4')
+ 5 APPPATH\Controllers\Tip.php(41): App\Models\TipModel->Addtip([...], [...], [...], [...], [...], [...], [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-23 01:27:23 --> Trying to access array offset on value of type int
+in APPPATH\Models\TipModel.php on line 52.
+ 1 APPPATH\Models\TipModel.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type int', 'APPPATH\\Models\\TipModel.php', 52, [...])
+ 2 APPPATH\Controllers\Tip.php(41): App\Models\TipModel->Addtip([...], [...], [...], [...], [...], [...], [...], [...])
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-23 01:29:41 --> Invalid argument supplied for foreach()
+in APPPATH\Models\TipModel.php on line 49.
+ 1 APPPATH\Models\TipModel.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH\\Models\\TipModel.php', 49, [...])
+ 2 APPPATH\Controllers\Tip.php(41): App\Models\TipModel->Addtip([...], [...], [...], [...], [...], [...], [...], [...])
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-23 02:51:05 --> Invalid argument supplied for foreach()
+in APPPATH\Models\TipModel.php on line 49.
+ 1 APPPATH\Models\TipModel.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH\\Models\\TipModel.php', 49, [...])
+ 2 APPPATH\Controllers\Tip.php(41): App\Models\TipModel->Addtip([...], [...], [...], [...], [...], [...], [...], [...])
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-23 02:51:23 --> Undefined variable: list_dono
+in APPPATH\Views\Tip_tracking\list_tip.php on line 56.
+ 1 APPPATH\Views\Tip_tracking\list_tip.php(56): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: list_dono', 'APPPATH\\Views\\Tip_tracking\\list_tip.php', 56, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Tip_tracking\\list_tip.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Tip_tracking/list_tip', [], true)
+ 5 APPPATH\Controllers\Tip.php(27): view('Tip_tracking/list_tip', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->viewListTip()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-23 02:51:50 --> Undefined variable: list_value
+in APPPATH\Views\Tip_tracking\list_tip.php on line 81.
+ 1 APPPATH\Views\Tip_tracking\list_tip.php(81): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: list_value', 'APPPATH\\Views\\Tip_tracking\\list_tip.php', 81, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Tip_tracking\\list_tip.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Tip_tracking/list_tip', [], true)
+ 5 APPPATH\Controllers\Tip.php(27): view('Tip_tracking/list_tip', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->viewListTip()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-23 02:52:22 --> Undefined index: value
+in APPPATH\Views\Tip_tracking\list_tip.php on line 82.
+ 1 APPPATH\Views\Tip_tracking\list_tip.php(82): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: value', 'APPPATH\\Views\\Tip_tracking\\list_tip.php', 82, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Tip_tracking\\list_tip.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Tip_tracking/list_tip', [], true)
+ 5 APPPATH\Controllers\Tip.php(27): view('Tip_tracking/list_tip', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->viewListTip()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-23 02:52:45 --> Undefined index: driver_name
+in APPPATH\Views\Tip_tracking\list_tip.php on line 97.
+ 1 APPPATH\Views\Tip_tracking\list_tip.php(97): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: driver_name', 'APPPATH\\Views\\Tip_tracking\\list_tip.php', 97, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Tip_tracking\\list_tip.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Tip_tracking/list_tip', [], true)
+ 5 APPPATH\Controllers\Tip.php(27): view('Tip_tracking/list_tip', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->viewListTip()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-23 02:55:24 --> Undefined variable: list_dono
+in APPPATH\Views\Tip_tracking\list_tip.php on line 186.
+ 1 APPPATH\Views\Tip_tracking\list_tip.php(186): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: list_dono', 'APPPATH\\Views\\Tip_tracking\\list_tip.php', 186, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Tip_tracking\\list_tip.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Tip_tracking/list_tip', [], true)
+ 5 APPPATH\Controllers\Tip.php(27): view('Tip_tracking/list_tip', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->viewListTip()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-23 02:56:56 --> Undefined index: value
+in APPPATH\Views\Tip_tracking\list_tip.php on line 212.
+ 1 APPPATH\Views\Tip_tracking\list_tip.php(212): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: value', 'APPPATH\\Views\\Tip_tracking\\list_tip.php', 212, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Tip_tracking\\list_tip.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Tip_tracking/list_tip', [], true)
+ 5 APPPATH\Controllers\Tip.php(27): view('Tip_tracking/list_tip', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->viewListTip()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-23 02:57:43 --> Undefined variable: list_lorry
+in APPPATH\Views\Tip_tracking\list_tip.php on line 239.
+ 1 APPPATH\Views\Tip_tracking\list_tip.php(239): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: list_lorry', 'APPPATH\\Views\\Tip_tracking\\list_tip.php', 239, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Tip_tracking\\list_tip.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Tip_tracking/list_tip', [], true)
+ 5 APPPATH\Controllers\Tip.php(27): view('Tip_tracking/list_tip', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->viewListTip()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-23 04:12:07 --> Cannot use object of type CodeIgniter\Database\MySQLi\Builder as array
+in APPPATH\Models\TipModel.php on line 59.
+ 1 APPPATH\Controllers\Tip.php(41): App\Models\TipModel->Addtip([...], [...], [...], [...], [...], [...], [...], [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-23 04:12:32 --> Undefined index: tipID
+in APPPATH\Models\TipModel.php on line 59.
+ 1 APPPATH\Models\TipModel.php(59): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: tipID', 'APPPATH\\Models\\TipModel.php', 59, [...])
+ 2 APPPATH\Controllers\Tip.php(41): App\Models\TipModel->Addtip([...], [...], [...], [...], [...], [...], [...], [...])
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-23 04:13:06 --> Undefined index: doID
+in APPPATH\Models\TipModel.php on line 59.
+ 1 APPPATH\Models\TipModel.php(59): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: doID', 'APPPATH\\Models\\TipModel.php', 59, [...])
+ 2 APPPATH\Controllers\Tip.php(41): App\Models\TipModel->Addtip([...], [...], [...], [...], [...], [...], [...], [...])
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-23 04:13:07 --> Undefined index: doID
+in APPPATH\Models\TipModel.php on line 59.
+ 1 APPPATH\Models\TipModel.php(59): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: doID', 'APPPATH\\Models\\TipModel.php', 59, [...])
+ 2 APPPATH\Controllers\Tip.php(41): App\Models\TipModel->Addtip([...], [...], [...], [...], [...], [...], [...], [...])
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-23 04:13:57 --> Undefined variable: value
+in APPPATH\Controllers\Tip.php on line 118.
+ 1 APPPATH\Controllers\Tip.php(118): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: value', 'APPPATH\\Controllers\\Tip.php', 118, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->get_lorry_tip()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-23 19:23:57 --> Undefined variable: value
+in APPPATH\Controllers\Tip.php on line 118.
+ 1 APPPATH\Controllers\Tip.php(118): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: value', 'APPPATH\\Controllers\\Tip.php', 118, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->get_lorry_tip()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-23 20:24:06 --> Array to string conversion
+in SYSTEMPATH\Database\BaseBuilder.php on line 1800.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'SYSTEMPATH\\Database\\BaseBuilder.php', 1800, [...])
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1800): implode(', ', [...])
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1773): CodeIgniter\Database\BaseBuilder->_insertBatch('`tblmas_detail_tip_tracking`', [], [...])
+ 4 APPPATH\Models\TipModel.php(63): CodeIgniter\Database\BaseBuilder->insertBatch([...])
+ 5 APPPATH\Controllers\Tip.php(41): App\Models\TipModel->Addtip([...], [...], [...], [...], [...], [...], [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-23 22:32:43 --> count(): Parameter must be an array or an object that implements Countable
+in APPPATH\Models\TipModel.php on line 27.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parameter must be an array or an object that implements Countable', 'APPPATH\\Models\\TipModel.php', 27, [...])
+ 2 APPPATH\Models\TipModel.php(27): count('2023-01-25T11:32')
+ 3 APPPATH\Controllers\Tip.php(41): App\Models\TipModel->Addtip('2023-01-25T11:32', '2023-01-25T11:32', 'ROOTPATH\\public', 'ROOTPATH\\public', 'ROOTPATH\\public', '5', 'ROOTPATH\\public', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-23 22:38:13 --> count(): Parameter must be an array or an object that implements Countable
+in APPPATH\Models\TipModel.php on line 27.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parameter must be an array or an object that implements Countable', 'APPPATH\\Models\\TipModel.php', 27, [...])
+ 2 APPPATH\Models\TipModel.php(27): count('2023-01-25T11:32')
+ 3 APPPATH\Controllers\Tip.php(41): App\Models\TipModel->Addtip('2023-01-25T11:32', '2023-01-25T11:32', 'ROOTPATH\\public', 'ROOTPATH\\public', 'ROOTPATH\\public', '5', 'ROOTPATH\\public', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-23 22:38:15 --> count(): Parameter must be an array or an object that implements Countable
+in APPPATH\Models\TipModel.php on line 27.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parameter must be an array or an object that implements Countable', 'APPPATH\\Models\\TipModel.php', 27, [...])
+ 2 APPPATH\Models\TipModel.php(27): count('2023-01-25T11:32')
+ 3 APPPATH\Controllers\Tip.php(41): App\Models\TipModel->Addtip('2023-01-25T11:32', '2023-01-25T11:32', 'ROOTPATH\\public', 'ROOTPATH\\public', 'ROOTPATH\\public', '5', 'ROOTPATH\\public', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-23 22:38:15 --> count(): Parameter must be an array or an object that implements Countable
+in APPPATH\Models\TipModel.php on line 27.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parameter must be an array or an object that implements Countable', 'APPPATH\\Models\\TipModel.php', 27, [...])
+ 2 APPPATH\Models\TipModel.php(27): count('2023-01-25T11:32')
+ 3 APPPATH\Controllers\Tip.php(41): App\Models\TipModel->Addtip('2023-01-25T11:32', '2023-01-25T11:32', 'ROOTPATH\\public', 'ROOTPATH\\public', 'ROOTPATH\\public', '5', 'ROOTPATH\\public', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-23 22:38:16 --> count(): Parameter must be an array or an object that implements Countable
+in APPPATH\Models\TipModel.php on line 27.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parameter must be an array or an object that implements Countable', 'APPPATH\\Models\\TipModel.php', 27, [...])
+ 2 APPPATH\Models\TipModel.php(27): count('2023-01-25T11:32')
+ 3 APPPATH\Controllers\Tip.php(41): App\Models\TipModel->Addtip('2023-01-25T11:32', '2023-01-25T11:32', 'ROOTPATH\\public', 'ROOTPATH\\public', 'ROOTPATH\\public', '5', 'ROOTPATH\\public', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-23 22:38:16 --> count(): Parameter must be an array or an object that implements Countable
+in APPPATH\Models\TipModel.php on line 27.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parameter must be an array or an object that implements Countable', 'APPPATH\\Models\\TipModel.php', 27, [...])
+ 2 APPPATH\Models\TipModel.php(27): count('2023-01-25T11:32')
+ 3 APPPATH\Controllers\Tip.php(41): App\Models\TipModel->Addtip('2023-01-25T11:32', '2023-01-25T11:32', 'ROOTPATH\\public', 'ROOTPATH\\public', 'ROOTPATH\\public', '5', 'ROOTPATH\\public', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-23 22:38:17 --> count(): Parameter must be an array or an object that implements Countable
+in APPPATH\Models\TipModel.php on line 27.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parameter must be an array or an object that implements Countable', 'APPPATH\\Models\\TipModel.php', 27, [...])
+ 2 APPPATH\Models\TipModel.php(27): count('2023-01-25T11:32')
+ 3 APPPATH\Controllers\Tip.php(41): App\Models\TipModel->Addtip('2023-01-25T11:32', '2023-01-25T11:32', 'ROOTPATH\\public', 'ROOTPATH\\public', 'ROOTPATH\\public', '5', 'ROOTPATH\\public', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-23 22:38:17 --> count(): Parameter must be an array or an object that implements Countable
+in APPPATH\Models\TipModel.php on line 27.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parameter must be an array or an object that implements Countable', 'APPPATH\\Models\\TipModel.php', 27, [...])
+ 2 APPPATH\Models\TipModel.php(27): count('2023-01-25T11:32')
+ 3 APPPATH\Controllers\Tip.php(41): App\Models\TipModel->Addtip('2023-01-25T11:32', '2023-01-25T11:32', 'ROOTPATH\\public', 'ROOTPATH\\public', 'ROOTPATH\\public', '5', 'ROOTPATH\\public', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-23 22:39:02 --> Uninitialized string offset: 0
+in APPPATH\Models\TipModel.php on line 31.
+ 1 APPPATH\Models\TipModel.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Uninitialized string offset: 0', 'APPPATH\\Models\\TipModel.php', 31, [...])
+ 2 APPPATH\Controllers\Tip.php(41): App\Models\TipModel->Addtip([...], '2023-01-24T11:38', 'ROOTPATH\\public', 'ROOTPATH\\public', 'ROOTPATH\\public', 'ROOTPATH\\public', 'ROOTPATH\\public', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

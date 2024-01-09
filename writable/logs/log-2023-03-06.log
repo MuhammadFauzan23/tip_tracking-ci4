@@ -1,0 +1,539 @@
+CRITICAL - 2023-03-06 19:30:02 --> Trying to access array offset on value of type null
+in APPPATH\Views\layout\template.php on line 218.
+ 1 APPPATH\Views\layout\template.php(218): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\layout\\template.php', 218, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\template.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/template', [], true)
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/sidebar', [], true)
+ 6 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Tip_tracking/list_tip_temporary_detail', [], true)
+ 7 APPPATH\Controllers\Tip.php(46): view('Tip_tracking/list_tip_temporary_detail', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->viewTemporaryDetail()
+ 9 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-03-06 19:53:39 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP BY tblmas_tip_tracking.id ASC' at line 7 in C:\xampp\htdocs\tracking\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\tracking\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT tblmas_t...', 0)
+#1 C:\xampp\htdocs\tracking\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tblmas_t...')
+#2 C:\xampp\htdocs\tracking\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tblmas_t...')
+#3 C:\xampp\htdocs\tracking\app\Models\TipModel.php(110): CodeIgniter\Database\BaseConnection->query('SELECT tblmas_t...')
+#4 C:\xampp\htdocs\tracking\app\Controllers\Tip.php(150): App\Models\TipModel->getdataperDateTime(NULL, NULL)
+#5 C:\xampp\htdocs\tracking\system\CodeIgniter.php(904): App\Controllers\Tip->viewListTipbydatetime()
+#6 C:\xampp\htdocs\tracking\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+#7 C:\xampp\htdocs\tracking\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tracking\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\tracking\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-03-06 19:53:39 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP BY tblmas_tip_tracking.id ASC' at line 7
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT tblmas_tip_tracking.*, GROUP_CONCAT(tblmas_detail_tip_tracking.doID) AS donoo,COUNT(tbltrn_do1.dono) AS dono, tblmas_customer.customername AS customer 
+                    FROM tblmas_tip_tracking
+                        JOIN tblmas_detail_tip_tracking ON tblmas_tip_tracking.id = tblmas_detail_tip_tracking.tipID
+                            JOIN tbltrn_do1 ON tbltrn_do1.dono = tblmas_detail_tip_tracking.doID
+                                JOIN tblmas_customer ON tblmas_customer.idcustomer = tbltrn_do1.idcustomer
+                                    WHERE tbltrn_do1.stsdosent = 1 AND tblmas_tip_tracking.driver =\'\' AND tblmas_tip_tracking.tgl = 
+                                        GROUP BY tblmas_tip_tracking.id ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tblmas_tip_tracking.*, GROUP_CONCAT(tblmas_detail_tip_tracking.doID) AS donoo,COUNT(tbltrn_do1.dono) AS dono, tblmas_customer.customername AS customer 
+                    FROM tblmas_tip_tracking
+                        JOIN tblmas_detail_tip_tracking ON tblmas_tip_tracking.id = tblmas_detail_tip_tracking.tipID
+                            JOIN tbltrn_do1 ON tbltrn_do1.dono = tblmas_detail_tip_tracking.doID
+                                JOIN tblmas_customer ON tblmas_customer.idcustomer = tbltrn_do1.idcustomer
+                                    WHERE tbltrn_do1.stsdosent = 1 AND tblmas_tip_tracking.driver =\'\' AND tblmas_tip_tracking.tgl = 
+                                        GROUP BY tblmas_tip_tracking.id ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tblmas_tip_tracking.*, GROUP_CONCAT(tblmas_detail_tip_tracking.doID) AS donoo,COUNT(tbltrn_do1.dono) AS dono, tblmas_customer.customername AS customer 
+                    FROM tblmas_tip_tracking
+                        JOIN tblmas_detail_tip_tracking ON tblmas_tip_tracking.id = tblmas_detail_tip_tracking.tipID
+                            JOIN tbltrn_do1 ON tbltrn_do1.dono = tblmas_detail_tip_tracking.doID
+                                JOIN tblmas_customer ON tblmas_customer.idcustomer = tbltrn_do1.idcustomer
+                                    WHERE tbltrn_do1.stsdosent = 1 AND tblmas_tip_tracking.driver =\'\' AND tblmas_tip_tracking.tgl = 
+                                        GROUP BY tblmas_tip_tracking.id ASC')
+ 4 APPPATH\Models\TipModel.php(110): CodeIgniter\Database\BaseConnection->query('SELECT tblmas_tip_tracking.*, GROUP_CONCAT(tblmas_detail_tip_tracking.doID) AS donoo,COUNT(tbltrn_do1.dono) AS dono, tblmas_customer.customername AS customer 
+                    FROM tblmas_tip_tracking
+                        JOIN tblmas_detail_tip_tracking ON tblmas_tip_tracking.id = tblmas_detail_tip_tracking.tipID
+                            JOIN tbltrn_do1 ON tbltrn_do1.dono = tblmas_detail_tip_tracking.doID
+                                JOIN tblmas_customer ON tblmas_customer.idcustomer = tbltrn_do1.idcustomer
+                                    WHERE tbltrn_do1.stsdosent = 1 AND tblmas_tip_tracking.driver =\'\' AND tblmas_tip_tracking.tgl = 
+                                        GROUP BY tblmas_tip_tracking.id ASC')
+ 5 APPPATH\Controllers\Tip.php(150): App\Models\TipModel->getdataperDateTime(null, null)
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->viewListTipbydatetime()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-03-06 19:55:30 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 6 in C:\xampp\htdocs\tracking\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\tracking\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT tblmas_t...', 0)
+#1 C:\xampp\htdocs\tracking\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tblmas_t...')
+#2 C:\xampp\htdocs\tracking\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tblmas_t...')
+#3 C:\xampp\htdocs\tracking\app\Models\TipModel.php(109): CodeIgniter\Database\BaseConnection->query('SELECT tblmas_t...')
+#4 C:\xampp\htdocs\tracking\app\Controllers\Tip.php(150): App\Models\TipModel->getdataperDateTime(NULL, NULL)
+#5 C:\xampp\htdocs\tracking\system\CodeIgniter.php(904): App\Controllers\Tip->viewListTipbydatetime()
+#6 C:\xampp\htdocs\tracking\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+#7 C:\xampp\htdocs\tracking\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tracking\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\tracking\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-03-06 19:55:30 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 6
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT tblmas_tip_tracking.*, GROUP_CONCAT(tblmas_detail_tip_tracking.doID) AS donoo,COUNT(tbltrn_do1.dono) AS dono, tblmas_customer.customername AS customer 
+                    FROM tblmas_tip_tracking
+                        JOIN tblmas_detail_tip_tracking ON tblmas_tip_tracking.id = tblmas_detail_tip_tracking.tipID
+                            JOIN tbltrn_do1 ON tbltrn_do1.dono = tblmas_detail_tip_tracking.doID
+                                JOIN tblmas_customer ON tblmas_customer.idcustomer = tbltrn_do1.idcustomer
+                                    WHERE tbltrn_do1.stsdosent = 1 AND tblmas_tip_tracking.tgl = ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tblmas_tip_tracking.*, GROUP_CONCAT(tblmas_detail_tip_tracking.doID) AS donoo,COUNT(tbltrn_do1.dono) AS dono, tblmas_customer.customername AS customer 
+                    FROM tblmas_tip_tracking
+                        JOIN tblmas_detail_tip_tracking ON tblmas_tip_tracking.id = tblmas_detail_tip_tracking.tipID
+                            JOIN tbltrn_do1 ON tbltrn_do1.dono = tblmas_detail_tip_tracking.doID
+                                JOIN tblmas_customer ON tblmas_customer.idcustomer = tbltrn_do1.idcustomer
+                                    WHERE tbltrn_do1.stsdosent = 1 AND tblmas_tip_tracking.tgl = ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tblmas_tip_tracking.*, GROUP_CONCAT(tblmas_detail_tip_tracking.doID) AS donoo,COUNT(tbltrn_do1.dono) AS dono, tblmas_customer.customername AS customer 
+                    FROM tblmas_tip_tracking
+                        JOIN tblmas_detail_tip_tracking ON tblmas_tip_tracking.id = tblmas_detail_tip_tracking.tipID
+                            JOIN tbltrn_do1 ON tbltrn_do1.dono = tblmas_detail_tip_tracking.doID
+                                JOIN tblmas_customer ON tblmas_customer.idcustomer = tbltrn_do1.idcustomer
+                                    WHERE tbltrn_do1.stsdosent = 1 AND tblmas_tip_tracking.tgl = ')
+ 4 APPPATH\Models\TipModel.php(109): CodeIgniter\Database\BaseConnection->query('SELECT tblmas_tip_tracking.*, GROUP_CONCAT(tblmas_detail_tip_tracking.doID) AS donoo,COUNT(tbltrn_do1.dono) AS dono, tblmas_customer.customername AS customer 
+                    FROM tblmas_tip_tracking
+                        JOIN tblmas_detail_tip_tracking ON tblmas_tip_tracking.id = tblmas_detail_tip_tracking.tipID
+                            JOIN tbltrn_do1 ON tbltrn_do1.dono = tblmas_detail_tip_tracking.doID
+                                JOIN tblmas_customer ON tblmas_customer.idcustomer = tbltrn_do1.idcustomer
+                                    WHERE tbltrn_do1.stsdosent = 1 AND tblmas_tip_tracking.tgl = ')
+ 5 APPPATH\Controllers\Tip.php(150): App\Models\TipModel->getdataperDateTime(null, null)
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->viewListTipbydatetime()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-06 19:55:39 --> Undefined variable: colorB
+in APPPATH\Views\Tip_tracking\list_tip_by_date_time.php on line 73.
+ 1 APPPATH\Views\Tip_tracking\list_tip_by_date_time.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: colorB', 'APPPATH\\Views\\Tip_tracking\\list_tip_by_date_time.php', 73, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Tip_tracking\\list_tip_by_date_time.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Tip_tracking/list_tip_by_date_time', [], true)
+ 5 APPPATH\Controllers\Tip.php(152): view('Tip_tracking/list_tip_by_date_time', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->viewListTipbydatetime()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-06 19:56:33 --> Undefined variable: colorB
+in APPPATH\Views\Tip_tracking\list_tip_by_date_time.php on line 73.
+ 1 APPPATH\Views\Tip_tracking\list_tip_by_date_time.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: colorB', 'APPPATH\\Views\\Tip_tracking\\list_tip_by_date_time.php', 73, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Tip_tracking\\list_tip_by_date_time.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Tip_tracking/list_tip_by_date_time', [], true)
+ 5 APPPATH\Controllers\Tip.php(152): view('Tip_tracking/list_tip_by_date_time', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->viewListTipbydatetime()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-06 19:57:52 --> Undefined variable: colorB
+in APPPATH\Views\Tip_tracking\list_tip_by_date_time.php on line 73.
+ 1 APPPATH\Views\Tip_tracking\list_tip_by_date_time.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: colorB', 'APPPATH\\Views\\Tip_tracking\\list_tip_by_date_time.php', 73, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Tip_tracking\\list_tip_by_date_time.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Tip_tracking/list_tip_by_date_time', [], true)
+ 5 APPPATH\Controllers\Tip.php(152): view('Tip_tracking/list_tip_by_date_time', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->viewListTipbydatetime()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-03-06 19:59:36 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP BY tblmas_tip_tracking.id ASC' at line 7 in C:\xampp\htdocs\tracking\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\tracking\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT tblmas_t...', 0)
+#1 C:\xampp\htdocs\tracking\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tblmas_t...')
+#2 C:\xampp\htdocs\tracking\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tblmas_t...')
+#3 C:\xampp\htdocs\tracking\app\Models\TipModel.php(110): CodeIgniter\Database\BaseConnection->query('SELECT tblmas_t...')
+#4 C:\xampp\htdocs\tracking\app\Controllers\Tip.php(150): App\Models\TipModel->getdataperDateTime(NULL, NULL)
+#5 C:\xampp\htdocs\tracking\system\CodeIgniter.php(904): App\Controllers\Tip->viewListTipbydatetime()
+#6 C:\xampp\htdocs\tracking\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+#7 C:\xampp\htdocs\tracking\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tracking\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\tracking\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-03-06 19:59:36 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP BY tblmas_tip_tracking.id ASC' at line 7
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT tblmas_tip_tracking.*, GROUP_CONCAT(tblmas_detail_tip_tracking.doID) AS donoo,COUNT(tbltrn_do1.dono) AS dono, tblmas_customer.customername AS customer 
+                    FROM tblmas_tip_tracking
+                        JOIN tblmas_detail_tip_tracking ON tblmas_tip_tracking.id = tblmas_detail_tip_tracking.tipID
+                            JOIN tbltrn_do1 ON tbltrn_do1.dono = tblmas_detail_tip_tracking.doID
+                                JOIN tblmas_customer ON tblmas_customer.idcustomer = tbltrn_do1.idcustomer
+                                    WHERE tbltrn_do1.stsdosent = 1 AND tblmas_tip_tracking.driver =\'\' AND tblmas_tip_tracking.tgl = 
+                                        GROUP BY tblmas_tip_tracking.id ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tblmas_tip_tracking.*, GROUP_CONCAT(tblmas_detail_tip_tracking.doID) AS donoo,COUNT(tbltrn_do1.dono) AS dono, tblmas_customer.customername AS customer 
+                    FROM tblmas_tip_tracking
+                        JOIN tblmas_detail_tip_tracking ON tblmas_tip_tracking.id = tblmas_detail_tip_tracking.tipID
+                            JOIN tbltrn_do1 ON tbltrn_do1.dono = tblmas_detail_tip_tracking.doID
+                                JOIN tblmas_customer ON tblmas_customer.idcustomer = tbltrn_do1.idcustomer
+                                    WHERE tbltrn_do1.stsdosent = 1 AND tblmas_tip_tracking.driver =\'\' AND tblmas_tip_tracking.tgl = 
+                                        GROUP BY tblmas_tip_tracking.id ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tblmas_tip_tracking.*, GROUP_CONCAT(tblmas_detail_tip_tracking.doID) AS donoo,COUNT(tbltrn_do1.dono) AS dono, tblmas_customer.customername AS customer 
+                    FROM tblmas_tip_tracking
+                        JOIN tblmas_detail_tip_tracking ON tblmas_tip_tracking.id = tblmas_detail_tip_tracking.tipID
+                            JOIN tbltrn_do1 ON tbltrn_do1.dono = tblmas_detail_tip_tracking.doID
+                                JOIN tblmas_customer ON tblmas_customer.idcustomer = tbltrn_do1.idcustomer
+                                    WHERE tbltrn_do1.stsdosent = 1 AND tblmas_tip_tracking.driver =\'\' AND tblmas_tip_tracking.tgl = 
+                                        GROUP BY tblmas_tip_tracking.id ASC')
+ 4 APPPATH\Models\TipModel.php(110): CodeIgniter\Database\BaseConnection->query('SELECT tblmas_tip_tracking.*, GROUP_CONCAT(tblmas_detail_tip_tracking.doID) AS donoo,COUNT(tbltrn_do1.dono) AS dono, tblmas_customer.customername AS customer 
+                    FROM tblmas_tip_tracking
+                        JOIN tblmas_detail_tip_tracking ON tblmas_tip_tracking.id = tblmas_detail_tip_tracking.tipID
+                            JOIN tbltrn_do1 ON tbltrn_do1.dono = tblmas_detail_tip_tracking.doID
+                                JOIN tblmas_customer ON tblmas_customer.idcustomer = tbltrn_do1.idcustomer
+                                    WHERE tbltrn_do1.stsdosent = 1 AND tblmas_tip_tracking.driver =\'\' AND tblmas_tip_tracking.tgl = 
+                                        GROUP BY tblmas_tip_tracking.id ASC')
+ 5 APPPATH\Controllers\Tip.php(150): App\Models\TipModel->getdataperDateTime(null, null)
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->viewListTipbydatetime()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-06 20:02:30 --> Array to string conversion
+in APPPATH\Controllers\Tip.php on line 152.
+ 1 APPPATH\Controllers\Tip.php(152): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Controllers\\Tip.php', 152, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->viewListTipbydatetime()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-06 20:03:08 --> Array to string conversion
+in APPPATH\Controllers\Tip.php on line 152.
+ 1 APPPATH\Controllers\Tip.php(152): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Controllers\\Tip.php', 152, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->viewListTipbydatetime()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-06 20:03:29 --> Invalid file: Tip_tracking/list_tip_by_date_time?driver=&date=.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Tip_tracking/list_tip_by_date_time?driver=&date=.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Tip_tracking/list_tip_by_date_time?driver=&date=', [], true)
+ 3 APPPATH\Controllers\Tip.php(152): view('Tip_tracking/list_tip_by_date_time?driver=&date=')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->viewListTipbydatetime()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-03-06 20:04:00 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 6 in C:\xampp\htdocs\tracking\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\tracking\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT tblmas_t...', 0)
+#1 C:\xampp\htdocs\tracking\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tblmas_t...')
+#2 C:\xampp\htdocs\tracking\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tblmas_t...')
+#3 C:\xampp\htdocs\tracking\app\Models\TipModel.php(98): CodeIgniter\Database\BaseConnection->query('SELECT tblmas_t...')
+#4 C:\xampp\htdocs\tracking\app\Controllers\Tip.php(135): App\Models\TipModel->getdataperDate(NULL)
+#5 C:\xampp\htdocs\tracking\system\CodeIgniter.php(904): App\Controllers\Tip->viewListTipbydate()
+#6 C:\xampp\htdocs\tracking\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+#7 C:\xampp\htdocs\tracking\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tracking\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\tracking\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-03-06 20:04:00 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 6
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT tblmas_tip_tracking.* ,GROUP_CONCAT(tblmas_detail_tip_tracking.doID) AS donoo,COUNT(tbltrn_do1.dono) AS dono, tblmas_customer.customername AS customer 
+                    FROM tblmas_tip_tracking
+                        JOIN tblmas_detail_tip_tracking ON tblmas_tip_tracking.id = tblmas_detail_tip_tracking.tipID
+                            JOIN tbltrn_do1 ON tbltrn_do1.dono = tblmas_detail_tip_tracking.doID
+                                JOIN tblmas_customer ON tblmas_customer.idcustomer = tbltrn_do1.idcustomer
+                                    WHERE tbltrn_do1.stsdosent = 1 AND tblmas_tip_tracking.tgl = ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tblmas_tip_tracking.* ,GROUP_CONCAT(tblmas_detail_tip_tracking.doID) AS donoo,COUNT(tbltrn_do1.dono) AS dono, tblmas_customer.customername AS customer 
+                    FROM tblmas_tip_tracking
+                        JOIN tblmas_detail_tip_tracking ON tblmas_tip_tracking.id = tblmas_detail_tip_tracking.tipID
+                            JOIN tbltrn_do1 ON tbltrn_do1.dono = tblmas_detail_tip_tracking.doID
+                                JOIN tblmas_customer ON tblmas_customer.idcustomer = tbltrn_do1.idcustomer
+                                    WHERE tbltrn_do1.stsdosent = 1 AND tblmas_tip_tracking.tgl = ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tblmas_tip_tracking.* ,GROUP_CONCAT(tblmas_detail_tip_tracking.doID) AS donoo,COUNT(tbltrn_do1.dono) AS dono, tblmas_customer.customername AS customer 
+                    FROM tblmas_tip_tracking
+                        JOIN tblmas_detail_tip_tracking ON tblmas_tip_tracking.id = tblmas_detail_tip_tracking.tipID
+                            JOIN tbltrn_do1 ON tbltrn_do1.dono = tblmas_detail_tip_tracking.doID
+                                JOIN tblmas_customer ON tblmas_customer.idcustomer = tbltrn_do1.idcustomer
+                                    WHERE tbltrn_do1.stsdosent = 1 AND tblmas_tip_tracking.tgl = ')
+ 4 APPPATH\Models\TipModel.php(98): CodeIgniter\Database\BaseConnection->query('SELECT tblmas_tip_tracking.* ,GROUP_CONCAT(tblmas_detail_tip_tracking.doID) AS donoo,COUNT(tbltrn_do1.dono) AS dono, tblmas_customer.customername AS customer 
+                    FROM tblmas_tip_tracking
+                        JOIN tblmas_detail_tip_tracking ON tblmas_tip_tracking.id = tblmas_detail_tip_tracking.tipID
+                            JOIN tbltrn_do1 ON tbltrn_do1.dono = tblmas_detail_tip_tracking.doID
+                                JOIN tblmas_customer ON tblmas_customer.idcustomer = tbltrn_do1.idcustomer
+                                    WHERE tbltrn_do1.stsdosent = 1 AND tblmas_tip_tracking.tgl = ')
+ 5 APPPATH\Controllers\Tip.php(135): App\Models\TipModel->getdataperDate(null)
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->viewListTipbydate()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-06 20:06:16 --> Invalid file: Tip_tracking/list_tip_by_date_time?driver=&date=.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Tip_tracking/list_tip_by_date_time?driver=&date=.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Tip_tracking/list_tip_by_date_time?driver=&date=', [], true)
+ 3 APPPATH\Controllers\Tip.php(152): view('Tip_tracking/list_tip_by_date_time?driver=&date=')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->viewListTipbydatetime()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-06 20:07:21 --> Invalid file: Tip_tracking/list_tip_by_date_time?driver=&date=.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Tip_tracking/list_tip_by_date_time?driver=&date=.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Tip_tracking/list_tip_by_date_time?driver=&date=', [], true)
+ 3 APPPATH\Controllers\Tip.php(152): view('Tip_tracking/list_tip_by_date_time?driver=&date=')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->viewListTipbydatetime()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-06 20:07:44 --> Invalid file: Tip_tracking/list_tip_by_date_time?driver=&date=.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Tip_tracking/list_tip_by_date_time?driver=&date=.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Tip_tracking/list_tip_by_date_time?driver=&date=', [], true)
+ 3 APPPATH\Controllers\Tip.php(153): view('Tip_tracking/list_tip_by_date_time?driver=&date=')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->viewListTipbydatetime()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-06 20:11:01 --> Invalid file: Tip_tracking/list_tip_by_date_time?driver=&date=.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Tip_tracking/list_tip_by_date_time?driver=&date=.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Tip_tracking/list_tip_by_date_time?driver=&date=', [], true)
+ 3 APPPATH\Controllers\Tip.php(153): view('Tip_tracking/list_tip_by_date_time?driver=&date=')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->viewListTipbydatetime()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-06 20:11:15 --> Invalid file: Tip_tracking/list_tip_by_date_time?driver=&date=.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Tip_tracking/list_tip_by_date_time?driver=&date=.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Tip_tracking/list_tip_by_date_time?driver=&date=', [], true)
+ 3 APPPATH\Controllers\Tip.php(153): view('Tip_tracking/list_tip_by_date_time?driver=&date=')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->viewListTipbydatetime()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-06 20:11:16 --> Invalid file: Tip_tracking/list_tip_by_date_time?driver=&date=.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Tip_tracking/list_tip_by_date_time?driver=&date=.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Tip_tracking/list_tip_by_date_time?driver=&date=', [], true)
+ 3 APPPATH\Controllers\Tip.php(153): view('Tip_tracking/list_tip_by_date_time?driver=&date=')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->viewListTipbydatetime()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-06 20:12:52 --> Invalid file: Tip_tracking/list_tip_by_date_time?driver=&date=.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Tip_tracking/list_tip_by_date_time?driver=&date=.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Tip_tracking/list_tip_by_date_time?driver=&date=', [], true)
+ 3 APPPATH\Controllers\Tip.php(153): view('Tip_tracking/list_tip_by_date_time?driver=&date=')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->viewListTipbydatetime()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-06 20:14:36 --> Invalid file: Tip_tracking/list_tip_by_date_time?driver=&date=2023-03-07.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Tip_tracking/list_tip_by_date_time?driver=&date=2023-03-07.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Tip_tracking/list_tip_by_date_time?driver=&date=2023-03-07', [], true)
+ 3 APPPATH\Controllers\Tip.php(154): view('Tip_tracking/list_tip_by_date_time?driver=&date=2023-03-07', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->viewListTipbydatetime()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-06 20:15:06 --> Invalid file: Tip_tracking/list_tip_by_date_time?date=2023-03-07.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Tip_tracking/list_tip_by_date_time?date=2023-03-07.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Tip_tracking/list_tip_by_date_time?date=2023-03-07', [], true)
+ 3 APPPATH\Controllers\Tip.php(154): view('Tip_tracking/list_tip_by_date_time?date=2023-03-07', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->viewListTipbydatetime()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-06 20:34:14 --> syntax error, unexpected 'return' (T_RETURN)
+in APPPATH\Controllers\Tip.php on line 160.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('Tip/viewListTip')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('Tip/viewListTip')
+ 3 SYSTEMPATH\CodeIgniter.php(779): CodeIgniter\Router\Router->handle('Tip/viewListTip')
+ 4 SYSTEMPATH\CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-06 20:34:17 --> syntax error, unexpected 'return' (T_RETURN)
+in APPPATH\Controllers\Tip.php on line 160.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('Tip/viewTemporaryDetail')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('Tip/viewTemporaryDetail')
+ 3 SYSTEMPATH\CodeIgniter.php(779): CodeIgniter\Router\Router->handle('Tip/viewTemporaryDetail')
+ 4 SYSTEMPATH\CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-06 20:34:18 --> syntax error, unexpected 'return' (T_RETURN)
+in APPPATH\Controllers\Tip.php on line 160.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('tip/viewTemporaryDetail')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('tip/viewTemporaryDetail')
+ 3 SYSTEMPATH\CodeIgniter.php(779): CodeIgniter\Router\Router->handle('tip/viewTemporaryDetail')
+ 4 SYSTEMPATH\CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-06 20:34:18 --> syntax error, unexpected 'return' (T_RETURN)
+in APPPATH\Controllers\Tip.php on line 160.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('Tip/viewTemporary')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('Tip/viewTemporary')
+ 3 SYSTEMPATH\CodeIgniter.php(779): CodeIgniter\Router\Router->handle('Tip/viewTemporary')
+ 4 SYSTEMPATH\CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-06 20:34:28 --> syntax error, unexpected 'return' (T_RETURN)
+in APPPATH\Controllers\Tip.php on line 160.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('Tip/viewListTip')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('Tip/viewListTip')
+ 3 SYSTEMPATH\CodeIgniter.php(779): CodeIgniter\Router\Router->handle('Tip/viewListTip')
+ 4 SYSTEMPATH\CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-06 20:34:51 --> syntax error, unexpected 'return' (T_RETURN)
+in APPPATH\Controllers\Tip.php on line 160.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('Tip/viewListTip')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('Tip/viewListTip')
+ 3 SYSTEMPATH\CodeIgniter.php(779): CodeIgniter\Router\Router->handle('Tip/viewListTip')
+ 4 SYSTEMPATH\CodeIgniter.php(406): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-06 20:35:17 --> Undefined index: tgl
+in APPPATH\Views\Tip_tracking\list_tip_by_date.php on line 35.
+ 1 APPPATH\Views\Tip_tracking\list_tip_by_date.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: tgl', 'APPPATH\\Views\\Tip_tracking\\list_tip_by_date.php', 35, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Tip_tracking\\list_tip_by_date.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Tip_tracking/list_tip_by_date', [], true)
+ 5 APPPATH\Controllers\Tip.php(139): view('Tip_tracking/list_tip_by_date', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->viewListTipbydate()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-06 20:35:53 --> Undefined index: tgl
+in APPPATH\Views\Tip_tracking\list_tip_by_date.php on line 42.
+ 1 APPPATH\Views\Tip_tracking\list_tip_by_date.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: tgl', 'APPPATH\\Views\\Tip_tracking\\list_tip_by_date.php', 42, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Tip_tracking\\list_tip_by_date.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Tip_tracking/list_tip_by_date', [], true)
+ 5 APPPATH\Controllers\Tip.php(139): view('Tip_tracking/list_tip_by_date', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->viewListTipbydate()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-06 20:48:03 --> Undefined variable: tgl
+in APPPATH\Controllers\Tip.php on line 161.
+ 1 APPPATH\Controllers\Tip.php(161): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: tgl', 'APPPATH\\Controllers\\Tip.php', 161, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->viewListTipbydatetimebyFilter()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-06 20:48:14 --> Undefined index: date
+in APPPATH\Controllers\Tip.php on line 162.
+ 1 APPPATH\Controllers\Tip.php(162): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: date', 'APPPATH\\Controllers\\Tip.php', 162, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->viewListTipbydatetimebyFilter()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-06 20:48:55 --> Undefined index: date
+in APPPATH\Controllers\Tip.php on line 163.
+ 1 APPPATH\Controllers\Tip.php(163): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: date', 'APPPATH\\Controllers\\Tip.php', 163, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->viewListTipbydatetimebyFilter()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-06 20:55:33 --> Undefined index: date
+in APPPATH\Controllers\Tip.php on line 163.
+ 1 APPPATH\Controllers\Tip.php(163): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: date', 'APPPATH\\Controllers\\Tip.php', 163, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->viewListTipbydatetimebyFilter()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-06 20:56:46 --> Undefined index: tgl
+in APPPATH\Views\Tip_tracking\list_tip_by_date_time.php on line 29.
+ 1 APPPATH\Views\Tip_tracking\list_tip_by_date_time.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: tgl', 'APPPATH\\Views\\Tip_tracking\\list_tip_by_date_time.php', 29, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Tip_tracking\\list_tip_by_date_time.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Tip_tracking/list_tip_by_date_time', [], true)
+ 5 APPPATH\Controllers\Tip.php(154): view('Tip_tracking/list_tip_by_date_time', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->viewListTipbydatetime()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-06 21:13:35 --> Undefined variable: bulan
+in APPPATH\Controllers\Tip.php on line 184.
+ 1 APPPATH\Controllers\Tip.php(184): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: bulan', 'APPPATH\\Controllers\\Tip.php', 184, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->printPDF()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-06 21:18:37 --> Undefined variable: tgl
+in APPPATH\Controllers\Tip.php on line 192.
+ 1 APPPATH\Controllers\Tip.php(192): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: tgl', 'APPPATH\\Controllers\\Tip.php', 192, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->printPDF()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-06 21:18:42 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 243273728 bytes)
+in APPPATH\Views\errors\html\error_exception.php on line 96.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-03-06 21:33:38 --> Undefined index: 
+in APPPATH\Views\Tip_tracking\report_list_tip.php on line 80.
+ 1 APPPATH\Views\Tip_tracking\report_list_tip.php(80): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: ', 'APPPATH\\Views\\Tip_tracking\\report_list_tip.php', 80, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Tip_tracking\\report_list_tip.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Tip_tracking/report_list_tip', [], true)
+ 5 APPPATH\Controllers\Tip.php(258): view('Tip_tracking/report_list_tip', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->printPDF()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-06 22:17:02 --> syntax error, unexpected 'endforeach' (T_ENDFOREACH)
+in APPPATH\Views\Tip_tracking\report_list_tip.php on line 94.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Tip_tracking/report_list_tip', [], true)
+ 3 APPPATH\Controllers\Tip.php(258): view('Tip_tracking/report_list_tip', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->printPDF()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-06 22:34:18 --> Undefined offset: 30
+in APPPATH\Views\Tip_tracking\report_list_tip.php on line 96.
+ 1 APPPATH\Views\Tip_tracking\report_list_tip.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 30', 'APPPATH\\Views\\Tip_tracking\\report_list_tip.php', 96, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Tip_tracking\\report_list_tip.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Tip_tracking/report_list_tip', [], true)
+ 5 APPPATH\Controllers\Tip.php(258): view('Tip_tracking/report_list_tip', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->printPDF()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-06 22:42:48 --> syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF)
+in APPPATH\Views\Tip_tracking\report_list_tip.php on line 90.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Tip_tracking/report_list_tip', [], true)
+ 3 APPPATH\Controllers\Tip.php(258): view('Tip_tracking/report_list_tip', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->printPDF()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

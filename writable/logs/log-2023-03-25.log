@@ -1,0 +1,104 @@
+ERROR - 2023-03-25 05:10:08 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'etowa' in C:\xampp\htdocs\Project_fauzan\tracking\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\Project_fauzan\tracking\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'etowa', 3306, '', 0)
+#1 C:\xampp\htdocs\Project_fauzan\tracking\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\Project_fauzan\tracking\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\Project_fauzan\tracking\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tblweb_...', Array, false)
+#4 C:\xampp\htdocs\Project_fauzan\tracking\app\Models\AuthModel.php(18): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Project_fauzan\tracking\app\Controllers\Auth.php(33): App\Models\AuthModel->login('fauzan', '39adb8d1fba0940...', 'aktif')
+#6 C:\xampp\htdocs\Project_fauzan\tracking\system\CodeIgniter.php(904): App\Controllers\Auth->login()
+#7 C:\xampp\htdocs\Project_fauzan\tracking\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 C:\xampp\htdocs\Project_fauzan\tracking\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Project_fauzan\tracking\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\Project_fauzan\tracking\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'etowa' in C:\xampp\htdocs\Project_fauzan\tracking\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\Project_fauzan\tracking\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\Project_fauzan\tracking\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\Project_fauzan\tracking\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tblweb_...', Array, false)
+#3 C:\xampp\htdocs\Project_fauzan\tracking\app\Models\AuthModel.php(18): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\Project_fauzan\tracking\app\Controllers\Auth.php(33): App\Models\AuthModel->login('fauzan', '39adb8d1fba0940...', 'aktif')
+#5 C:\xampp\htdocs\Project_fauzan\tracking\system\CodeIgniter.php(904): App\Controllers\Auth->login()
+#6 C:\xampp\htdocs\Project_fauzan\tracking\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 C:\xampp\htdocs\Project_fauzan\tracking\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Project_fauzan\tracking\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Project_fauzan\tracking\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-03-25 05:10:08 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'etowa'
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tblweb_users`.*, `tblweb_privilege`.`privilege_name`, `tblweb_privilege`.`id` AS `privilege_id`
+FROM `tblweb_users`
+JOIN `tblweb_privilege` ON `tblweb_privilege`.`id` = `tblweb_users`.`privilege`
+JOIN `tblsysuserposition` ON `tblsysuserposition`.`iduserposition` = `tblweb_users`.`position`
+WHERE `username` = :username:
+AND `password` = :password:
+AND `enable_login` = :enable_login:', [...], false)
+ 3 APPPATH\Models\AuthModel.php(18): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Auth.php(33): App\Models\AuthModel->login('fauzan', '39adb8d1fba094029b87edf3f794b2e8dca196de', 'aktif')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Auth->login()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-03-25 05:10:32 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'etowa_essay_ppcinv' in C:\xampp\htdocs\Project_fauzan\tracking\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\Project_fauzan\tracking\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'etowa_essay_ppc...', 3306, '', 0)
+#1 C:\xampp\htdocs\Project_fauzan\tracking\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\Project_fauzan\tracking\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\Project_fauzan\tracking\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tblweb_...', Array, false)
+#4 C:\xampp\htdocs\Project_fauzan\tracking\app\Models\AuthModel.php(18): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Project_fauzan\tracking\app\Controllers\Auth.php(33): App\Models\AuthModel->login('fauzan', '39adb8d1fba0940...', 'aktif')
+#6 C:\xampp\htdocs\Project_fauzan\tracking\system\CodeIgniter.php(904): App\Controllers\Auth->login()
+#7 C:\xampp\htdocs\Project_fauzan\tracking\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 C:\xampp\htdocs\Project_fauzan\tracking\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Project_fauzan\tracking\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\Project_fauzan\tracking\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'etowa_essay_ppcinv' in C:\xampp\htdocs\Project_fauzan\tracking\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\Project_fauzan\tracking\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\Project_fauzan\tracking\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\Project_fauzan\tracking\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tblweb_...', Array, false)
+#3 C:\xampp\htdocs\Project_fauzan\tracking\app\Models\AuthModel.php(18): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\Project_fauzan\tracking\app\Controllers\Auth.php(33): App\Models\AuthModel->login('fauzan', '39adb8d1fba0940...', 'aktif')
+#5 C:\xampp\htdocs\Project_fauzan\tracking\system\CodeIgniter.php(904): App\Controllers\Auth->login()
+#6 C:\xampp\htdocs\Project_fauzan\tracking\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 C:\xampp\htdocs\Project_fauzan\tracking\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Project_fauzan\tracking\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Project_fauzan\tracking\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-03-25 05:10:32 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'etowa_essay_ppcinv'
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `tblweb_users`.*, `tblweb_privilege`.`privilege_name`, `tblweb_privilege`.`id` AS `privilege_id`
+FROM `tblweb_users`
+JOIN `tblweb_privilege` ON `tblweb_privilege`.`id` = `tblweb_users`.`privilege`
+JOIN `tblsysuserposition` ON `tblsysuserposition`.`iduserposition` = `tblweb_users`.`position`
+WHERE `username` = :username:
+AND `password` = :password:
+AND `enable_login` = :enable_login:', [...], false)
+ 3 APPPATH\Models\AuthModel.php(18): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Auth.php(33): App\Models\AuthModel->login('fauzan', '39adb8d1fba094029b87edf3f794b2e8dca196de', 'aktif')
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Auth->login()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-25 17:12:45 --> Undefined variable: tampilkan_harian_chandra
+in APPPATH\Views\Tip_tracking\report_rentang_list_tip.php on line 63.
+ 1 APPPATH\Views\Tip_tracking\report_rentang_list_tip.php(63): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: tampilkan_harian_chandra', 'APPPATH\\Views\\Tip_tracking\\report_rentang_list_tip.php', 63, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Tip_tracking\\report_rentang_list_tip.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Tip_tracking/report_rentang_list_tip', [], true)
+ 5 APPPATH\Controllers\Tip.php(282): view('Tip_tracking/report_rentang_list_tip', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->reportrentangBulan()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

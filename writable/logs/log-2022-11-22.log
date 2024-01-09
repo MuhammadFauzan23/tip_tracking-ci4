@@ -1,0 +1,559 @@
+CRITICAL - 2022-11-22 00:16:29 --> Undefined variable: ctr
+in APPPATH\Models\TipModel.php on line 62.
+ 1 APPPATH\Models\TipModel.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: ctr', 'APPPATH\\Models\\TipModel.php', 62, [])
+ 2 APPPATH\Controllers\Tip.php(25): App\Models\TipModel->getdataDono()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->viewListTip()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-22 00:16:54 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 25182208 bytes)
+in APPPATH\Views\Tip_tracking\list_tip.php on line 297.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-22 00:17:26 --> Illegal string offset 'dono'
+in APPPATH\Views\Tip_tracking\list_tip.php on line 292.
+ 1 APPPATH\Views\Tip_tracking\list_tip.php(292): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'dono\'', 'APPPATH\\Views\\Tip_tracking\\list_tip.php', 292, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Tip_tracking\\list_tip.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Tip_tracking/list_tip', [], true)
+ 5 APPPATH\Controllers\Tip.php(27): view('Tip_tracking/list_tip', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->viewListTip()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-22 00:18:35 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 20480 bytes)
+in SYSTEMPATH\ThirdParty\Kint\Parser\Parser.php on line 333.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-22 00:19:04 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 25182208 bytes)
+in APPPATH\Views\Tip_tracking\list_tip.php on line 297.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-22 00:19:09 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 20480 bytes)
+in SYSTEMPATH\ThirdParty\Kint\Parser\Parser.php on line 360.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-22 00:20:40 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 27279360 bytes)
+in APPPATH\Views\Tip_tracking\list_tip.php on line 292.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-22 00:55:22 --> Undefined index: customerid
+in APPPATH\Views\Tip_tracking\list_tip.php on line 113.
+ 1 APPPATH\Views\Tip_tracking\list_tip.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: customerid', 'APPPATH\\Views\\Tip_tracking\\list_tip.php', 113, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Tip_tracking\\list_tip.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Tip_tracking/list_tip', [], true)
+ 5 APPPATH\Controllers\Tip.php(27): view('Tip_tracking/list_tip', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->viewListTip()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-22 00:58:52 --> Undefined index: idCustomer
+in APPPATH\Views\Tip_tracking\list_tip.php on line 227.
+ 1 APPPATH\Views\Tip_tracking\list_tip.php(227): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: idCustomer', 'APPPATH\\Views\\Tip_tracking\\list_tip.php', 227, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Tip_tracking\\list_tip.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Tip_tracking/list_tip', [], true)
+ 5 APPPATH\Controllers\Tip.php(27): view('Tip_tracking/list_tip', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->viewListTip()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-22 01:03:54 --> Undefined index: customername
+in APPPATH\Views\Tip_tracking\list_tip.php on line 225.
+ 1 APPPATH\Views\Tip_tracking\list_tip.php(225): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: customername', 'APPPATH\\Views\\Tip_tracking\\list_tip.php', 225, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Tip_tracking\\list_tip.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Tip_tracking/list_tip', [], true)
+ 5 APPPATH\Controllers\Tip.php(27): view('Tip_tracking/list_tip', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->viewListTip()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-22 01:15:41 --> Undefined index: customername
+in APPPATH\Views\Tip_tracking\list_tip.php on line 225.
+ 1 APPPATH\Views\Tip_tracking\list_tip.php(225): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: customername', 'APPPATH\\Views\\Tip_tracking\\list_tip.php', 225, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Tip_tracking\\list_tip.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Tip_tracking/list_tip', [], true)
+ 5 APPPATH\Controllers\Tip.php(27): view('Tip_tracking/list_tip', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->viewListTip()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-22 01:15:42 --> Undefined index: customername
+in APPPATH\Views\Tip_tracking\list_tip.php on line 225.
+ 1 APPPATH\Views\Tip_tracking\list_tip.php(225): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: customername', 'APPPATH\\Views\\Tip_tracking\\list_tip.php', 225, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Tip_tracking\\list_tip.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Tip_tracking/list_tip', [], true)
+ 5 APPPATH\Controllers\Tip.php(27): view('Tip_tracking/list_tip', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->viewListTip()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-22 01:17:04 --> Undefined index: customername
+in APPPATH\Views\Tip_tracking\list_tip.php on line 228.
+ 1 APPPATH\Views\Tip_tracking\list_tip.php(228): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: customername', 'APPPATH\\Views\\Tip_tracking\\list_tip.php', 228, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Tip_tracking\\list_tip.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Tip_tracking/list_tip', [], true)
+ 5 APPPATH\Controllers\Tip.php(27): view('Tip_tracking/list_tip', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->viewListTip()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-11-22 01:35:44 --> mysqli_sql_exception: Duplicate entry '5' for key 'PRIMARY' in C:\xampp\htdocs\tracking\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\tracking\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\tracking\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\tracking\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\tracking\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\tracking\app\Models\TipModel.php(22): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\tracking\app\Controllers\Tip.php(60): App\Models\TipModel->Addtip(Array)
+#6 C:\xampp\htdocs\tracking\system\CodeIgniter.php(904): App\Controllers\Tip->editListTip()
+#7 C:\xampp\htdocs\tracking\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+#8 C:\xampp\htdocs\tracking\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tracking\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\tracking\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-11-22 01:35:44 --> Duplicate entry '5' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tblmas_tip_tracking` (`id`, `customerName`, `value_tip`, `dono`, `driver`, `lorry`, `trip`, `remarks`) VALUES (\'5\', \'AMTEK ENGINEERING BATAM, PT\', \'7000\', \'210493\', \'Chandra Sinaga\', \'BP 9757 DF\', \'2\', \'Toplak dibawa\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tblmas_tip_tracking` (`id`, `customerName`, `value_tip`, `dono`, `driver`, `lorry`, `trip`, `remarks`) VALUES (\'5\', \'AMTEK ENGINEERING BATAM, PT\', \'7000\', \'210493\', \'Chandra Sinaga\', \'BP 9757 DF\', \'2\', \'Toplak dibawa\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tblmas_tip_tracking` (`id`, `customerName`, `value_tip`, `dono`, `driver`, `lorry`, `trip`, `remarks`) VALUES (\'5\', \'AMTEK ENGINEERING BATAM, PT\', \'7000\', \'210493\', \'Chandra Sinaga\', \'BP 9757 DF\', \'2\', \'Toplak dibawa\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tblmas_tip_tracking` (`id`, `customerName`, `value_tip`, `dono`, `driver`, `lorry`, `trip`, `remarks`) VALUES (:id:, :customerName:, :value_tip:, :dono:, :driver:, :lorry:, :trip:, :remarks:)', [...], false)
+ 5 APPPATH\Models\TipModel.php(22): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Tip.php(60): App\Models\TipModel->Addtip([...])
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->editListTip()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-22 01:45:55 --> Undefined index: customer_name
+in APPPATH\Views\Tip_tracking\list_tip.php on line 340.
+ 1 APPPATH\Views\Tip_tracking\list_tip.php(340): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: customer_name', 'APPPATH\\Views\\Tip_tracking\\list_tip.php', 340, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Tip_tracking\\list_tip.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Tip_tracking/list_tip', [], true)
+ 5 APPPATH\Controllers\Tip.php(27): view('Tip_tracking/list_tip', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->viewListTip()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-22 01:50:22 --> Undefined variable: total_value
+in APPPATH\Views\Tip_tracking\list_tip.php on line 66.
+ 1 APPPATH\Views\Tip_tracking\list_tip.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: total_value', 'APPPATH\\Views\\Tip_tracking\\list_tip.php', 66, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Tip_tracking\\list_tip.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Tip_tracking/list_tip', [], true)
+ 5 APPPATH\Controllers\Tip.php(27): view('Tip_tracking/list_tip', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->viewListTip()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-22 01:50:28 --> Undefined variable: total_value
+in APPPATH\Views\Tip_tracking\list_tip.php on line 66.
+ 1 APPPATH\Views\Tip_tracking\list_tip.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: total_value', 'APPPATH\\Views\\Tip_tracking\\list_tip.php', 66, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Tip_tracking\\list_tip.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Tip_tracking/list_tip', [], true)
+ 5 APPPATH\Controllers\Tip.php(27): view('Tip_tracking/list_tip', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->viewListTip()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-22 01:50:57 --> Undefined variable: total_value
+in APPPATH\Views\Tip_tracking\list_tip.php on line 65.
+ 1 APPPATH\Views\Tip_tracking\list_tip.php(65): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: total_value', 'APPPATH\\Views\\Tip_tracking\\list_tip.php', 65, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Tip_tracking\\list_tip.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Tip_tracking/list_tip', [], true)
+ 5 APPPATH\Controllers\Tip.php(27): view('Tip_tracking/list_tip', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->viewListTip()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-22 01:50:58 --> Undefined variable: total_value
+in APPPATH\Views\Tip_tracking\list_tip.php on line 65.
+ 1 APPPATH\Views\Tip_tracking\list_tip.php(65): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: total_value', 'APPPATH\\Views\\Tip_tracking\\list_tip.php', 65, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Tip_tracking\\list_tip.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Tip_tracking/list_tip', [], true)
+ 5 APPPATH\Controllers\Tip.php(27): view('Tip_tracking/list_tip', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->viewListTip()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-22 01:51:37 --> Undefined variable: total_trip
+in APPPATH\Views\Tip_tracking\list_tip.php on line 69.
+ 1 APPPATH\Views\Tip_tracking\list_tip.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: total_trip', 'APPPATH\\Views\\Tip_tracking\\list_tip.php', 69, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Tip_tracking\\list_tip.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Tip_tracking/list_tip', [], true)
+ 5 APPPATH\Controllers\Tip.php(27): view('Tip_tracking/list_tip', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->viewListTip()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-22 01:51:38 --> Undefined variable: total_trip
+in APPPATH\Views\Tip_tracking\list_tip.php on line 69.
+ 1 APPPATH\Views\Tip_tracking\list_tip.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: total_trip', 'APPPATH\\Views\\Tip_tracking\\list_tip.php', 69, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Tip_tracking\\list_tip.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Tip_tracking/list_tip', [], true)
+ 5 APPPATH\Controllers\Tip.php(27): view('Tip_tracking/list_tip', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->viewListTip()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-22 02:15:02 --> Undefined index: driver
+in APPPATH\Models\TipModel.php on line 12.
+ 1 APPPATH\Models\TipModel.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: driver', 'APPPATH\\Models\\TipModel.php', 12, [...])
+ 2 APPPATH\Controllers\Tip.php(24): App\Models\TipModel->getdataView()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->viewListTip()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-22 02:15:27 --> Undefined index: driver
+in APPPATH\Models\TipModel.php on line 12.
+ 1 APPPATH\Models\TipModel.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: driver', 'APPPATH\\Models\\TipModel.php', 12, [...])
+ 2 APPPATH\Controllers\Tip.php(24): App\Models\TipModel->getdataView()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->viewListTip()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-22 02:16:00 --> Undefined index: driver
+in APPPATH\Models\TipModel.php on line 12.
+ 1 APPPATH\Models\TipModel.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: driver', 'APPPATH\\Models\\TipModel.php', 12, [...])
+ 2 APPPATH\Controllers\Tip.php(24): App\Models\TipModel->getdataView()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->viewListTip()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-22 02:31:35 --> Undefined index: driver
+in APPPATH\Models\TipModel.php on line 12.
+ 1 APPPATH\Models\TipModel.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: driver', 'APPPATH\\Models\\TipModel.php', 12, [...])
+ 2 APPPATH\Controllers\Tip.php(24): App\Models\TipModel->getdataView()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->viewListTip()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-22 02:31:36 --> Undefined index: driver
+in APPPATH\Models\TipModel.php on line 12.
+ 1 APPPATH\Models\TipModel.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: driver', 'APPPATH\\Models\\TipModel.php', 12, [...])
+ 2 APPPATH\Controllers\Tip.php(24): App\Models\TipModel->getdataView()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->viewListTip()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-22 02:31:37 --> Undefined index: driver
+in APPPATH\Models\TipModel.php on line 12.
+ 1 APPPATH\Models\TipModel.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: driver', 'APPPATH\\Models\\TipModel.php', 12, [...])
+ 2 APPPATH\Controllers\Tip.php(24): App\Models\TipModel->getdataView()
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->viewListTip()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-22 19:18:33 --> Undefined variable: dono
+in APPPATH\Views\Tip_tracking\list_tip.php on line 124.
+ 1 APPPATH\Views\Tip_tracking\list_tip.php(124): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: dono', 'APPPATH\\Views\\Tip_tracking\\list_tip.php', 124, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Tip_tracking\\list_tip.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Tip_tracking/list_tip', [], true)
+ 5 APPPATH\Controllers\Tip.php(27): view('Tip_tracking/list_tip', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->viewListTip()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-22 19:24:29 --> Undefined variable: data_dono
+in APPPATH\Views\Tip_tracking\list_tip.php on line 124.
+ 1 APPPATH\Views\Tip_tracking\list_tip.php(124): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data_dono', 'APPPATH\\Views\\Tip_tracking\\list_tip.php', 124, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Tip_tracking\\list_tip.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Tip_tracking/list_tip', [], true)
+ 5 APPPATH\Controllers\Tip.php(26): view('Tip_tracking/list_tip', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->viewListTip()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-22 19:25:03 --> Undefined variable: data_dono
+in APPPATH\Views\Tip_tracking\list_tip.php on line 262.
+ 1 APPPATH\Views\Tip_tracking\list_tip.php(262): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data_dono', 'APPPATH\\Views\\Tip_tracking\\list_tip.php', 262, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Tip_tracking\\list_tip.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Tip_tracking/list_tip', [], true)
+ 5 APPPATH\Controllers\Tip.php(26): view('Tip_tracking/list_tip', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->viewListTip()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-22 19:25:45 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 27279360 bytes)
+in APPPATH\Views\Tip_tracking\list_tip.php on line 266.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-22 21:49:11 --> implode(): Invalid arguments passed
+in APPPATH\Controllers\Tip.php on line 32.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'implode(): Invalid arguments passed', 'APPPATH\\Controllers\\Tip.php', 32, [])
+ 2 APPPATH\Controllers\Tip.php(32): implode(',', null)
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-22 22:00:44 --> Undefined offset: 1
+in APPPATH\Controllers\Tip.php on line 37.
+ 1 APPPATH\Controllers\Tip.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 1', 'APPPATH\\Controllers\\Tip.php', 37, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-22 22:01:45 --> Undefined offset: 1
+in APPPATH\Controllers\Tip.php on line 37.
+ 1 APPPATH\Controllers\Tip.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 1', 'APPPATH\\Controllers\\Tip.php', 37, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-22 22:02:27 --> Undefined offset: 1
+in APPPATH\Controllers\Tip.php on line 37.
+ 1 APPPATH\Controllers\Tip.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 1', 'APPPATH\\Controllers\\Tip.php', 37, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-22 22:03:59 --> implode(): Invalid arguments passed
+in APPPATH\Controllers\Tip.php on line 34.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'implode(): Invalid arguments passed', 'APPPATH\\Controllers\\Tip.php', 34, [...])
+ 2 APPPATH\Controllers\Tip.php(34): implode(':', null)
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-22 22:19:43 --> Undefined offset: 1
+in APPPATH\Controllers\Tip.php on line 35.
+ 1 APPPATH\Controllers\Tip.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 1', 'APPPATH\\Controllers\\Tip.php', 35, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-22 22:32:51 --> explode() expects parameter 2 to be string, array given
+in APPPATH\Controllers\Tip.php on line 34.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'explode() expects parameter 2 to be string, array given', 'APPPATH\\Controllers\\Tip.php', 34, [...])
+ 2 APPPATH\Controllers\Tip.php(34): explode(':', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-22 22:38:06 --> explode() expects parameter 2 to be string, array given
+in APPPATH\Controllers\Tip.php on line 34.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'explode() expects parameter 2 to be string, array given', 'APPPATH\\Controllers\\Tip.php', 34, [...])
+ 2 APPPATH\Controllers\Tip.php(34): explode(':', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-22 22:38:39 --> explode() expects parameter 2 to be string, array given
+in APPPATH\Controllers\Tip.php on line 34.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'explode() expects parameter 2 to be string, array given', 'APPPATH\\Controllers\\Tip.php', 34, [...])
+ 2 APPPATH\Controllers\Tip.php(34): explode(':', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-22 22:38:54 --> explode() expects parameter 2 to be string, array given
+in APPPATH\Controllers\Tip.php on line 34.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'explode() expects parameter 2 to be string, array given', 'APPPATH\\Controllers\\Tip.php', 34, [...])
+ 2 APPPATH\Controllers\Tip.php(34): explode(':', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-22 22:39:35 --> explode() expects parameter 2 to be string, array given
+in APPPATH\Controllers\Tip.php on line 34.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'explode() expects parameter 2 to be string, array given', 'APPPATH\\Controllers\\Tip.php', 34, [...])
+ 2 APPPATH\Controllers\Tip.php(34): explode(':', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-22 22:40:03 --> explode() expects parameter 2 to be string, array given
+in APPPATH\Controllers\Tip.php on line 34.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'explode() expects parameter 2 to be string, array given', 'APPPATH\\Controllers\\Tip.php', 34, [...])
+ 2 APPPATH\Controllers\Tip.php(34): explode(':', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-22 22:43:07 --> explode() expects parameter 2 to be string, array given
+in APPPATH\Controllers\Tip.php on line 34.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'explode() expects parameter 2 to be string, array given', 'APPPATH\\Controllers\\Tip.php', 34, [...])
+ 2 APPPATH\Controllers\Tip.php(34): explode(':', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-22 22:43:37 --> explode() expects parameter 2 to be string, array given
+in APPPATH\Controllers\Tip.php on line 34.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'explode() expects parameter 2 to be string, array given', 'APPPATH\\Controllers\\Tip.php', 34, [...])
+ 2 APPPATH\Controllers\Tip.php(34): explode(':', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-22 22:47:56 --> explode() expects parameter 2 to be string, array given
+in APPPATH\Controllers\Tip.php on line 34.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'explode() expects parameter 2 to be string, array given', 'APPPATH\\Controllers\\Tip.php', 34, [...])
+ 2 APPPATH\Controllers\Tip.php(34): explode(',', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-22 22:48:08 --> explode() expects parameter 2 to be string, array given
+in APPPATH\Controllers\Tip.php on line 34.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'explode() expects parameter 2 to be string, array given', 'APPPATH\\Controllers\\Tip.php', 34, [...])
+ 2 APPPATH\Controllers\Tip.php(34): explode(':', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-22 22:48:10 --> explode() expects parameter 2 to be string, array given
+in APPPATH\Controllers\Tip.php on line 34.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'explode() expects parameter 2 to be string, array given', 'APPPATH\\Controllers\\Tip.php', 34, [...])
+ 2 APPPATH\Controllers\Tip.php(34): explode(':', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-22 22:48:10 --> explode() expects parameter 2 to be string, array given
+in APPPATH\Controllers\Tip.php on line 34.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'explode() expects parameter 2 to be string, array given', 'APPPATH\\Controllers\\Tip.php', 34, [...])
+ 2 APPPATH\Controllers\Tip.php(34): explode(':', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-22 22:48:10 --> explode() expects parameter 2 to be string, array given
+in APPPATH\Controllers\Tip.php on line 34.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'explode() expects parameter 2 to be string, array given', 'APPPATH\\Controllers\\Tip.php', 34, [...])
+ 2 APPPATH\Controllers\Tip.php(34): explode(':', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-22 22:48:11 --> explode() expects parameter 2 to be string, array given
+in APPPATH\Controllers\Tip.php on line 34.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'explode() expects parameter 2 to be string, array given', 'APPPATH\\Controllers\\Tip.php', 34, [...])
+ 2 APPPATH\Controllers\Tip.php(34): explode(':', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-22 22:48:11 --> explode() expects parameter 2 to be string, array given
+in APPPATH\Controllers\Tip.php on line 34.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'explode() expects parameter 2 to be string, array given', 'APPPATH\\Controllers\\Tip.php', 34, [...])
+ 2 APPPATH\Controllers\Tip.php(34): explode(':', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-22 22:48:11 --> explode() expects parameter 2 to be string, array given
+in APPPATH\Controllers\Tip.php on line 34.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'explode() expects parameter 2 to be string, array given', 'APPPATH\\Controllers\\Tip.php', 34, [...])
+ 2 APPPATH\Controllers\Tip.php(34): explode(':', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-22 22:48:11 --> explode() expects parameter 2 to be string, array given
+in APPPATH\Controllers\Tip.php on line 34.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'explode() expects parameter 2 to be string, array given', 'APPPATH\\Controllers\\Tip.php', 34, [...])
+ 2 APPPATH\Controllers\Tip.php(34): explode(':', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-22 22:48:11 --> explode() expects parameter 2 to be string, array given
+in APPPATH\Controllers\Tip.php on line 34.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'explode() expects parameter 2 to be string, array given', 'APPPATH\\Controllers\\Tip.php', 34, [...])
+ 2 APPPATH\Controllers\Tip.php(34): explode(':', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-22 22:48:29 --> Undefined offset: 1
+in APPPATH\Controllers\Tip.php on line 40.
+ 1 APPPATH\Controllers\Tip.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 1', 'APPPATH\\Controllers\\Tip.php', 40, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-22 22:52:26 --> explode() expects parameter 2 to be string, array given
+in APPPATH\Controllers\Tip.php on line 34.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'explode() expects parameter 2 to be string, array given', 'APPPATH\\Controllers\\Tip.php', 34, [...])
+ 2 APPPATH\Controllers\Tip.php(34): explode(':', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-22 22:52:39 --> explode() expects parameter 2 to be string, array given
+in APPPATH\Controllers\Tip.php on line 34.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'explode() expects parameter 2 to be string, array given', 'APPPATH\\Controllers\\Tip.php', 34, [...])
+ 2 APPPATH\Controllers\Tip.php(34): explode(':', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-22 22:54:22 --> explode() expects parameter 2 to be string, array given
+in APPPATH\Controllers\Tip.php on line 34.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'explode() expects parameter 2 to be string, array given', 'APPPATH\\Controllers\\Tip.php', 34, [...])
+ 2 APPPATH\Controllers\Tip.php(34): explode(':', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

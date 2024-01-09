@@ -1,0 +1,666 @@
+CRITICAL - 2023-03-14 01:02:30 --> syntax error, unexpected '}', expecting end of file
+in APPPATH\Views\Tip_tracking\report_list_tip.php on line 105.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Tip_tracking/report_list_tip', [], true)
+ 3 APPPATH\Controllers\Tip.php(266): view('Tip_tracking/report_list_tip', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->printPDF()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-14 01:40:42 --> Undefined variable: total_trip
+in APPPATH\Views\Tip_tracking\report_list_tip.php on line 103.
+ 1 APPPATH\Views\Tip_tracking\report_list_tip.php(103): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: total_trip', 'APPPATH\\Views\\Tip_tracking\\report_list_tip.php', 103, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Tip_tracking\\report_list_tip.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Tip_tracking/report_list_tip', [], true)
+ 5 APPPATH\Controllers\Tip.php(266): view('Tip_tracking/report_list_tip', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->printPDF()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-14 01:41:27 --> Undefined variable: total_trip
+in APPPATH\Views\Tip_tracking\report_list_tip.php on line 103.
+ 1 APPPATH\Views\Tip_tracking\report_list_tip.php(103): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: total_trip', 'APPPATH\\Views\\Tip_tracking\\report_list_tip.php', 103, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Tip_tracking\\report_list_tip.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Tip_tracking/report_list_tip', [], true)
+ 5 APPPATH\Controllers\Tip.php(266): view('Tip_tracking/report_list_tip', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->printPDF()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-14 01:41:50 --> Undefined variable: total_trip
+in APPPATH\Views\Tip_tracking\report_list_tip.php on line 103.
+ 1 APPPATH\Views\Tip_tracking\report_list_tip.php(103): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: total_trip', 'APPPATH\\Views\\Tip_tracking\\report_list_tip.php', 103, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Tip_tracking\\report_list_tip.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Tip_tracking/report_list_tip', [], true)
+ 5 APPPATH\Controllers\Tip.php(266): view('Tip_tracking/report_list_tip', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->printPDF()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-14 01:41:51 --> Undefined variable: total_trip
+in APPPATH\Views\Tip_tracking\report_list_tip.php on line 103.
+ 1 APPPATH\Views\Tip_tracking\report_list_tip.php(103): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: total_trip', 'APPPATH\\Views\\Tip_tracking\\report_list_tip.php', 103, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Tip_tracking\\report_list_tip.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Tip_tracking/report_list_tip', [], true)
+ 5 APPPATH\Controllers\Tip.php(266): view('Tip_tracking/report_list_tip', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->printPDF()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-14 01:46:13 --> Undefined variable: total_trip
+in APPPATH\Views\Tip_tracking\report_list_tip.php on line 103.
+ 1 APPPATH\Views\Tip_tracking\report_list_tip.php(103): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: total_trip', 'APPPATH\\Views\\Tip_tracking\\report_list_tip.php', 103, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Tip_tracking\\report_list_tip.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Tip_tracking/report_list_tip', [], true)
+ 5 APPPATH\Controllers\Tip.php(266): view('Tip_tracking/report_list_tip', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->printPDF()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-14 01:46:14 --> Undefined variable: total_trip
+in APPPATH\Views\Tip_tracking\report_list_tip.php on line 103.
+ 1 APPPATH\Views\Tip_tracking\report_list_tip.php(103): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: total_trip', 'APPPATH\\Views\\Tip_tracking\\report_list_tip.php', 103, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Tip_tracking\\report_list_tip.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Tip_tracking/report_list_tip', [], true)
+ 5 APPPATH\Controllers\Tip.php(266): view('Tip_tracking/report_list_tip', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->printPDF()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-14 01:46:31 --> Undefined variable: total_trip
+in APPPATH\Views\Tip_tracking\report_list_tip.php on line 103.
+ 1 APPPATH\Views\Tip_tracking\report_list_tip.php(103): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: total_trip', 'APPPATH\\Views\\Tip_tracking\\report_list_tip.php', 103, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Tip_tracking\\report_list_tip.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Tip_tracking/report_list_tip', [], true)
+ 5 APPPATH\Controllers\Tip.php(266): view('Tip_tracking/report_list_tip', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->printPDF()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-14 01:46:51 --> Undefined variable: total_trip
+in APPPATH\Views\Tip_tracking\report_list_tip.php on line 104.
+ 1 APPPATH\Views\Tip_tracking\report_list_tip.php(104): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: total_trip', 'APPPATH\\Views\\Tip_tracking\\report_list_tip.php', 104, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Tip_tracking\\report_list_tip.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Tip_tracking/report_list_tip', [], true)
+ 5 APPPATH\Controllers\Tip.php(266): view('Tip_tracking/report_list_tip', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->printPDF()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-14 01:47:01 --> Undefined variable: total_trip
+in APPPATH\Views\Tip_tracking\report_list_tip.php on line 104.
+ 1 APPPATH\Views\Tip_tracking\report_list_tip.php(104): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: total_trip', 'APPPATH\\Views\\Tip_tracking\\report_list_tip.php', 104, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Tip_tracking\\report_list_tip.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Tip_tracking/report_list_tip', [], true)
+ 5 APPPATH\Controllers\Tip.php(266): view('Tip_tracking/report_list_tip', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->printPDF()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-14 01:47:14 --> Array to string conversion
+in APPPATH\Views\Tip_tracking\report_list_tip.php on line 107.
+ 1 APPPATH\Views\Tip_tracking\report_list_tip.php(107): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Views\\Tip_tracking\\report_list_tip.php', 107, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Tip_tracking\\report_list_tip.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Tip_tracking/report_list_tip', [], true)
+ 5 APPPATH\Controllers\Tip.php(266): view('Tip_tracking/report_list_tip', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->printPDF()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-14 02:01:52 --> Undefined variable: total_trip
+in APPPATH\Views\Tip_tracking\report_list_tip.php on line 103.
+ 1 APPPATH\Views\Tip_tracking\report_list_tip.php(103): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: total_trip', 'APPPATH\\Views\\Tip_tracking\\report_list_tip.php', 103, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Tip_tracking\\report_list_tip.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Tip_tracking/report_list_tip', [], true)
+ 5 APPPATH\Controllers\Tip.php(264): view('Tip_tracking/report_list_tip', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->printPDF()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-14 02:02:39 --> Undefined variable: litotalst
+in APPPATH\Views\Tip_tracking\report_list_tip.php on line 106.
+ 1 APPPATH\Views\Tip_tracking\report_list_tip.php(106): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: litotalst', 'APPPATH\\Views\\Tip_tracking\\report_list_tip.php', 106, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Tip_tracking\\report_list_tip.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Tip_tracking/report_list_tip', [], true)
+ 5 APPPATH\Controllers\Tip.php(264): view('Tip_tracking/report_list_tip', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->printPDF()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-14 02:10:49 --> Undefined index: doni
+in APPPATH\Views\Tip_tracking\report_list_tip.php on line 83.
+ 1 APPPATH\Views\Tip_tracking\report_list_tip.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: doni', 'APPPATH\\Views\\Tip_tracking\\report_list_tip.php', 83, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Tip_tracking\\report_list_tip.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Tip_tracking/report_list_tip', [], true)
+ 5 APPPATH\Controllers\Tip.php(264): view('Tip_tracking/report_list_tip', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->printPDF()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-14 02:13:07 --> Undefined index: value_chandra
+in APPPATH\Views\Tip_tracking\report_list_tip.php on line 84.
+ 1 APPPATH\Views\Tip_tracking\report_list_tip.php(84): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: value_chandra', 'APPPATH\\Views\\Tip_tracking\\report_list_tip.php', 84, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Tip_tracking\\report_list_tip.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Tip_tracking/report_list_tip', [], true)
+ 5 APPPATH\Controllers\Tip.php(264): view('Tip_tracking/report_list_tip', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->printPDF()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-14 03:21:02 --> Invalid file: Tip_tracking/print_report_lis_tip.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Tip_tracking/print_report_lis_tip.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Tip_tracking/print_report_lis_tip', [], true)
+ 3 APPPATH\Controllers\Tip.php(254): view('Tip_tracking/print_report_lis_tip', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->printreportperbulan()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-14 03:21:15 --> Invalid file: Tip_tracking/print_report_lis_tip.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Tip_tracking/print_report_lis_tip.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Tip_tracking/print_report_lis_tip', [], true)
+ 3 APPPATH\Controllers\Tip.php(254): view('Tip_tracking/print_report_lis_tip', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->printreportperbulan()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-03-14 03:21:19 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND year(tgl)= GROUP BY tgl' at line 12 in C:\xampp\htdocs\tracking\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\tracking\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT tgl,\r\n  ...', 0)
+#1 C:\xampp\htdocs\tracking\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tgl,\r\n  ...')
+#2 C:\xampp\htdocs\tracking\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tgl,\r\n  ...')
+#3 C:\xampp\htdocs\tracking\app\Models\TipModel.php(139): CodeIgniter\Database\BaseConnection->query('SELECT tgl,\r\n  ...')
+#4 C:\xampp\htdocs\tracking\app\Controllers\Tip.php(251): App\Models\TipModel->getreportbyMonth(NULL, NULL)
+#5 C:\xampp\htdocs\tracking\system\CodeIgniter.php(904): App\Controllers\Tip->printreportperbulan()
+#6 C:\xampp\htdocs\tracking\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+#7 C:\xampp\htdocs\tracking\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tracking\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\tracking\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-03-14 03:21:19 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND year(tgl)= GROUP BY tgl' at line 12
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT tgl,
+                    COUNT(IF(driver=\'Chandra sinaga\', trip, NULL)) trip_chandra,
+                    COUNT(IF(driver=\'Doni\', trip, NULL)) trip_doni,
+                    COUNT(IF(driver=\'Dafrizal\', trip, NULL)) trip_dafrizal,
+                    COUNT(IF(driver=\'Herian\', trip, NULL)) trip_herian,
+
+                    SUM(IF(driver=\'Chandra sinaga\', value_tip, 0)) value_chandra,
+                    SUM(IF(driver=\'Doni\', value_tip, 0)) value_doni,
+                    SUM(IF(driver=\'Dafrizal\', value_tip, 0)) value_dafrizal,
+                    SUM(IF(driver=\'Herian\', value_tip, 0)) value_herian
+                        FROM tblmas_tip_tracking
+			                WHERE month(tgl)= AND year(tgl)= GROUP BY tgl', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tgl,
+                    COUNT(IF(driver=\'Chandra sinaga\', trip, NULL)) trip_chandra,
+                    COUNT(IF(driver=\'Doni\', trip, NULL)) trip_doni,
+                    COUNT(IF(driver=\'Dafrizal\', trip, NULL)) trip_dafrizal,
+                    COUNT(IF(driver=\'Herian\', trip, NULL)) trip_herian,
+
+                    SUM(IF(driver=\'Chandra sinaga\', value_tip, 0)) value_chandra,
+                    SUM(IF(driver=\'Doni\', value_tip, 0)) value_doni,
+                    SUM(IF(driver=\'Dafrizal\', value_tip, 0)) value_dafrizal,
+                    SUM(IF(driver=\'Herian\', value_tip, 0)) value_herian
+                        FROM tblmas_tip_tracking
+			                WHERE month(tgl)= AND year(tgl)= GROUP BY tgl')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tgl,
+                    COUNT(IF(driver=\'Chandra sinaga\', trip, NULL)) trip_chandra,
+                    COUNT(IF(driver=\'Doni\', trip, NULL)) trip_doni,
+                    COUNT(IF(driver=\'Dafrizal\', trip, NULL)) trip_dafrizal,
+                    COUNT(IF(driver=\'Herian\', trip, NULL)) trip_herian,
+
+                    SUM(IF(driver=\'Chandra sinaga\', value_tip, 0)) value_chandra,
+                    SUM(IF(driver=\'Doni\', value_tip, 0)) value_doni,
+                    SUM(IF(driver=\'Dafrizal\', value_tip, 0)) value_dafrizal,
+                    SUM(IF(driver=\'Herian\', value_tip, 0)) value_herian
+                        FROM tblmas_tip_tracking
+			                WHERE month(tgl)= AND year(tgl)= GROUP BY tgl')
+ 4 APPPATH\Models\TipModel.php(139): CodeIgniter\Database\BaseConnection->query('SELECT tgl,
+                    COUNT(IF(driver=\'Chandra sinaga\', trip, NULL)) trip_chandra,
+                    COUNT(IF(driver=\'Doni\', trip, NULL)) trip_doni,
+                    COUNT(IF(driver=\'Dafrizal\', trip, NULL)) trip_dafrizal,
+                    COUNT(IF(driver=\'Herian\', trip, NULL)) trip_herian,
+
+                    SUM(IF(driver=\'Chandra sinaga\', value_tip, 0)) value_chandra,
+                    SUM(IF(driver=\'Doni\', value_tip, 0)) value_doni,
+                    SUM(IF(driver=\'Dafrizal\', value_tip, 0)) value_dafrizal,
+                    SUM(IF(driver=\'Herian\', value_tip, 0)) value_herian
+                        FROM tblmas_tip_tracking
+			                WHERE month(tgl)= AND year(tgl)= GROUP BY tgl')
+ 5 APPPATH\Controllers\Tip.php(251): App\Models\TipModel->getreportbyMonth(null, null)
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->printreportperbulan()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-14 03:21:19 --> Invalid file: Tip_tracking/print_report_lis_tip.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Tip_tracking/print_report_lis_tip.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Tip_tracking/print_report_lis_tip', [], true)
+ 3 APPPATH\Controllers\Tip.php(254): view('Tip_tracking/print_report_lis_tip', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->printreportperbulan()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-03-14 03:22:05 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND year(tgl)= GROUP BY tgl' at line 12 in C:\xampp\htdocs\tracking\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\tracking\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT tgl,\r\n  ...', 0)
+#1 C:\xampp\htdocs\tracking\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tgl,\r\n  ...')
+#2 C:\xampp\htdocs\tracking\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tgl,\r\n  ...')
+#3 C:\xampp\htdocs\tracking\app\Models\TipModel.php(139): CodeIgniter\Database\BaseConnection->query('SELECT tgl,\r\n  ...')
+#4 C:\xampp\htdocs\tracking\app\Controllers\Tip.php(251): App\Models\TipModel->getreportbyMonth(NULL, NULL)
+#5 C:\xampp\htdocs\tracking\system\CodeIgniter.php(904): App\Controllers\Tip->printreportperbulan()
+#6 C:\xampp\htdocs\tracking\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+#7 C:\xampp\htdocs\tracking\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tracking\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\tracking\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-03-14 03:22:05 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND year(tgl)= GROUP BY tgl' at line 12
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT tgl,
+                    COUNT(IF(driver=\'Chandra sinaga\', trip, NULL)) trip_chandra,
+                    COUNT(IF(driver=\'Doni\', trip, NULL)) trip_doni,
+                    COUNT(IF(driver=\'Dafrizal\', trip, NULL)) trip_dafrizal,
+                    COUNT(IF(driver=\'Herian\', trip, NULL)) trip_herian,
+
+                    SUM(IF(driver=\'Chandra sinaga\', value_tip, 0)) value_chandra,
+                    SUM(IF(driver=\'Doni\', value_tip, 0)) value_doni,
+                    SUM(IF(driver=\'Dafrizal\', value_tip, 0)) value_dafrizal,
+                    SUM(IF(driver=\'Herian\', value_tip, 0)) value_herian
+                        FROM tblmas_tip_tracking
+			                WHERE month(tgl)= AND year(tgl)= GROUP BY tgl', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tgl,
+                    COUNT(IF(driver=\'Chandra sinaga\', trip, NULL)) trip_chandra,
+                    COUNT(IF(driver=\'Doni\', trip, NULL)) trip_doni,
+                    COUNT(IF(driver=\'Dafrizal\', trip, NULL)) trip_dafrizal,
+                    COUNT(IF(driver=\'Herian\', trip, NULL)) trip_herian,
+
+                    SUM(IF(driver=\'Chandra sinaga\', value_tip, 0)) value_chandra,
+                    SUM(IF(driver=\'Doni\', value_tip, 0)) value_doni,
+                    SUM(IF(driver=\'Dafrizal\', value_tip, 0)) value_dafrizal,
+                    SUM(IF(driver=\'Herian\', value_tip, 0)) value_herian
+                        FROM tblmas_tip_tracking
+			                WHERE month(tgl)= AND year(tgl)= GROUP BY tgl')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tgl,
+                    COUNT(IF(driver=\'Chandra sinaga\', trip, NULL)) trip_chandra,
+                    COUNT(IF(driver=\'Doni\', trip, NULL)) trip_doni,
+                    COUNT(IF(driver=\'Dafrizal\', trip, NULL)) trip_dafrizal,
+                    COUNT(IF(driver=\'Herian\', trip, NULL)) trip_herian,
+
+                    SUM(IF(driver=\'Chandra sinaga\', value_tip, 0)) value_chandra,
+                    SUM(IF(driver=\'Doni\', value_tip, 0)) value_doni,
+                    SUM(IF(driver=\'Dafrizal\', value_tip, 0)) value_dafrizal,
+                    SUM(IF(driver=\'Herian\', value_tip, 0)) value_herian
+                        FROM tblmas_tip_tracking
+			                WHERE month(tgl)= AND year(tgl)= GROUP BY tgl')
+ 4 APPPATH\Models\TipModel.php(139): CodeIgniter\Database\BaseConnection->query('SELECT tgl,
+                    COUNT(IF(driver=\'Chandra sinaga\', trip, NULL)) trip_chandra,
+                    COUNT(IF(driver=\'Doni\', trip, NULL)) trip_doni,
+                    COUNT(IF(driver=\'Dafrizal\', trip, NULL)) trip_dafrizal,
+                    COUNT(IF(driver=\'Herian\', trip, NULL)) trip_herian,
+
+                    SUM(IF(driver=\'Chandra sinaga\', value_tip, 0)) value_chandra,
+                    SUM(IF(driver=\'Doni\', value_tip, 0)) value_doni,
+                    SUM(IF(driver=\'Dafrizal\', value_tip, 0)) value_dafrizal,
+                    SUM(IF(driver=\'Herian\', value_tip, 0)) value_herian
+                        FROM tblmas_tip_tracking
+			                WHERE month(tgl)= AND year(tgl)= GROUP BY tgl')
+ 5 APPPATH\Controllers\Tip.php(251): App\Models\TipModel->getreportbyMonth(null, null)
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->printreportperbulan()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-14 03:22:08 --> Invalid file: Tip_tracking/print_report_lis_tip.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Tip_tracking/print_report_lis_tip.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Tip_tracking/print_report_lis_tip', [], true)
+ 3 APPPATH\Controllers\Tip.php(254): view('Tip_tracking/print_report_lis_tip', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->printreportperbulan()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-03-14 03:23:50 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND year(tgl)= GROUP BY tgl' at line 12 in C:\xampp\htdocs\tracking\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\tracking\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT tgl,\r\n  ...', 0)
+#1 C:\xampp\htdocs\tracking\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tgl,\r\n  ...')
+#2 C:\xampp\htdocs\tracking\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tgl,\r\n  ...')
+#3 C:\xampp\htdocs\tracking\app\Models\TipModel.php(139): CodeIgniter\Database\BaseConnection->query('SELECT tgl,\r\n  ...')
+#4 C:\xampp\htdocs\tracking\app\Controllers\Tip.php(251): App\Models\TipModel->getreportbyMonth(NULL, NULL)
+#5 C:\xampp\htdocs\tracking\system\CodeIgniter.php(904): App\Controllers\Tip->printreportperbulan()
+#6 C:\xampp\htdocs\tracking\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+#7 C:\xampp\htdocs\tracking\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tracking\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\tracking\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-03-14 03:23:50 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND year(tgl)= GROUP BY tgl' at line 12
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT tgl,
+                    COUNT(IF(driver=\'Chandra sinaga\', trip, NULL)) trip_chandra,
+                    COUNT(IF(driver=\'Doni\', trip, NULL)) trip_doni,
+                    COUNT(IF(driver=\'Dafrizal\', trip, NULL)) trip_dafrizal,
+                    COUNT(IF(driver=\'Herian\', trip, NULL)) trip_herian,
+
+                    SUM(IF(driver=\'Chandra sinaga\', value_tip, 0)) value_chandra,
+                    SUM(IF(driver=\'Doni\', value_tip, 0)) value_doni,
+                    SUM(IF(driver=\'Dafrizal\', value_tip, 0)) value_dafrizal,
+                    SUM(IF(driver=\'Herian\', value_tip, 0)) value_herian
+                        FROM tblmas_tip_tracking
+			                WHERE month(tgl)= AND year(tgl)= GROUP BY tgl', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tgl,
+                    COUNT(IF(driver=\'Chandra sinaga\', trip, NULL)) trip_chandra,
+                    COUNT(IF(driver=\'Doni\', trip, NULL)) trip_doni,
+                    COUNT(IF(driver=\'Dafrizal\', trip, NULL)) trip_dafrizal,
+                    COUNT(IF(driver=\'Herian\', trip, NULL)) trip_herian,
+
+                    SUM(IF(driver=\'Chandra sinaga\', value_tip, 0)) value_chandra,
+                    SUM(IF(driver=\'Doni\', value_tip, 0)) value_doni,
+                    SUM(IF(driver=\'Dafrizal\', value_tip, 0)) value_dafrizal,
+                    SUM(IF(driver=\'Herian\', value_tip, 0)) value_herian
+                        FROM tblmas_tip_tracking
+			                WHERE month(tgl)= AND year(tgl)= GROUP BY tgl')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tgl,
+                    COUNT(IF(driver=\'Chandra sinaga\', trip, NULL)) trip_chandra,
+                    COUNT(IF(driver=\'Doni\', trip, NULL)) trip_doni,
+                    COUNT(IF(driver=\'Dafrizal\', trip, NULL)) trip_dafrizal,
+                    COUNT(IF(driver=\'Herian\', trip, NULL)) trip_herian,
+
+                    SUM(IF(driver=\'Chandra sinaga\', value_tip, 0)) value_chandra,
+                    SUM(IF(driver=\'Doni\', value_tip, 0)) value_doni,
+                    SUM(IF(driver=\'Dafrizal\', value_tip, 0)) value_dafrizal,
+                    SUM(IF(driver=\'Herian\', value_tip, 0)) value_herian
+                        FROM tblmas_tip_tracking
+			                WHERE month(tgl)= AND year(tgl)= GROUP BY tgl')
+ 4 APPPATH\Models\TipModel.php(139): CodeIgniter\Database\BaseConnection->query('SELECT tgl,
+                    COUNT(IF(driver=\'Chandra sinaga\', trip, NULL)) trip_chandra,
+                    COUNT(IF(driver=\'Doni\', trip, NULL)) trip_doni,
+                    COUNT(IF(driver=\'Dafrizal\', trip, NULL)) trip_dafrizal,
+                    COUNT(IF(driver=\'Herian\', trip, NULL)) trip_herian,
+
+                    SUM(IF(driver=\'Chandra sinaga\', value_tip, 0)) value_chandra,
+                    SUM(IF(driver=\'Doni\', value_tip, 0)) value_doni,
+                    SUM(IF(driver=\'Dafrizal\', value_tip, 0)) value_dafrizal,
+                    SUM(IF(driver=\'Herian\', value_tip, 0)) value_herian
+                        FROM tblmas_tip_tracking
+			                WHERE month(tgl)= AND year(tgl)= GROUP BY tgl')
+ 5 APPPATH\Controllers\Tip.php(251): App\Models\TipModel->getreportbyMonth(null, null)
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->printreportperbulan()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-03-14 03:44:20 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND year(tgl)= GROUP BY tgl' at line 12 in C:\xampp\htdocs\tracking\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\tracking\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT tgl,\r\n  ...', 0)
+#1 C:\xampp\htdocs\tracking\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tgl,\r\n  ...')
+#2 C:\xampp\htdocs\tracking\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tgl,\r\n  ...')
+#3 C:\xampp\htdocs\tracking\app\Models\TipModel.php(139): CodeIgniter\Database\BaseConnection->query('SELECT tgl,\r\n  ...')
+#4 C:\xampp\htdocs\tracking\app\Controllers\Tip.php(251): App\Models\TipModel->getreportbyMonth(NULL, NULL)
+#5 C:\xampp\htdocs\tracking\system\CodeIgniter.php(904): App\Controllers\Tip->printreportperbulan()
+#6 C:\xampp\htdocs\tracking\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+#7 C:\xampp\htdocs\tracking\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tracking\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\tracking\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-03-14 03:44:20 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND year(tgl)= GROUP BY tgl' at line 12
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT tgl,
+                    COUNT(IF(driver=\'Chandra sinaga\', trip, NULL)) trip_chandra,
+                    COUNT(IF(driver=\'Doni\', trip, NULL)) trip_doni,
+                    COUNT(IF(driver=\'Dafrizal\', trip, NULL)) trip_dafrizal,
+                    COUNT(IF(driver=\'Herian\', trip, NULL)) trip_herian,
+
+                    SUM(IF(driver=\'Chandra sinaga\', value_tip, 0)) value_chandra,
+                    SUM(IF(driver=\'Doni\', value_tip, 0)) value_doni,
+                    SUM(IF(driver=\'Dafrizal\', value_tip, 0)) value_dafrizal,
+                    SUM(IF(driver=\'Herian\', value_tip, 0)) value_herian
+                        FROM tblmas_tip_tracking
+			                WHERE month(tgl)= AND year(tgl)= GROUP BY tgl', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tgl,
+                    COUNT(IF(driver=\'Chandra sinaga\', trip, NULL)) trip_chandra,
+                    COUNT(IF(driver=\'Doni\', trip, NULL)) trip_doni,
+                    COUNT(IF(driver=\'Dafrizal\', trip, NULL)) trip_dafrizal,
+                    COUNT(IF(driver=\'Herian\', trip, NULL)) trip_herian,
+
+                    SUM(IF(driver=\'Chandra sinaga\', value_tip, 0)) value_chandra,
+                    SUM(IF(driver=\'Doni\', value_tip, 0)) value_doni,
+                    SUM(IF(driver=\'Dafrizal\', value_tip, 0)) value_dafrizal,
+                    SUM(IF(driver=\'Herian\', value_tip, 0)) value_herian
+                        FROM tblmas_tip_tracking
+			                WHERE month(tgl)= AND year(tgl)= GROUP BY tgl')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tgl,
+                    COUNT(IF(driver=\'Chandra sinaga\', trip, NULL)) trip_chandra,
+                    COUNT(IF(driver=\'Doni\', trip, NULL)) trip_doni,
+                    COUNT(IF(driver=\'Dafrizal\', trip, NULL)) trip_dafrizal,
+                    COUNT(IF(driver=\'Herian\', trip, NULL)) trip_herian,
+
+                    SUM(IF(driver=\'Chandra sinaga\', value_tip, 0)) value_chandra,
+                    SUM(IF(driver=\'Doni\', value_tip, 0)) value_doni,
+                    SUM(IF(driver=\'Dafrizal\', value_tip, 0)) value_dafrizal,
+                    SUM(IF(driver=\'Herian\', value_tip, 0)) value_herian
+                        FROM tblmas_tip_tracking
+			                WHERE month(tgl)= AND year(tgl)= GROUP BY tgl')
+ 4 APPPATH\Models\TipModel.php(139): CodeIgniter\Database\BaseConnection->query('SELECT tgl,
+                    COUNT(IF(driver=\'Chandra sinaga\', trip, NULL)) trip_chandra,
+                    COUNT(IF(driver=\'Doni\', trip, NULL)) trip_doni,
+                    COUNT(IF(driver=\'Dafrizal\', trip, NULL)) trip_dafrizal,
+                    COUNT(IF(driver=\'Herian\', trip, NULL)) trip_herian,
+
+                    SUM(IF(driver=\'Chandra sinaga\', value_tip, 0)) value_chandra,
+                    SUM(IF(driver=\'Doni\', value_tip, 0)) value_doni,
+                    SUM(IF(driver=\'Dafrizal\', value_tip, 0)) value_dafrizal,
+                    SUM(IF(driver=\'Herian\', value_tip, 0)) value_herian
+                        FROM tblmas_tip_tracking
+			                WHERE month(tgl)= AND year(tgl)= GROUP BY tgl')
+ 5 APPPATH\Controllers\Tip.php(251): App\Models\TipModel->getreportbyMonth(null, null)
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->printreportperbulan()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-03-14 03:44:47 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND year(tgl)= GROUP BY tgl' at line 12 in C:\xampp\htdocs\tracking\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\tracking\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT tgl,\r\n  ...', 0)
+#1 C:\xampp\htdocs\tracking\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tgl,\r\n  ...')
+#2 C:\xampp\htdocs\tracking\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tgl,\r\n  ...')
+#3 C:\xampp\htdocs\tracking\app\Models\TipModel.php(139): CodeIgniter\Database\BaseConnection->query('SELECT tgl,\r\n  ...')
+#4 C:\xampp\htdocs\tracking\app\Controllers\Tip.php(251): App\Models\TipModel->getreportbyMonth(NULL, NULL)
+#5 C:\xampp\htdocs\tracking\system\CodeIgniter.php(904): App\Controllers\Tip->printreportperbulan()
+#6 C:\xampp\htdocs\tracking\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+#7 C:\xampp\htdocs\tracking\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tracking\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\tracking\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-03-14 03:44:47 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND year(tgl)= GROUP BY tgl' at line 12
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT tgl,
+                    COUNT(IF(driver=\'Chandra sinaga\', trip, NULL)) trip_chandra,
+                    COUNT(IF(driver=\'Doni\', trip, NULL)) trip_doni,
+                    COUNT(IF(driver=\'Dafrizal\', trip, NULL)) trip_dafrizal,
+                    COUNT(IF(driver=\'Herian\', trip, NULL)) trip_herian,
+
+                    SUM(IF(driver=\'Chandra sinaga\', value_tip, 0)) value_chandra,
+                    SUM(IF(driver=\'Doni\', value_tip, 0)) value_doni,
+                    SUM(IF(driver=\'Dafrizal\', value_tip, 0)) value_dafrizal,
+                    SUM(IF(driver=\'Herian\', value_tip, 0)) value_herian
+                        FROM tblmas_tip_tracking
+			                WHERE month(tgl)= AND year(tgl)= GROUP BY tgl', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tgl,
+                    COUNT(IF(driver=\'Chandra sinaga\', trip, NULL)) trip_chandra,
+                    COUNT(IF(driver=\'Doni\', trip, NULL)) trip_doni,
+                    COUNT(IF(driver=\'Dafrizal\', trip, NULL)) trip_dafrizal,
+                    COUNT(IF(driver=\'Herian\', trip, NULL)) trip_herian,
+
+                    SUM(IF(driver=\'Chandra sinaga\', value_tip, 0)) value_chandra,
+                    SUM(IF(driver=\'Doni\', value_tip, 0)) value_doni,
+                    SUM(IF(driver=\'Dafrizal\', value_tip, 0)) value_dafrizal,
+                    SUM(IF(driver=\'Herian\', value_tip, 0)) value_herian
+                        FROM tblmas_tip_tracking
+			                WHERE month(tgl)= AND year(tgl)= GROUP BY tgl')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tgl,
+                    COUNT(IF(driver=\'Chandra sinaga\', trip, NULL)) trip_chandra,
+                    COUNT(IF(driver=\'Doni\', trip, NULL)) trip_doni,
+                    COUNT(IF(driver=\'Dafrizal\', trip, NULL)) trip_dafrizal,
+                    COUNT(IF(driver=\'Herian\', trip, NULL)) trip_herian,
+
+                    SUM(IF(driver=\'Chandra sinaga\', value_tip, 0)) value_chandra,
+                    SUM(IF(driver=\'Doni\', value_tip, 0)) value_doni,
+                    SUM(IF(driver=\'Dafrizal\', value_tip, 0)) value_dafrizal,
+                    SUM(IF(driver=\'Herian\', value_tip, 0)) value_herian
+                        FROM tblmas_tip_tracking
+			                WHERE month(tgl)= AND year(tgl)= GROUP BY tgl')
+ 4 APPPATH\Models\TipModel.php(139): CodeIgniter\Database\BaseConnection->query('SELECT tgl,
+                    COUNT(IF(driver=\'Chandra sinaga\', trip, NULL)) trip_chandra,
+                    COUNT(IF(driver=\'Doni\', trip, NULL)) trip_doni,
+                    COUNT(IF(driver=\'Dafrizal\', trip, NULL)) trip_dafrizal,
+                    COUNT(IF(driver=\'Herian\', trip, NULL)) trip_herian,
+
+                    SUM(IF(driver=\'Chandra sinaga\', value_tip, 0)) value_chandra,
+                    SUM(IF(driver=\'Doni\', value_tip, 0)) value_doni,
+                    SUM(IF(driver=\'Dafrizal\', value_tip, 0)) value_dafrizal,
+                    SUM(IF(driver=\'Herian\', value_tip, 0)) value_herian
+                        FROM tblmas_tip_tracking
+			                WHERE month(tgl)= AND year(tgl)= GROUP BY tgl')
+ 5 APPPATH\Controllers\Tip.php(251): App\Models\TipModel->getreportbyMonth(null, null)
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->printreportperbulan()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-03-14 03:44:50 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND year(tgl)= GROUP BY tgl' at line 12 in C:\xampp\htdocs\tracking\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\tracking\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT tgl,\r\n  ...', 0)
+#1 C:\xampp\htdocs\tracking\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tgl,\r\n  ...')
+#2 C:\xampp\htdocs\tracking\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tgl,\r\n  ...')
+#3 C:\xampp\htdocs\tracking\app\Models\TipModel.php(139): CodeIgniter\Database\BaseConnection->query('SELECT tgl,\r\n  ...')
+#4 C:\xampp\htdocs\tracking\app\Controllers\Tip.php(251): App\Models\TipModel->getreportbyMonth(NULL, NULL)
+#5 C:\xampp\htdocs\tracking\system\CodeIgniter.php(904): App\Controllers\Tip->printreportperbulan()
+#6 C:\xampp\htdocs\tracking\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+#7 C:\xampp\htdocs\tracking\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tracking\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\tracking\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-03-14 03:44:50 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND year(tgl)= GROUP BY tgl' at line 12
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT tgl,
+                    COUNT(IF(driver=\'Chandra sinaga\', trip, NULL)) trip_chandra,
+                    COUNT(IF(driver=\'Doni\', trip, NULL)) trip_doni,
+                    COUNT(IF(driver=\'Dafrizal\', trip, NULL)) trip_dafrizal,
+                    COUNT(IF(driver=\'Herian\', trip, NULL)) trip_herian,
+
+                    SUM(IF(driver=\'Chandra sinaga\', value_tip, 0)) value_chandra,
+                    SUM(IF(driver=\'Doni\', value_tip, 0)) value_doni,
+                    SUM(IF(driver=\'Dafrizal\', value_tip, 0)) value_dafrizal,
+                    SUM(IF(driver=\'Herian\', value_tip, 0)) value_herian
+                        FROM tblmas_tip_tracking
+			                WHERE month(tgl)= AND year(tgl)= GROUP BY tgl', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tgl,
+                    COUNT(IF(driver=\'Chandra sinaga\', trip, NULL)) trip_chandra,
+                    COUNT(IF(driver=\'Doni\', trip, NULL)) trip_doni,
+                    COUNT(IF(driver=\'Dafrizal\', trip, NULL)) trip_dafrizal,
+                    COUNT(IF(driver=\'Herian\', trip, NULL)) trip_herian,
+
+                    SUM(IF(driver=\'Chandra sinaga\', value_tip, 0)) value_chandra,
+                    SUM(IF(driver=\'Doni\', value_tip, 0)) value_doni,
+                    SUM(IF(driver=\'Dafrizal\', value_tip, 0)) value_dafrizal,
+                    SUM(IF(driver=\'Herian\', value_tip, 0)) value_herian
+                        FROM tblmas_tip_tracking
+			                WHERE month(tgl)= AND year(tgl)= GROUP BY tgl')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tgl,
+                    COUNT(IF(driver=\'Chandra sinaga\', trip, NULL)) trip_chandra,
+                    COUNT(IF(driver=\'Doni\', trip, NULL)) trip_doni,
+                    COUNT(IF(driver=\'Dafrizal\', trip, NULL)) trip_dafrizal,
+                    COUNT(IF(driver=\'Herian\', trip, NULL)) trip_herian,
+
+                    SUM(IF(driver=\'Chandra sinaga\', value_tip, 0)) value_chandra,
+                    SUM(IF(driver=\'Doni\', value_tip, 0)) value_doni,
+                    SUM(IF(driver=\'Dafrizal\', value_tip, 0)) value_dafrizal,
+                    SUM(IF(driver=\'Herian\', value_tip, 0)) value_herian
+                        FROM tblmas_tip_tracking
+			                WHERE month(tgl)= AND year(tgl)= GROUP BY tgl')
+ 4 APPPATH\Models\TipModel.php(139): CodeIgniter\Database\BaseConnection->query('SELECT tgl,
+                    COUNT(IF(driver=\'Chandra sinaga\', trip, NULL)) trip_chandra,
+                    COUNT(IF(driver=\'Doni\', trip, NULL)) trip_doni,
+                    COUNT(IF(driver=\'Dafrizal\', trip, NULL)) trip_dafrizal,
+                    COUNT(IF(driver=\'Herian\', trip, NULL)) trip_herian,
+
+                    SUM(IF(driver=\'Chandra sinaga\', value_tip, 0)) value_chandra,
+                    SUM(IF(driver=\'Doni\', value_tip, 0)) value_doni,
+                    SUM(IF(driver=\'Dafrizal\', value_tip, 0)) value_dafrizal,
+                    SUM(IF(driver=\'Herian\', value_tip, 0)) value_herian
+                        FROM tblmas_tip_tracking
+			                WHERE month(tgl)= AND year(tgl)= GROUP BY tgl')
+ 5 APPPATH\Controllers\Tip.php(251): App\Models\TipModel->getreportbyMonth(null, null)
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->printreportperbulan()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-14 04:24:46 --> strtoupper() expects parameter 1 to be string, array given
+in VENDORPATH\dompdf\dompdf\src\Dompdf.php on line 434.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'strtoupper() expects parameter 1 to be string, array given', 'VENDORPATH\\dompdf\\dompdf\\src\\Dompdf.php', 434, [...])
+ 2 VENDORPATH\dompdf\dompdf\src\Dompdf.php(434): strtoupper([...])
+ 3 APPPATH\Controllers\Tip.php(256): Dompdf\Dompdf->loadHtml('Tip_tracking/print_report_list_tip', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->printreportperbulan()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-14 20:14:52 --> Undefined variable: tgl
+in APPPATH\Views\Tip_tracking\print_report_list_tip.php on line 44.
+ 1 APPPATH\Views\Tip_tracking\print_report_list_tip.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: tgl', 'APPPATH\\Views\\Tip_tracking\\print_report_list_tip.php', 44, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Tip_tracking\\print_report_list_tip.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Tip_tracking/print_report_list_tip', [], true)
+ 5 APPPATH\Controllers\Tip.php(255): view('Tip_tracking/print_report_list_tip', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->printreportperbulan()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-14 23:49:09 --> Undefined variable: title_pdf
+in APPPATH\Views\Tip_tracking\print_report_list_tip.php on line 7.
+ 1 APPPATH\Views\Tip_tracking\print_report_list_tip.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: title_pdf', 'APPPATH\\Views\\Tip_tracking\\print_report_list_tip.php', 7, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Tip_tracking\\print_report_list_tip.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Tip_tracking/print_report_list_tip', [], true)
+ 5 APPPATH\Controllers\Tip.php(255): view('Tip_tracking/print_report_list_tip', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->printreportperbulan()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

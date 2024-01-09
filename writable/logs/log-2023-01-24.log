@@ -1,0 +1,513 @@
+CRITICAL - 2023-01-24 00:06:08 --> Array to string conversion
+in SYSTEMPATH\Database\BaseBuilder.php on line 1842.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'SYSTEMPATH\\Database\\BaseBuilder.php', 1842, [...])
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1842): implode(',', [...])
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1770): CodeIgniter\Database\BaseBuilder->setInsertBatch([...], 'ROOTPATH\\public', true)
+ 4 APPPATH\Models\TipModel.php(57): CodeIgniter\Database\BaseBuilder->insertBatch([...])
+ 5 APPPATH\Controllers\Tip.php(41): App\Models\TipModel->Addtip([...], [...], [...], [...], [...], [...], [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 00:07:23 --> Undefined variable: value
+in APPPATH\Controllers\Tip.php on line 106.
+ 1 APPPATH\Controllers\Tip.php(106): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: value', 'APPPATH\\Controllers\\Tip.php', 106, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->get_driver_tip()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 00:07:23 --> Undefined variable: value
+in APPPATH\Controllers\Tip.php on line 118.
+ 1 APPPATH\Controllers\Tip.php(118): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: value', 'APPPATH\\Controllers\\Tip.php', 118, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->get_lorry_tip()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 00:07:40 --> Undefined variable: value
+in APPPATH\Controllers\Tip.php on line 118.
+ 1 APPPATH\Controllers\Tip.php(118): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: value', 'APPPATH\\Controllers\\Tip.php', 118, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->get_lorry_tip()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 00:12:59 --> Undefined variable: value
+in APPPATH\Controllers\Tip.php on line 106.
+ 1 APPPATH\Controllers\Tip.php(106): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: value', 'APPPATH\\Controllers\\Tip.php', 106, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->get_driver_tip()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 00:12:59 --> Undefined variable: value
+in APPPATH\Controllers\Tip.php on line 118.
+ 1 APPPATH\Controllers\Tip.php(118): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: value', 'APPPATH\\Controllers\\Tip.php', 118, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->get_lorry_tip()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 00:13:15 --> Undefined variable: value
+in APPPATH\Controllers\Tip.php on line 118.
+ 1 APPPATH\Controllers\Tip.php(118): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: value', 'APPPATH\\Controllers\\Tip.php', 118, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->get_lorry_tip()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 00:22:41 --> Undefined variable: value
+in APPPATH\Controllers\Tip.php on line 118.
+ 1 APPPATH\Controllers\Tip.php(118): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: value', 'APPPATH\\Controllers\\Tip.php', 118, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->get_lorry_tip()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 00:25:35 --> Undefined variable: value
+in APPPATH\Controllers\Tip.php on line 118.
+ 1 APPPATH\Controllers\Tip.php(118): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: value', 'APPPATH\\Controllers\\Tip.php', 118, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->get_lorry_tip()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 00:26:26 --> Undefined variable: value
+in APPPATH\Controllers\Tip.php on line 118.
+ 1 APPPATH\Controllers\Tip.php(118): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: value', 'APPPATH\\Controllers\\Tip.php', 118, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->get_lorry_tip()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 00:26:36 --> Undefined variable: value
+in APPPATH\Controllers\Tip.php on line 118.
+ 1 APPPATH\Controllers\Tip.php(118): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: value', 'APPPATH\\Controllers\\Tip.php', 118, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->get_lorry_tip()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 00:27:59 --> count(): Parameter must be an array or an object that implements Countable
+in APPPATH\Models\TipModel.php on line 27.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parameter must be an array or an object that implements Countable', 'APPPATH\\Models\\TipModel.php', 27, [...])
+ 2 APPPATH\Models\TipModel.php(27): count('2023-01-24T13:27')
+ 3 APPPATH\Controllers\Tip.php(41): App\Models\TipModel->Addtip('2023-01-24T13:27', [...], [...], [...], [...], [...], [...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 00:31:58 --> Undefined variable: value
+in APPPATH\Controllers\Tip.php on line 106.
+ 1 APPPATH\Controllers\Tip.php(106): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: value', 'APPPATH\\Controllers\\Tip.php', 106, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->get_driver_tip()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 00:31:58 --> Undefined variable: value
+in APPPATH\Controllers\Tip.php on line 118.
+ 1 APPPATH\Controllers\Tip.php(118): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: value', 'APPPATH\\Controllers\\Tip.php', 118, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->get_lorry_tip()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 00:32:12 --> Invalid argument supplied for foreach()
+in APPPATH\Models\TipModel.php on line 48.
+ 1 APPPATH\Models\TipModel.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH\\Models\\TipModel.php', 48, [...])
+ 2 APPPATH\Controllers\Tip.php(41): App\Models\TipModel->Addtip([...], [...], [...], [...], [...], [...], [...], null)
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-01-24 02:27:31 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0, 1, 2, 3, 4, 5, 6, 7) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:)' at line 1 in C:\xampp\htdocs\tracking\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\tracking\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\tracking\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\tracking\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\tracking\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\tracking\app\Models\TipModel.php(57): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\tracking\app\Controllers\Tip.php(41): App\Models\TipModel->Addtip(Array, Array, Array, Array, Array, Array, Array, Array)
+#6 C:\xampp\htdocs\tracking\system\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+#7 C:\xampp\htdocs\tracking\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+#8 C:\xampp\htdocs\tracking\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tracking\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\tracking\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-01-24 02:27:31 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0, 1, 2, 3, 4, 5, 6, 7) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:)' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tblmas_detail_tip_tracking` (0, 1, 2, 3, 4, 5, 6, 7) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tblmas_detail_tip_tracking` (0, 1, 2, 3, 4, 5, 6, 7) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tblmas_detail_tip_tracking` (0, 1, 2, 3, 4, 5, 6, 7) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tblmas_detail_tip_tracking` (0, 1, 2, 3, 4, 5, 6, 7) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:)', [...], false)
+ 5 APPPATH\Models\TipModel.php(57): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Tip.php(41): App\Models\TipModel->Addtip([...], [...], [...], [...], [...], [...], [...], [...])
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-01-24 02:31:16 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0, 1, 2, 3, 4, 5, 6, 7) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:)' at line 1 in C:\xampp\htdocs\tracking\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\tracking\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\tracking\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\tracking\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\tracking\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\tracking\app\Models\TipModel.php(57): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\tracking\app\Controllers\Tip.php(41): App\Models\TipModel->Addtip(Array, Array, Array, Array, Array, Array, Array, Array)
+#6 C:\xampp\htdocs\tracking\system\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+#7 C:\xampp\htdocs\tracking\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+#8 C:\xampp\htdocs\tracking\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tracking\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\tracking\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-01-24 02:31:16 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0, 1, 2, 3, 4, 5, 6, 7) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:)' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tblmas_detail_tip_tracking` (0, 1, 2, 3, 4, 5, 6, 7) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tblmas_detail_tip_tracking` (0, 1, 2, 3, 4, 5, 6, 7) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tblmas_detail_tip_tracking` (0, 1, 2, 3, 4, 5, 6, 7) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tblmas_detail_tip_tracking` (0, 1, 2, 3, 4, 5, 6, 7) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:)', [...], false)
+ 5 APPPATH\Models\TipModel.php(57): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Tip.php(41): App\Models\TipModel->Addtip([...], [...], [...], [...], [...], [...], [...], [...])
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-01-24 02:33:00 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0, 1, 2, 3, 4, 5, 6, 7) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:)' at line 1 in C:\xampp\htdocs\tracking\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\tracking\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\tracking\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\tracking\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\tracking\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\tracking\app\Models\TipModel.php(57): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\tracking\app\Controllers\Tip.php(41): App\Models\TipModel->Addtip(Array, Array, Array, Array, Array, Array, Array, Array)
+#6 C:\xampp\htdocs\tracking\system\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+#7 C:\xampp\htdocs\tracking\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+#8 C:\xampp\htdocs\tracking\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tracking\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\tracking\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-01-24 02:33:00 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0, 1, 2, 3, 4, 5, 6, 7) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:)' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tblmas_detail_tip_tracking` (0, 1, 2, 3, 4, 5, 6, 7) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tblmas_detail_tip_tracking` (0, 1, 2, 3, 4, 5, 6, 7) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tblmas_detail_tip_tracking` (0, 1, 2, 3, 4, 5, 6, 7) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tblmas_detail_tip_tracking` (0, 1, 2, 3, 4, 5, 6, 7) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:)', [...], false)
+ 5 APPPATH\Models\TipModel.php(57): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Tip.php(41): App\Models\TipModel->Addtip([...], [...], [...], [...], [...], [...], [...], [...])
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-01-24 02:33:01 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0, 1, 2, 3, 4, 5, 6, 7) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:)' at line 1 in C:\xampp\htdocs\tracking\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\tracking\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\tracking\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\tracking\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\tracking\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\tracking\app\Models\TipModel.php(57): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\tracking\app\Controllers\Tip.php(41): App\Models\TipModel->Addtip(Array, Array, Array, Array, Array, Array, Array, Array)
+#6 C:\xampp\htdocs\tracking\system\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+#7 C:\xampp\htdocs\tracking\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+#8 C:\xampp\htdocs\tracking\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tracking\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\tracking\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-01-24 02:33:01 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0, 1, 2, 3, 4, 5, 6, 7) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:)' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tblmas_detail_tip_tracking` (0, 1, 2, 3, 4, 5, 6, 7) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tblmas_detail_tip_tracking` (0, 1, 2, 3, 4, 5, 6, 7) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tblmas_detail_tip_tracking` (0, 1, 2, 3, 4, 5, 6, 7) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tblmas_detail_tip_tracking` (0, 1, 2, 3, 4, 5, 6, 7) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:)', [...], false)
+ 5 APPPATH\Models\TipModel.php(57): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Tip.php(41): App\Models\TipModel->Addtip([...], [...], [...], [...], [...], [...], [...], [...])
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-01-24 02:33:01 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0, 1, 2, 3, 4, 5, 6, 7) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:)' at line 1 in C:\xampp\htdocs\tracking\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\tracking\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\tracking\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\tracking\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\tracking\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\tracking\app\Models\TipModel.php(57): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\tracking\app\Controllers\Tip.php(41): App\Models\TipModel->Addtip(Array, Array, Array, Array, Array, Array, Array, Array)
+#6 C:\xampp\htdocs\tracking\system\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+#7 C:\xampp\htdocs\tracking\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+#8 C:\xampp\htdocs\tracking\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tracking\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\tracking\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-01-24 02:33:01 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0, 1, 2, 3, 4, 5, 6, 7) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:)' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tblmas_detail_tip_tracking` (0, 1, 2, 3, 4, 5, 6, 7) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tblmas_detail_tip_tracking` (0, 1, 2, 3, 4, 5, 6, 7) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tblmas_detail_tip_tracking` (0, 1, 2, 3, 4, 5, 6, 7) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tblmas_detail_tip_tracking` (0, 1, 2, 3, 4, 5, 6, 7) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:)', [...], false)
+ 5 APPPATH\Models\TipModel.php(57): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Tip.php(41): App\Models\TipModel->Addtip([...], [...], [...], [...], [...], [...], [...], [...])
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-01-24 02:33:02 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0, 1, 2, 3, 4, 5, 6, 7) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:)' at line 1 in C:\xampp\htdocs\tracking\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\tracking\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\tracking\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\tracking\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\tracking\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\tracking\app\Models\TipModel.php(57): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\tracking\app\Controllers\Tip.php(41): App\Models\TipModel->Addtip(Array, Array, Array, Array, Array, Array, Array, Array)
+#6 C:\xampp\htdocs\tracking\system\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+#7 C:\xampp\htdocs\tracking\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+#8 C:\xampp\htdocs\tracking\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tracking\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\tracking\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-01-24 02:33:02 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0, 1, 2, 3, 4, 5, 6, 7) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:)' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tblmas_detail_tip_tracking` (0, 1, 2, 3, 4, 5, 6, 7) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tblmas_detail_tip_tracking` (0, 1, 2, 3, 4, 5, 6, 7) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tblmas_detail_tip_tracking` (0, 1, 2, 3, 4, 5, 6, 7) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tblmas_detail_tip_tracking` (0, 1, 2, 3, 4, 5, 6, 7) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:)', [...], false)
+ 5 APPPATH\Models\TipModel.php(57): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Tip.php(41): App\Models\TipModel->Addtip([...], [...], [...], [...], [...], [...], [...], [...])
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-01-24 02:33:02 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0, 1, 2, 3, 4, 5, 6, 7) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:)' at line 1 in C:\xampp\htdocs\tracking\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\tracking\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\tracking\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\tracking\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\tracking\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\tracking\app\Models\TipModel.php(57): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\tracking\app\Controllers\Tip.php(41): App\Models\TipModel->Addtip(Array, Array, Array, Array, Array, Array, Array, Array)
+#6 C:\xampp\htdocs\tracking\system\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+#7 C:\xampp\htdocs\tracking\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+#8 C:\xampp\htdocs\tracking\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tracking\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\tracking\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-01-24 02:33:02 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0, 1, 2, 3, 4, 5, 6, 7) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:)' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tblmas_detail_tip_tracking` (0, 1, 2, 3, 4, 5, 6, 7) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tblmas_detail_tip_tracking` (0, 1, 2, 3, 4, 5, 6, 7) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tblmas_detail_tip_tracking` (0, 1, 2, 3, 4, 5, 6, 7) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tblmas_detail_tip_tracking` (0, 1, 2, 3, 4, 5, 6, 7) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:)', [...], false)
+ 5 APPPATH\Models\TipModel.php(57): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Tip.php(41): App\Models\TipModel->Addtip([...], [...], [...], [...], [...], [...], [...], [...])
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-01-24 02:33:25 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0, 1, 2, 3, 4, 5, 6, 7) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:)' at line 1 in C:\xampp\htdocs\tracking\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\tracking\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\tracking\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\tracking\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\tracking\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\tracking\app\Models\TipModel.php(57): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\tracking\app\Controllers\Tip.php(41): App\Models\TipModel->Addtip(Array, Array, Array, Array, Array, Array, Array, Array)
+#6 C:\xampp\htdocs\tracking\system\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+#7 C:\xampp\htdocs\tracking\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+#8 C:\xampp\htdocs\tracking\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tracking\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\tracking\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-01-24 02:33:25 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0, 1, 2, 3, 4, 5, 6, 7) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:)' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tblmas_detail_tip_tracking` (0, 1, 2, 3, 4, 5, 6, 7) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tblmas_detail_tip_tracking` (0, 1, 2, 3, 4, 5, 6, 7) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tblmas_detail_tip_tracking` (0, 1, 2, 3, 4, 5, 6, 7) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tblmas_detail_tip_tracking` (0, 1, 2, 3, 4, 5, 6, 7) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:)', [...], false)
+ 5 APPPATH\Models\TipModel.php(57): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Tip.php(41): App\Models\TipModel->Addtip([...], [...], [...], [...], [...], [...], [...], [...])
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-01-24 02:35:50 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0, 1, 2, 3, 4, 5, 6) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:)' at line 1 in C:\xampp\htdocs\tracking\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\tracking\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\tracking\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\tracking\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\tracking\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\tracking\app\Models\TipModel.php(57): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\tracking\app\Controllers\Tip.php(41): App\Models\TipModel->Addtip(Array, Array, Array, Array, Array, Array, Array, Array)
+#6 C:\xampp\htdocs\tracking\system\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+#7 C:\xampp\htdocs\tracking\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+#8 C:\xampp\htdocs\tracking\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tracking\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\tracking\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-01-24 02:35:50 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0, 1, 2, 3, 4, 5, 6) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:)' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tblmas_detail_tip_tracking` (0, 1, 2, 3, 4, 5, 6) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tblmas_detail_tip_tracking` (0, 1, 2, 3, 4, 5, 6) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tblmas_detail_tip_tracking` (0, 1, 2, 3, 4, 5, 6) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tblmas_detail_tip_tracking` (0, 1, 2, 3, 4, 5, 6) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:)', [...], false)
+ 5 APPPATH\Models\TipModel.php(57): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Tip.php(41): App\Models\TipModel->Addtip([...], [...], [...], [...], [...], [...], [...], [...])
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-01-24 02:36:11 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0, 1, 2, 3, 4, 5, 6) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:)' at line 1 in C:\xampp\htdocs\tracking\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\tracking\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\tracking\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\tracking\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\tracking\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\tracking\app\Models\TipModel.php(57): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\tracking\app\Controllers\Tip.php(41): App\Models\TipModel->Addtip(Array, Array, Array, Array, Array, Array, Array, Array)
+#6 C:\xampp\htdocs\tracking\system\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+#7 C:\xampp\htdocs\tracking\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+#8 C:\xampp\htdocs\tracking\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tracking\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\tracking\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-01-24 02:36:11 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0, 1, 2, 3, 4, 5, 6) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:)' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tblmas_detail_tip_tracking` (0, 1, 2, 3, 4, 5, 6) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tblmas_detail_tip_tracking` (0, 1, 2, 3, 4, 5, 6) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tblmas_detail_tip_tracking` (0, 1, 2, 3, 4, 5, 6) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tblmas_detail_tip_tracking` (0, 1, 2, 3, 4, 5, 6) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:)', [...], false)
+ 5 APPPATH\Models\TipModel.php(57): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Tip.php(41): App\Models\TipModel->Addtip([...], [...], [...], [...], [...], [...], [...], [...])
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-01-24 02:36:12 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0, 1, 2, 3, 4, 5, 6) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:)' at line 1 in C:\xampp\htdocs\tracking\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\tracking\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\tracking\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\tracking\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\tracking\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\tracking\app\Models\TipModel.php(57): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\tracking\app\Controllers\Tip.php(41): App\Models\TipModel->Addtip(Array, Array, Array, Array, Array, Array, Array, Array)
+#6 C:\xampp\htdocs\tracking\system\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+#7 C:\xampp\htdocs\tracking\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+#8 C:\xampp\htdocs\tracking\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tracking\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\tracking\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-01-24 02:36:12 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0, 1, 2, 3, 4, 5, 6) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:)' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tblmas_detail_tip_tracking` (0, 1, 2, 3, 4, 5, 6) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tblmas_detail_tip_tracking` (0, 1, 2, 3, 4, 5, 6) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tblmas_detail_tip_tracking` (0, 1, 2, 3, 4, 5, 6) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tblmas_detail_tip_tracking` (0, 1, 2, 3, 4, 5, 6) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:)', [...], false)
+ 5 APPPATH\Models\TipModel.php(57): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Tip.php(41): App\Models\TipModel->Addtip([...], [...], [...], [...], [...], [...], [...], [...])
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-01-24 02:36:30 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0, 1, 2, 3, 4, 5, 6) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:)' at line 1 in C:\xampp\htdocs\tracking\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\tracking\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\tracking\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\tracking\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\tracking\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\tracking\app\Models\TipModel.php(57): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\tracking\app\Controllers\Tip.php(41): App\Models\TipModel->Addtip(Array, Array, Array, Array, Array, Array, Array, Array)
+#6 C:\xampp\htdocs\tracking\system\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+#7 C:\xampp\htdocs\tracking\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+#8 C:\xampp\htdocs\tracking\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tracking\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\tracking\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-01-24 02:36:30 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0, 1, 2, 3, 4, 5, 6) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:)' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tblmas_detail_tip_tracking` (0, 1, 2, 3, 4, 5, 6) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tblmas_detail_tip_tracking` (0, 1, 2, 3, 4, 5, 6) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tblmas_detail_tip_tracking` (0, 1, 2, 3, 4, 5, 6) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tblmas_detail_tip_tracking` (0, 1, 2, 3, 4, 5, 6) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:)', [...], false)
+ 5 APPPATH\Models\TipModel.php(57): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Tip.php(41): App\Models\TipModel->Addtip([...], [...], [...], [...], [...], [...], [...], [...])
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-01-24 02:40:15 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0, 1, 2, 3, 4, 5, 6, 7, 8) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:, :8:)' at line 1 in C:\xampp\htdocs\tracking\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\tracking\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\tracking\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\tracking\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\tracking\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\tracking\app\Models\TipModel.php(57): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\tracking\app\Controllers\Tip.php(41): App\Models\TipModel->Addtip(Array, Array, Array, Array, Array, Array, Array, Array)
+#6 C:\xampp\htdocs\tracking\system\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+#7 C:\xampp\htdocs\tracking\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+#8 C:\xampp\htdocs\tracking\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tracking\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\tracking\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-01-24 02:40:15 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0, 1, 2, 3, 4, 5, 6, 7, 8) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:, :8:)' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tblmas_detail_tip_tracking` (0, 1, 2, 3, 4, 5, 6, 7, 8) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:, :8:)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tblmas_detail_tip_tracking` (0, 1, 2, 3, 4, 5, 6, 7, 8) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:, :8:)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tblmas_detail_tip_tracking` (0, 1, 2, 3, 4, 5, 6, 7, 8) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:, :8:)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tblmas_detail_tip_tracking` (0, 1, 2, 3, 4, 5, 6, 7, 8) VALUES (:0:, :1:, :2:, :3:, :4:, :5:, :6:, :7:, :8:)', [...], false)
+ 5 APPPATH\Models\TipModel.php(57): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Tip.php(41): App\Models\TipModel->Addtip([...], [...], [...], [...], [...], [...], [...], [...])
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-01-24 02:40:58 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0, 1, 2, 3, 4, 5) VALUES (:0:, :1:, :2:, :3:, :4:, :5:)' at line 1 in C:\xampp\htdocs\tracking\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\tracking\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\tracking\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\tracking\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\tracking\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\tracking\app\Models\TipModel.php(57): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\tracking\app\Controllers\Tip.php(41): App\Models\TipModel->Addtip(Array, Array, Array, Array, Array, Array, Array, Array)
+#6 C:\xampp\htdocs\tracking\system\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+#7 C:\xampp\htdocs\tracking\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+#8 C:\xampp\htdocs\tracking\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tracking\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\tracking\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-01-24 02:40:58 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0, 1, 2, 3, 4, 5) VALUES (:0:, :1:, :2:, :3:, :4:, :5:)' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tblmas_detail_tip_tracking` (0, 1, 2, 3, 4, 5) VALUES (:0:, :1:, :2:, :3:, :4:, :5:)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tblmas_detail_tip_tracking` (0, 1, 2, 3, 4, 5) VALUES (:0:, :1:, :2:, :3:, :4:, :5:)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tblmas_detail_tip_tracking` (0, 1, 2, 3, 4, 5) VALUES (:0:, :1:, :2:, :3:, :4:, :5:)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tblmas_detail_tip_tracking` (0, 1, 2, 3, 4, 5) VALUES (:0:, :1:, :2:, :3:, :4:, :5:)', [...], false)
+ 5 APPPATH\Models\TipModel.php(57): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Tip.php(41): App\Models\TipModel->Addtip([...], [...], [...], [...], [...], [...], [...], [...])
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 19:25:22 --> Undefined variable: value
+in APPPATH\Controllers\Tip.php on line 95.
+ 1 APPPATH\Controllers\Tip.php(95): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: value', 'APPPATH\\Controllers\\Tip.php', 95, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->get_value_tip()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

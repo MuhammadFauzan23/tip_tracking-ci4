@@ -1,0 +1,98 @@
+CRITICAL - 2023-01-15 21:36:48 --> Array to string conversion
+in APPPATH\Models\TipModel.php on line 136.
+ 1 APPPATH\Models\TipModel.php(136): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Models\\TipModel.php', 136, [...])
+ 2 APPPATH\Controllers\Tip.php(42): App\Models\TipModel->getdataDono_edit('210484,210485,210487,210490,210489')
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->viewupdate()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-15 21:48:40 --> Array to string conversion
+in APPPATH\Models\TipModel.php on line 136.
+ 1 APPPATH\Models\TipModel.php(136): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Models\\TipModel.php', 136, [...])
+ 2 APPPATH\Controllers\Tip.php(42): App\Models\TipModel->getdataDono_edit('210484,210485,210487,210490,210489')
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->viewupdate()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-15 21:50:05 --> Array to string conversion
+in APPPATH\Models\TipModel.php on line 136.
+ 1 APPPATH\Models\TipModel.php(136): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Models\\TipModel.php', 136, [...])
+ 2 APPPATH\Controllers\Tip.php(42): App\Models\TipModel->getdataDono_edit('210484,210485,210487,210490,210489')
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->viewupdate()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-15 22:35:38 --> Trying to get property 'db' of non-object
+in APPPATH\Models\TipModel.php on line 94.
+ 1 APPPATH\Models\TipModel.php(94): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'db\' of non-object', 'APPPATH\\Models\\TipModel.php', 94, [...])
+ 2 APPPATH\Controllers\Tip.php(66): App\Models\TipModel->Addtip('16-01-2023 07:00:00', '16-01-2023 12:00:00', '7000', 'Chandra Sinaga', 'BP 9757 DF', '1', 'Bawa Bin', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-15 22:36:02 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 872.
+ 1 SYSTEMPATH\Model.php(586): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(734): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\TipModel.php(94): CodeIgniter\Model->__get('this')
+ 4 APPPATH\Controllers\Tip.php(66): App\Models\TipModel->Addtip('16-01-2023 07:00:00', '16-01-2023 12:00:00', '7000', 'Chandra Sinaga', 'BP 9757 DF', '1', 'Bawa Bin', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2023-01-15 22:37:22 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0, 1, 2, 3, 4) VALUES (:0:, :1:, :2:, :3:, :4:)' at line 1 in C:\xampp\htdocs\tracking\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\tracking\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\tracking\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\tracking\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\tracking\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\tracking\app\Models\TipModel.php(94): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\tracking\app\Controllers\Tip.php(66): App\Models\TipModel->Addtip('16-01-2023 07:0...', '16-01-2023 12:0...', '7000', 'Chandra Sinaga', 'BP 9757 DF', '1', 'Bawa Bin', Array)
+#6 C:\xampp\htdocs\tracking\system\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+#7 C:\xampp\htdocs\tracking\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+#8 C:\xampp\htdocs\tracking\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\tracking\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\tracking\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-01-15 22:37:22 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0, 1, 2, 3, 4) VALUES (:0:, :1:, :2:, :3:, :4:)' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tblmas_detail_tip_tracking` (0, 1, 2, 3, 4) VALUES (:0:, :1:, :2:, :3:, :4:)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tblmas_detail_tip_tracking` (0, 1, 2, 3, 4) VALUES (:0:, :1:, :2:, :3:, :4:)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tblmas_detail_tip_tracking` (0, 1, 2, 3, 4) VALUES (:0:, :1:, :2:, :3:, :4:)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tblmas_detail_tip_tracking` (0, 1, 2, 3, 4) VALUES (:0:, :1:, :2:, :3:, :4:)', [...], false)
+ 5 APPPATH\Models\TipModel.php(94): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Tip.php(66): App\Models\TipModel->Addtip('16-01-2023 07:00:00', '16-01-2023 12:00:00', '7000', 'Chandra Sinaga', 'BP 9757 DF', '1', 'Bawa Bin', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->addListTip()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-15 22:46:36 --> Undefined index: customerName
+in APPPATH\Views\Tip_tracking\list_tip.php on line 60.
+ 1 APPPATH\Views\Tip_tracking\list_tip.php(60): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: customerName', 'APPPATH\\Views\\Tip_tracking\\list_tip.php', 60, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Tip_tracking\\list_tip.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Tip_tracking/list_tip', [], true)
+ 5 APPPATH\Controllers\Tip.php(27): view('Tip_tracking/list_tip', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->viewListTip()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-15 22:47:06 --> Undefined index: customerName
+in APPPATH\Views\Tip_tracking\list_tip.php on line 60.
+ 1 APPPATH\Views\Tip_tracking\list_tip.php(60): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: customerName', 'APPPATH\\Views\\Tip_tracking\\list_tip.php', 60, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Tip_tracking\\list_tip.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Tip_tracking/list_tip', [], true)
+ 5 APPPATH\Controllers\Tip.php(27): view('Tip_tracking/list_tip', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tip->viewListTip()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tip))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
